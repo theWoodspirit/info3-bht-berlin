@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Uni/3.Semester/info3/main.cpp
+D:/Uni/3.Semester/inf3Github/info3/cdate.h
+
+D:/Uni/3.Semester/inf3Github/info3/ctime.h
+
+D:/Uni/3.Semester/inf3Github/info3/main.cpp
 iostream
 -
+cdate.h
+D:/Uni/3.Semester/inf3Github/info3/cdate.h
+ctime.h
+D:/Uni/3.Semester/inf3Github/info3/ctime.h
 
