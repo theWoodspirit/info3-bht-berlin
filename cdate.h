@@ -13,7 +13,7 @@ public:
     int getDay();
     int getMonth();
     int getYear();
-    void printDate();
+    void print();
 private:
     int day;
     int month;

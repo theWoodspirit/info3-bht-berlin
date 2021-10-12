@@ -10,9 +10,11 @@ using namespace std;
 
 CDate::CDate()
 {
-    this->day = day;
-    this->month = month;
-    this->year = year;
+    time_t t = std::time(0);   // get time now
+    tm* now = std::localtime(&t);
+    this->day = now->tm_mday;
+    this->month = now->tm_mon + 1;
+    this->year = now->tm_year + 1900;
 }
 CDate::CDate(int day, int month, int year)
 {
@@ -22,24 +24,26 @@ CDate::CDate(int day, int month, int year)
 }
 int CDate::getDay()
 {
-    cout << "Doing something!" << endl;
+    return this->day;
 }
 int CDate::getMonth()
 {
-    cout << "Doing something!" << endl;
+    return this->month;
 }
 
 int CDate::getYear()
 {
-    cout << "Doing something!" << endl;
+    return this->year;
 }
 
-void CDate::printDate()
+void CDate::print()
 {
-    cout << "Doing something!" << endl;
+    cout << this->day << '.' << this->month << '.' << this->year;
 }
 
-void CDate::setDate(int day, int month, int year)()
+void CDate::setDate(int day, int month, int year)
 {
-    cout << "Doing something!" << endl;
+    this->day = day;
+    this->month = month;
+    this->year = year;
 }

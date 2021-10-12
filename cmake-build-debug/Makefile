@@ -168,6 +168,33 @@ cdate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/cdate.cpp.s
 .PHONY : cdate.cpp.s
 
+ctime.obj: ctime.cpp.obj
+
+.PHONY : ctime.obj
+
+# target to build an object file
+ctime.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/ctime.cpp.obj
+.PHONY : ctime.cpp.obj
+
+ctime.i: ctime.cpp.i
+
+.PHONY : ctime.i
+
+# target to preprocess a source file
+ctime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/ctime.cpp.i
+.PHONY : ctime.cpp.i
+
+ctime.s: ctime.cpp.s
+
+.PHONY : ctime.s
+
+# target to generate assembly for a file
+ctime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/ctime.cpp.s
+.PHONY : ctime.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -207,6 +234,9 @@ help:
 	@echo ... cdate.obj
 	@echo ... cdate.i
 	@echo ... cdate.s
+	@echo ... ctime.obj
+	@echo ... ctime.i
+	@echo ... ctime.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
