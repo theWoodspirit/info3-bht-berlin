@@ -141,6 +141,33 @@ info3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/build
 .PHONY : info3/fast
 
+cdate.obj: cdate.cpp.obj
+
+.PHONY : cdate.obj
+
+# target to build an object file
+cdate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/cdate.cpp.obj
+.PHONY : cdate.cpp.obj
+
+cdate.i: cdate.cpp.i
+
+.PHONY : cdate.i
+
+# target to preprocess a source file
+cdate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/cdate.cpp.i
+.PHONY : cdate.cpp.i
+
+cdate.s: cdate.cpp.s
+
+.PHONY : cdate.s
+
+# target to generate assembly for a file
+cdate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/cdate.cpp.s
+.PHONY : cdate.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... info3
+	@echo ... cdate.obj
+	@echo ... cdate.i
+	@echo ... cdate.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

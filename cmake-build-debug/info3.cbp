@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cdate.cpp">
+			<Option target="info3"/>
+		</Unit>
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cdate.h">
 			<Option target="info3"/>
 		</Unit>

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/info3.dir/cdate.cpp.obj"
   "CMakeFiles/info3.dir/main.cpp.obj"
   "info3.exe"
   "info3.exe.manifest"
