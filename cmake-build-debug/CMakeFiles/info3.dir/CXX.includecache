@@ -6,15 +6,31 @@
 
 #IncludeRegexTransform: 
 
-D:/Uni/3.Semester/inf3Github/info3/cdate.cpp
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.cpp
 cdate.h
-D:/Uni/3.Semester/inf3Github/info3/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
 iostream
--
-chrono
 -
 ctime
 -
 
-D:/Uni/3.Semester/inf3Github/info3/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/ctime.cpp
+CTime.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/ctime.h
+iostream
+-
+ctime
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/ctime.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/main.cpp
+iostream
+-
+cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
+ctime.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/ctime.h
 

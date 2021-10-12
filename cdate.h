@@ -1,7 +1,3 @@
-//
-// Created by marku on 12.10.2021.
-//
-
 #ifndef INFO3_CDATE_H
 #define INFO3_CDATE_H
 class CDate

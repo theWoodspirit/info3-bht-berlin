@@ -1,9 +1,5 @@
-//
-// Created by marku on 12.10.2021.
-//
 #include "cdate.h" // header in local directory
 #include <iostream> // header in standard library
-#include <chrono>
 #include <ctime>
 
 using namespace std;
@@ -12,7 +8,8 @@ CDate::CDate()
 {
     time_t t = std::time(0);   // get time now
     tm* now = std::localtime(&t);
-    this->day = now->tm_mday;
+
+    day = now->tm_mday; // day und this->day sind äquivalent
     this->month = now->tm_mon + 1;
     this->year = now->tm_year + 1900;
 }
@@ -38,7 +35,7 @@ int CDate::getYear()
 
 void CDate::print()
 {
-    cout << this->day << '.' << this->month << '.' << this->year;
+    printf("%02i.%02i.%4d", getDay(), getMonth(), getYear());
 }
 
 void CDate::setDate(int day, int month, int year)
