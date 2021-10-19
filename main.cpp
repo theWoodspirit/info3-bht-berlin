@@ -1,24 +1,38 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 #include "cdate.h"
-#include "ctime.h"
-
+#include "clocation.h"
+#include "caddress.h"
+#include "cperson.h"
 
 int main()
 {
-    CDate D1, D2(31, 12, 2021);
-    CTime T1, T2(6, 32, 27), T3(14, 15);
+   CLocation L1, L2("Technik", "Computer"); // Technik-Abteilung im Computer-Regal
+   CDate Geburtstag(17, 11, 1984);
+   CAddress A1("Luxemburger Str.", "10", "D-13351", "Berlin");
+   CAddress Adresse("Berliner Str.", "21-23", "10876", "Berlin");
+   CPerson Egon("Egon Mustermann", Adresse, Geburtstag);
 
-    cout << "\nKlasse CDate:" << endl;
-    cout << "Standardkonstruktor Heutiges Datum (D1):     ";   D1.print();   cout << endl;
-    cout << "Konstruktor         Silvester (D2):          ";   D2.print();   cout << endl;
+   cout << "Klasse CLocation:" << endl;
+   cout << "Standardkonstruktor fuer neue Buecher:    ";
+   L1.print();
+   cout << endl;
+   cout << "Konstruktor Technik-Abt., Computer-Regal: ";
+   L2.print();
+   cout << endl;
 
-    cout << "\nKlasse CTime:" << endl;
-    cout << "Standardkonstruktor Aktuelle Uhrzeit (T1):   ";   T1.print();   cout << endl;
-    cout << "Konstruktor         Zeit zum Aufstehen (T2): ";   T2.print();   cout << endl;
-    cout << "Konstruktor         Vorlesungsbeginn (T3):   ";   T3.print();   cout << endl;
+   cout << "\nKlasse CAddress:" << endl;
+   cout << "Konstruktor Adresse der Berliner Hochschule fuer Technik:\n";
+   A1.print();
+   cout << endl;
 
-    return 0;
+   cout << "\nKlasse CPerson:" << endl;
+   cout << "Konstruktor Egon Mustermann:\n";
+   Egon.print();
+   cout << endl;
+
+   return 0;
 }

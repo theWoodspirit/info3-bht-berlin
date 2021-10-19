@@ -66,24 +66,13 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3"
+CMAKE_SOURCE_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 2\ueb02"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 2\ueb02\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -96,11 +85,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug\CMakeFiles" "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 2\ueb02\cmake-build-debug\CMakeFiles" "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 2\ueb02\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 2\ueb02\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,17 +129,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named info3
+# Target rules for targets named ueb02
 
 # Build rule for target.
-info3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 info3
-.PHONY : info3
+ueb02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ueb02
+.PHONY : ueb02
 
 # fast build rule for target.
-info3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/build
-.PHONY : info3/fast
+ueb02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/build
+.PHONY : ueb02/fast
+
+caddress.obj: caddress.cpp.obj
+
+.PHONY : caddress.obj
+
+# target to build an object file
+caddress.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/caddress.cpp.obj
+.PHONY : caddress.cpp.obj
+
+caddress.i: caddress.cpp.i
+
+.PHONY : caddress.i
+
+# target to preprocess a source file
+caddress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/caddress.cpp.i
+.PHONY : caddress.cpp.i
+
+caddress.s: caddress.cpp.s
+
+.PHONY : caddress.s
+
+# target to generate assembly for a file
+caddress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/caddress.cpp.s
+.PHONY : caddress.cpp.s
 
 cdate.obj: cdate.cpp.obj
 
@@ -147,7 +174,7 @@ cdate.obj: cdate.cpp.obj
 
 # target to build an object file
 cdate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/cdate.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/cdate.cpp.obj
 .PHONY : cdate.cpp.obj
 
 cdate.i: cdate.cpp.i
@@ -156,7 +183,7 @@ cdate.i: cdate.cpp.i
 
 # target to preprocess a source file
 cdate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/cdate.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/cdate.cpp.i
 .PHONY : cdate.cpp.i
 
 cdate.s: cdate.cpp.s
@@ -165,35 +192,62 @@ cdate.s: cdate.cpp.s
 
 # target to generate assembly for a file
 cdate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/cdate.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/cdate.cpp.s
 .PHONY : cdate.cpp.s
 
-ctime.obj: ctime.cpp.obj
+clocation.obj: clocation.cpp.obj
 
-.PHONY : ctime.obj
+.PHONY : clocation.obj
 
 # target to build an object file
-ctime.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/ctime.cpp.obj
-.PHONY : ctime.cpp.obj
+clocation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/clocation.cpp.obj
+.PHONY : clocation.cpp.obj
 
-ctime.i: ctime.cpp.i
+clocation.i: clocation.cpp.i
 
-.PHONY : ctime.i
+.PHONY : clocation.i
 
 # target to preprocess a source file
-ctime.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/ctime.cpp.i
-.PHONY : ctime.cpp.i
+clocation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/clocation.cpp.i
+.PHONY : clocation.cpp.i
 
-ctime.s: ctime.cpp.s
+clocation.s: clocation.cpp.s
 
-.PHONY : ctime.s
+.PHONY : clocation.s
 
 # target to generate assembly for a file
-ctime.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/ctime.cpp.s
-.PHONY : ctime.cpp.s
+clocation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/clocation.cpp.s
+.PHONY : clocation.cpp.s
+
+cperson.obj: cperson.cpp.obj
+
+.PHONY : cperson.obj
+
+# target to build an object file
+cperson.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/cperson.cpp.obj
+.PHONY : cperson.cpp.obj
+
+cperson.i: cperson.cpp.i
+
+.PHONY : cperson.i
+
+# target to preprocess a source file
+cperson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/cperson.cpp.i
+.PHONY : cperson.cpp.i
+
+cperson.s: cperson.cpp.s
+
+.PHONY : cperson.s
+
+# target to generate assembly for a file
+cperson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/cperson.cpp.s
+.PHONY : cperson.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -201,7 +255,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -210,7 +264,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -219,7 +273,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\info3.dir\build.make CMakeFiles/info3.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb02.dir\build.make CMakeFiles/ueb02.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -230,13 +284,19 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... info3
+	@echo ... ueb02
+	@echo ... caddress.obj
+	@echo ... caddress.i
+	@echo ... caddress.s
 	@echo ... cdate.obj
 	@echo ... cdate.i
 	@echo ... cdate.s
-	@echo ... ctime.obj
-	@echo ... ctime.i
-	@echo ... ctime.s
+	@echo ... clocation.obj
+	@echo ... clocation.i
+	@echo ... clocation.s
+	@echo ... cperson.obj
+	@echo ... cperson.i
+	@echo ... cperson.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

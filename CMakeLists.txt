@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.19)
-project(info3)
+project(ueb02)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(info3 main.cpp cdate.h ctime.h cdate.cpp ctime.cpp)
+add_executable(ueb02 main.cpp caddress.cpp caddress.h clocation.cpp clocation.h cperson.cpp cperson.h cdate.cpp cdate.h)
