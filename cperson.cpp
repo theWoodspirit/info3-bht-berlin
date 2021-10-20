@@ -9,16 +9,26 @@
 #include <iostream> // header in standard library
 using namespace std;
 
-CPerson::CPerson(string name, CAddress address, CDate birthday)
+CPerson::CPerson(string name, CAddress addr, CDate bday)
 {
     this->Name = name;
-    this->Address = address;
-    this->Birthday = birthday;
+
+    this->Day = bday.getDay();
+    this->Month = bday.getMonth();
+    this->Year = bday.year;
+
+    this->Street = addr.Street;
+    this->Number = addr.Number;
+    Zipcode = addr.Zipcode;
+    Town = addr.Town;
 }
 
 void CPerson::print()
 {
     cout << Name << endl;
-    CAddress::print();
-    CDate::print();
+
+    cout << Street << ' ' << Number << endl;
+    cout << Zipcode << ' ' << Town; << endl;
+
+    printf("* %02i.%02i.%4d", Day, Month, Year);
 }

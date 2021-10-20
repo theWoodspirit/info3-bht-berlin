@@ -1,5 +1,12 @@
 #ifndef INFO3_CDATE_H
 #define INFO3_CDATE_H
+#include "cperson.h"
+#include "caddress.h"
+#include <string>
+
+using std::string;
+class CPerson;
+class CAddress;
 
 class CDate
 {
@@ -14,6 +21,7 @@ private:
     int day;                                    // Eigenschaften
     int month;
     int year;
+    friend void CPerson::CPerson(string , CAddress &, CDate &);
 };
 
 #endif //INFO3_CDATE_H

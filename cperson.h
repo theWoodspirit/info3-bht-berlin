@@ -10,16 +10,24 @@
 #include "cdate.h"
 using std::string;
 
+class CDate;
+class CAddress;
+
 class CPerson
 {
 public:
-    CPerson(string name, CAddress address, CDate birthday); // Konstruktor
+    CPerson(string, CAddress &, CDate &); // Konstruktor
     void print();
 
 private:
     string Name;                                    // Eigenschaften
-    CAddress Address;
-    CDate Birthday;
+    int Day;
+    int Month;
+    int Year;
+    string Street;
+    string Number;
+    string Zipcode;
+    string Town;
 };
 
 #endif //UEB02_CPERSON_H
