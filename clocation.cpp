@@ -1,10 +1,8 @@
-//
-// Created by Jakob on 19.10.2021.
-//
-
 #include "clocation.h"
 #include <string>
 #include <iostream>
+#include <utility>
+
 using namespace std;
 
 CLocation::CLocation()
@@ -15,8 +13,8 @@ CLocation::CLocation()
 
 CLocation::CLocation(string section, string rack)
 {
-    this->Section = section;
-    this->Rack = rack;
+    Section = std::move(section);
+    Rack = rack;
 }
 
 void CLocation::print()

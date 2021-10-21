@@ -3,14 +3,10 @@
 
 CMakeFiles/ueb02.dir/caddress.cpp.obj: \
  ../caddress.cpp \
- ../caddress.h \
- ../cdate.h \
- ../cperson.h
+ ../caddress.h
 CMakeFiles/ueb02.dir/cdate.cpp.obj: \
- ../caddress.h \
  ../cdate.cpp \
- ../cdate.h \
- ../cperson.h
+ ../cdate.h
 CMakeFiles/ueb02.dir/clocation.cpp.obj: \
  ../clocation.cpp \
  ../clocation.h

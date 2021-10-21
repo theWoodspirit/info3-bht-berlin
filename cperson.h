@@ -1,33 +1,22 @@
-//
-// Created by Jakob on 19.10.2021.
-//
-
 #ifndef UEB02_CPERSON_H
 #define UEB02_CPERSON_H
 
 #include <string>
 #include "caddress.h"
 #include "cdate.h"
-using std::string;
 
-class CDate;
-class CAddress;
+using std::string;
 
 class CPerson
 {
-public:
-    CPerson(string, CAddress &, CDate &); // Konstruktor
-    void print();
+    public:
+        CPerson(string, CAddress , CDate); // Konstruktor
+        void print();
 
-private:
-    string Name;                                    // Eigenschaften
-    int Day;
-    int Month;
-    int Year;
-    string Street;
-    string Number;
-    string Zipcode;
-    string Town;
+    private:
+        string Name;                       // Eigenschaften
+        CAddress address;
+        CDate bday;
 };
 
 #endif //UEB02_CPERSON_H
