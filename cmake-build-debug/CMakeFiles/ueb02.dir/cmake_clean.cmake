@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ueb02.dir/CMedium.cpp.obj"
   "CMakeFiles/ueb02.dir/caddress.cpp.obj"
   "CMakeFiles/ueb02.dir/cdate.cpp.obj"
   "CMakeFiles/ueb02.dir/clocation.cpp.obj"

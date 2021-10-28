@@ -4,17 +4,21 @@
 #include <string>
 #include "caddress.h"
 #include "cdate.h"
+#include <iostream>
 
 using std::string;
+using namespace std;
 
 class CPerson
 {
     public:
         CPerson(string, CAddress , CDate); // Konstruktor
         void print();
+        ~CPerson(){cout << "Instanz mit Titel:"<< this->name<< "wurde vernichtet. \n"; }
 
-    private:
-        string Name;                       // Eigenschaften
+
+private:
+        string name;                       // Eigenschaften
         CAddress address;
         CDate bday;
 };

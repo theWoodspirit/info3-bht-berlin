@@ -7,12 +7,12 @@ using namespace std;
 CPerson::CPerson(string name, CAddress Address, CDate birthday)
 : address(Address), bday(birthday)
 {
-    Name = name;
+    name = name;
 }
 
 void CPerson::print()
 {
-    cout << Name << endl;
+    cout << name << endl;
     address.print();
     cout << endl;
     bday.print();
