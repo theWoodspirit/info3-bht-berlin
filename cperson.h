@@ -11,6 +11,7 @@ class CPerson
 {
     public:
         CPerson(string, CAddress , CDate); // Konstruktor
+        ~CPerson();
         void print();
 
     private:

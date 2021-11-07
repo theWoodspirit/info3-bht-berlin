@@ -5,9 +5,13 @@
 using namespace std;
 
 CPerson::CPerson(string name, CAddress Address, CDate birthday)
-: address(Address), bday(birthday)
+: Name(name), address(Address), bday(birthday)
 {
-    Name = name;
+}
+
+CPerson::~CPerson()
+{
+    cout << "Die Person '" << Name << "' wird vernichtet!" << endl;
 }
 
 void CPerson::print()

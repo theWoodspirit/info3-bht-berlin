@@ -10,9 +10,6 @@ class CDate
     public:
         CDate();                                    // Standardkonstruktor
         CDate(int day, int month, int year);        // Konstruktor
-        int getDay();                               // Methoden zum Abfragen der Eigenschaften
-        int getMonth();
-        int getYear();
         void print();
 
     private:
