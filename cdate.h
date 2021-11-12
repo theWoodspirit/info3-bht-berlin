@@ -1,6 +1,7 @@
 #ifndef INFO3_CDATE_H
 #define INFO3_CDATE_H
 
+#include <ctime>
 #include <string>
 
 using std::string;
