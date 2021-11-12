@@ -4,19 +4,19 @@
 
 using namespace std;
 
-CPerson::CPerson(string name, CAddress Address, CDate birthday)
-: Name(name), address(Address), bday(birthday)
+CPerson::CPerson(string Name, CAddress Address, CDate birthday)
+: name(Name), address(Address), bday(birthday)
 {
 }
 
 CPerson::~CPerson()
 {
-    cout << "Die Person '" << Name << "' wird vernichtet!" << endl;
+    cout << "Die Person '" << name << "' wird vernichtet!" << endl;
 }
 
 void CPerson::print()
 {
-    cout << Name << endl;
+    cout << name << endl;
     address.print();
     cout << endl;
     bday.print();
