@@ -2,19 +2,18 @@
 #define UEB02_CADDRESS_H
 #include <string>
 
-using std::string;
+using namespace std;
 
 class CAddress
 {
+    string Street;                                    // Eigenschaften
+    string Number;
+    string Zipcode;
+    string Town;
+
     public:
         CAddress(string street, string number, string zipcode, string town); // Konstruktor
         void print();
-
-    private:
-        string Street;                                    // Eigenschaften
-        string Number;
-        string Zipcode;
-        string Town;
 };
 
 #endif //UEB02_CADDRESS_H

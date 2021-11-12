@@ -13,7 +13,7 @@ public:
     enum Status { verfuegbar, ausgeliehen, bestellt, reserviert };
     CMedium(string, string, CLocation, int, Status);
     ~CMedium();
-    void setMedium(string, string, CLocation, int, Status);
+    //void setMedium(string, string, CLocation, int, Status);
     void getStatus();
     void print();
 
@@ -23,7 +23,6 @@ private:
     CLocation loc;
     int agerating;
     Status status;
-
 };
 
 #endif //INFO3_CMEDIUM_H

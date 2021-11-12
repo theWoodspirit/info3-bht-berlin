@@ -7,14 +7,13 @@ using std::string;
 
 class CLocation
 {
+    string Section;                                    // Eigenschaften
+    string Rack;
+
     public:
         CLocation();                            // Standardkonstruktor
         CLocation(string section, string rack); // Konstruktor
         void print();
-
-    private:
-        string Section;                                    // Eigenschaften
-        string Rack;
 };
 
 #endif //UEB02_CLOCATION_H

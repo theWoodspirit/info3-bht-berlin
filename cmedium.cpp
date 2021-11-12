@@ -14,14 +14,14 @@ CMedium::~CMedium()
     cout << "Das Medium '" << title << "' mit der Signatur '" << signature << "' wird vernichtet!" << endl;
 }
 
-void CMedium:: setMedium(string title, string signature, CLocation loc, int agerating, Status status)
+/*void CMedium:: setMedium(string title, string signature, CLocation loc, int agerating, Status status)
 {
     this->title = title;
     this->signature = signature;
     this->loc = loc;
     this->agerating = agerating;
     this->status = status;
-}
+}*/
 
 void CMedium::getStatus()
 {

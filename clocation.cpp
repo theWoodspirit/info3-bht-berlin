@@ -1,7 +1,6 @@
 #include "clocation.h"
 #include <string>
 #include <iostream>
-#include <utility>
 
 using namespace std;
 
@@ -13,7 +12,7 @@ CLocation::CLocation()
 
 CLocation::CLocation(string section, string rack)
 {
-    Section = std::move(section);
+    Section = section;
     Rack = rack;
 }
 

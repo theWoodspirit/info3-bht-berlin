@@ -5,11 +5,8 @@
 using namespace std;
 
 CAddress::CAddress(string street, string number, string zipcode, string town)
+: Street(street), Number(number), Zipcode(zipcode), Town(town)
 {
-    Street = street;
-    Number = number;
-    Zipcode = zipcode;
-    Town = town;
 }
 
 void CAddress::print()

@@ -1,6 +1,7 @@
 #include "cdate.h" // header in local directory
 #include <ctime>
 #include <string>
+#include <iostream>
 
 using namespace std;
 
@@ -14,11 +15,9 @@ CDate::CDate()
     year = now->tm_year + 1900;
 }
 
-CDate::CDate(int day, int month, int year)
+CDate::CDate(int Day, int Month, int Year)
+: day(Day), month(Month), year(Year)
 {
-    this->day = day;
-    this->month = month;
-    this->year = year;
 }
 
 void CDate::print()

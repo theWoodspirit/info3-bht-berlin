@@ -29,7 +29,7 @@ void CLibrary::print()
 
     for(i = 0; i < pMedium.size(); i++)
     {
-        cout << "Medium Nr. " << i+1 << endl;
+        cout << "Medium Nr. " << i + 1 << endl;
         pMedium.at(i)->print();
     }
 }

@@ -20,7 +20,7 @@ void CLibraryPool::print()
     int i;
 
     // Biliothekskartellname ausgeben
-    cout << endl << name << endl << "Leitung: ";
+    cout << name << endl << "Leitung: ";
 
     // Leitung ausgeben
     manager->print();
@@ -29,7 +29,7 @@ void CLibraryPool::print()
     for(i = 0; i < branch.size(); i++)
         branch.at(i)->print();
 
-    cout << "Die Buecherei hat " << customer.size() << " Kunden:";
+    cout << "Der Buechereiverband hat " << customer.size() << " Kunden:";
     for(i = 0; i < customer.size(); i++)
     {
         cout << "\n\n";

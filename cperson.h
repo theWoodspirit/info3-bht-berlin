@@ -11,17 +11,14 @@ using namespace std;
 
 class CPerson
 {
-    public:
-        CPerson(string, CAddress , CDate); // Konstruktor
-        ~CPerson();
-        void print();
-        ~CPerson(){cout << "Instanz mit Titel:"<< this->name<< "wurde vernichtet. \n"; }
+    string name;                       // Eigenschaften
+    CAddress address;
+    CDate bday;
 
-
-private:
-        string name;                       // Eigenschaften
-        CAddress address;
-        CDate bday;
+public:
+    CPerson(string, CAddress , CDate); // Konstruktor
+    ~CPerson();
+    void print();
 };
 
 #endif //UEB02_CPERSON_H

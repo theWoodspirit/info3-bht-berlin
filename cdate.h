@@ -7,15 +7,14 @@ using std::string;
 
 class CDate
 {
+    int day;                                    // Eigenschaften
+    int month;
+    int year;
+
     public:
         CDate();                                    // Standardkonstruktor
-        CDate(int day, int month, int year);        // Konstruktor
+        CDate(int, int, int);        // Konstruktor
         void print();
-
-    private:
-        int day;                                    // Eigenschaften
-        int month;
-        int year;
 };
 
 #endif //INFO3_CDATE_H
