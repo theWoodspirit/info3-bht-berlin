@@ -4,7 +4,8 @@
 #include <string>
 #include "caddress.h"
 #include "cdate.h"
-#include <iostream>
+
+#include <fstream>
 
 using std::string;
 using namespace std;
@@ -17,6 +18,7 @@ class CPerson
 
 public:
     CPerson(string, CAddress , CDate); // Konstruktor
+    CPerson(std::ifstream& infile);
     ~CPerson();
     void print();
 };

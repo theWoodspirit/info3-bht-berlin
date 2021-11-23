@@ -12,7 +12,14 @@ class CAddress
     string Town;
 
     public:
-        CAddress(string street, string number, string zipcode, string town); // Konstruktor
+        CAddress(string street, string number, string zipcode, string town);
+        CAddress(std::ifstream& infile);
+
+    CAddress();
+
+    //CAddress();
+
+    // Konstruktor
         void print();
 };
 

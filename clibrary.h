@@ -4,15 +4,16 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
 #include "caddress.h"
 #include "cperson.h"
 #include "cmedium.h"
+#include "factory.h"
 
-class CLibrary
-{
+class CLibrary {
     string name;
     CAddress adr;
     CPerson *manager;
@@ -20,9 +21,15 @@ class CLibrary
 
 public:
     CLibrary(string, CAddress, CPerson *);
+
+    CLibrary(ifstream&);
+
     ~CLibrary();
+
     void add(CMedium *);
+
     void print();
-};
+}
+;
 
 #endif //INFO3_CLIBRARY_H

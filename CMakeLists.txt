@@ -10,4 +10,4 @@ add_executable(ueb03 main.cpp
         clibrarypool.cpp clibrarypool.h
         clocation.cpp clocation.h
         cmedium.cpp cmedium.h
-        cperson.cpp cperson.h)
+        cperson.cpp cperson.h factory.h factory.cpp)

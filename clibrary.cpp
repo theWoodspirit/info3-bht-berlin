@@ -1,8 +1,43 @@
 #include "clibrary.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <cstring>
+#include "factory.h"
+using namespace std;
 
 CLibrary::CLibrary(string Name, CAddress Adr, CPerson *Manager)
 : name(Name), adr(Adr), manager(Manager)
 {
+}
+
+CLibrary::CLibrary(std::ifstream& infile) {
+    std::string line;
+    while (std::getline(infile, line)) {
+        if (factory::startTagInLine(line,"Name")) {
+            this->name = factory::getContent(line,"Name");
+        }else if(factory::startTagInLine(line,"Address")) {
+            line.replace(line.find(line), line.length(), "");
+            this->adr = CAddress(infile);
+        } else if(factory::startTagInLine(line,"Manager")) {
+            this->manager = new CPerson(infile);
+        }else if(factory::startTagInLine(line,"Medium")) {
+            this->add(new CMedium(infile));
+        }else if(factory::endTagInLine(line,"Library")) {
+            line.replace(line.find(line), line.length(), "");
+            cout << '\n';
+            break;
+        }
+        line.replace(line.find(line), line.length(), "");
+    }
+    /*    string name;
+    CAddress adr;
+    CPerson *manager;
+    vector<CMedium *> pMedium;
+     *
+     *
+     * */
 }
 
 CLibrary::~CLibrary()
@@ -33,3 +68,4 @@ void CLibrary::print()
         pMedium.at(i)->print();
     }
 }
+

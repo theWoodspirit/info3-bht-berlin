@@ -1,9 +1,45 @@
+#include <cstring>
 #include "clibrarypool.h"
-
+#include "factory.h"
+using namespace std;
 CLibraryPool::CLibraryPool(string Name, CPerson *Manager)
 : name(Name), manager(Manager)
 {
 }
+
+CLibraryPool::CLibraryPool(string fileName) {
+    ifstream infile("D:\\Uni\\3.Semester\\inf3Github\\info3\\data.xml");
+    string line;
+    string s;
+
+    while (std::getline(infile, line)) {
+
+        if (factory::startTagInLine(line,"Name")) {
+            this->name = factory::getContent(line,"Name");
+        }
+        else if(factory::startTagInLine(line,"Chairman")){
+            this->manager = new CPerson(infile);
+        }
+        else if(factory::startTagInLine(line,"Library") and !factory::startTagInLine(line,"LibraryPool")){
+            this->add(new CLibrary(infile));
+        }
+        else if(factory::startTagInLine(line,"Customer")){
+            this->add(new CPerson(infile));
+        }
+        else {
+            cout << line << '\n';
+        }
+        line.replace(line.find(line),line.length(),"");
+    }
+    int counter = 0;
+    while (std::getline(infile, line)) {
+        cout << line << counter << '\n';
+        counter++;
+    }
+}
+
+
+
 
 void CLibraryPool::add(CLibrary *Branch)
 {

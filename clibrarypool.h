@@ -19,6 +19,7 @@ class CLibraryPool
 
 public:
     CLibraryPool(string, CPerson *);
+    CLibraryPool(string path);
     void add(CLibrary *);
     void add(CPerson *);
     void print();
