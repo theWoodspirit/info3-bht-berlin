@@ -1,23 +1,5 @@
 <LibraryPool>
- <Name>Buechereiverbund Berlin</Name>
- <Chairman>
-  <Person>
-   <Name>Egon Mustermann</Name>
-   <Birthday>
-    <Date>
-     <Day>17</Day>
-     <Month>11</Month>
-     <Year>1963</Year>
-    </Date>
-   </Birthday>
-   <Address>
-    <Street>Schlossstr.</Street>
-    <Number>117</Number>
-    <Zipcode>12077</Zipcode>
-    <Town>Berlin</Town>
-   </Address>
-  </Person>
- </Chairman>
+
  <Library>
   <Name>Wedding</Name>
   <Address>
@@ -26,6 +8,26 @@
    <Zipcode>13315</Zipcode>
    <Town>Berlin</Town>
   </Address>
+  <Medium>
+   <Title>Programmieren in C</Title>
+   <Signatur>PC99</Signatur>
+   <Location>
+    <Section>Technik</Section>
+    <Rack>Computer</Rack>
+   </Location>
+   <FSK>0</FSK>
+   <Status>2</Status>
+  </Medium>
+  <Medium>
+   <Title>Der Hexer</Title>
+   <Signatur>He83</Signatur>
+   <Location>
+    <Section>Romane</Section>
+    <Rack>Krimi</Rack>
+   </Location>
+   <FSK>12</FSK>
+   <Status>1</Status>
+  </Medium>
   <Medium>
    <Title>Programmieren in C</Title>
    <Signatur>PC99</Signatur>
@@ -65,6 +67,25 @@
    </Person>
   </Manager>
  </Library>
+ <Name>Buechereiverbund Berlin</Name>
+ <Chairman>
+  <Person>
+   <Name>Egon Mustermann</Name>
+   <Birthday>
+    <Date>
+     <Day>17</Day>
+     <Month>11</Month>
+     <Year>1963</Year>
+    </Date>
+   </Birthday>
+   <Address>
+    <Street>Schlossstr.</Street>
+    <Number>117</Number>
+    <Zipcode>12077</Zipcode>
+    <Town>Berlin</Town>
+   </Address>
+  </Person>
+ </Chairman>
  <Library>
   <Name>Steglitz</Name>
   <Manager>
@@ -111,7 +132,99 @@
    <FSK>16</FSK>
    <Status>2</Status>
   </Medium>
+  <Medium>
+   <Title>Asterix und Obelix</Title>
+   <Signatur>KC17</Signatur>
+   <Location>
+    <Rack>Comics</Rack>
+    <Section>Kinder</Section>
+   </Location>
+   <FSK>0</FSK>
+   <Status>1</Status>
+  </Medium>
+  <Medium>
+   <Title>Der Werwolf</Title>
+   <Signatur>WW175</Signatur>
+   <Location>
+    <Section>DVDs</Section>
+    <Rack>Horror</Rack>
+   </Location>
+   <FSK>16</FSK>
+   <Status>2</Status>
+  </Medium>
  </Library>
+ <Customer>
+  <Person>
+   <Name>Marion Schulz</Name>
+   <Address>
+    <Street>Buchallee</Street>
+    <Number>23</Number>
+    <Zipcode>13315</Zipcode>
+    <Town>Berlin</Town>
+   </Address>
+   <Birthday>
+    <Date>
+     <Day>25</Day>
+     <Month>3</Month>
+     <Year>1975</Year>
+    </Date>
+   </Birthday>
+  </Person>
+ </Customer>
+ <Customer>
+  <Person>
+   <Name>Marion Schulz</Name>
+   <Address>
+    <Street>Buchallee</Street>
+    <Number>23</Number>
+    <Zipcode>13315</Zipcode>
+    <Town>Berlin</Town>
+   </Address>
+   <Birthday>
+    <Date>
+     <Day>25</Day>
+     <Month>3</Month>
+     <Year>1975</Year>
+    </Date>
+   </Birthday>
+  </Person>
+ </Customer>
+ <Customer>
+  <Person>
+   <Name>Marion Schulz</Name>
+   <Address>
+    <Street>Buchallee</Street>
+    <Number>23</Number>
+    <Zipcode>13315</Zipcode>
+    <Town>Berlin</Town>
+   </Address>
+   <Birthday>
+    <Date>
+     <Day>25</Day>
+     <Month>3</Month>
+     <Year>1975</Year>
+    </Date>
+   </Birthday>
+  </Person>
+ </Customer>
+ <Customer>
+  <Person>
+   <Name>Marion Schulz</Name>
+   <Address>
+    <Street>Buchallee</Street>
+    <Number>23</Number>
+    <Zipcode>13315</Zipcode>
+    <Town>Berlin</Town>
+   </Address>
+   <Birthday>
+    <Date>
+     <Day>25</Day>
+     <Month>3</Month>
+     <Year>1975</Year>
+    </Date>
+   </Birthday>
+  </Person>
+ </Customer>
  <Customer>
   <Person>
    <Name>Marion Schulz</Name>

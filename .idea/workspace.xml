@@ -16,18 +16,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMedium.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CMedium.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMedium.h" beforeDir="false" afterPath="$PROJECT_DIR$/CMedium.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caddress.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/caddress.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caddress.h" beforeDir="false" afterPath="$PROJECT_DIR$/caddress.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cdate.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdate.h" beforeDir="false" afterPath="$PROJECT_DIR$/cdate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/clibrary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/clibrary.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clibrarypool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/clibrarypool.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clocation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/clocation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clocation.h" beforeDir="false" afterPath="$PROJECT_DIR$/clocation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cperson.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cperson.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cperson.h" beforeDir="false" afterPath="$PROJECT_DIR$/cperson.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/factory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data.xml" afterDir="false" />
     </list>
     <list id="0df22767-21c0-4abe-9f2a-1745821fac7f" name="Changes by Jakob" comment="">
       <change beforePath="$PROJECT_DIR$/cperson.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cperson.cpp" afterDir="false" />
@@ -55,19 +44,6 @@
     <setting file="file://$PROJECT_DIR$/cperson.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/clibrary.cpp" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/cperson.cpp">
-      <ranges>
-        <range start1="13" end1="13" start2="13" end2="16" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
-        <range start1="14" end1="15" start2="17" end2="18" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
-        <range start1="22" end1="23" start2="25" end2="26" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
-        <range start1="24" end1="25" start2="27" end2="28" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
-        <range start1="26" end1="29" start2="29" end2="29" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
-        <range start1="31" end1="32" start2="31" end2="31" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
-        <range start1="33" end1="33" start2="32" end2="33" changelist="0df22767-21c0-4abe-9f2a-1745821fac7f" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="20bh7P2ZvTi9UA50H3FCAaIqbZH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -128,7 +104,7 @@
       <workItem from="1637595692606" duration="15046000" />
       <workItem from="1637677565745" duration="12443000" />
       <workItem from="1637700560030" duration="583000" />
-      <workItem from="1637753219418" duration="5245000" />
+      <workItem from="1637753219418" duration="5619000" />
     </task>
     <task id="LOCAL-00001" summary="Changes braaaaaaa">
       <created>1637687738685</created>
@@ -137,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637687738685</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes braaaaaaa">
+      <created>1637758697464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637758697464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
