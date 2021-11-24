@@ -11,8 +11,11 @@ CPerson::CPerson(string Name, CAddress Address, CDate birthday)
 : name(Name), address(Address), bday(birthday)
 {
 }
+CPerson::CPerson()
+{
+}
 
-CPerson::CPerson(std::ifstream& infile) {
+CPerson * CPerson::load(std::ifstream& infile) {
 
     std::string line;
 
@@ -20,16 +23,12 @@ CPerson::CPerson(std::ifstream& infile) {
         if (factory::startTagInLine(line,"Name")) {
             this->name = factory::getContent(line,"Name");
         } else if (factory::startTagInLine(line,"Birthday")) {
-            this->bday = CDate(infile);
+            this->bday.load(infile);
         } else if(factory::startTagInLine(line,"Address")) {
-            this->address = CAddress(infile);
+            this->address.load(infile);
         } else if(factory::endTagInLine(line,"Person")) {
-            line.replace(line.find(line), line.length(), "");
-            this->print();
-            cout << '\n';
             break;
         }
-        line.replace(line.find(line), line.length(), "");
     }
 }
 

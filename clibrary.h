@@ -22,13 +22,17 @@ class CLibrary {
 public:
     CLibrary(string, CAddress, CPerson *);
 
-    CLibrary(ifstream&);
+
 
     ~CLibrary();
 
     void add(CMedium *);
 
     void print();
+
+    CLibrary * load(ifstream &infile);
+
+    CLibrary();
 }
 ;
 

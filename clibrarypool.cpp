@@ -18,23 +18,14 @@ CLibraryPool::CLibraryPool(string fileName) {
             this->name = factory::getContent(line,"Name");
         }
         else if(factory::startTagInLine(line,"Chairman")){
-            this->manager = new CPerson(infile);
+            this->manager = (new CPerson)->load(infile);
         }
         else if(factory::startTagInLine(line,"Library") and !factory::startTagInLine(line,"LibraryPool")){
-            this->add(new CLibrary(infile));
+            this->add((new CLibrary)->load(infile));
         }
         else if(factory::startTagInLine(line,"Customer")){
-            this->add(new CPerson(infile));
+            this->add((new CPerson)->load(infile));
         }
-        else {
-            cout << line << '\n';
-        }
-        line.replace(line.find(line),line.length(),"");
-    }
-    int counter = 0;
-    while (std::getline(infile, line)) {
-        cout << line << counter << '\n';
-        counter++;
     }
 }
 

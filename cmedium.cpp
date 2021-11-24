@@ -16,7 +16,7 @@ CMedium::CMedium(string t, string s, CLocation l, int a, Status st)
 : title(t), signature(s), loc(l), agerating(a), status(st)
 {
 }
-CMedium::CMedium(std::ifstream& infile) {
+CMedium* CMedium::load(std::ifstream& infile) {
 
     std::string line;
 
@@ -26,21 +26,16 @@ CMedium::CMedium(std::ifstream& infile) {
         } else if (factory::startTagInLine(line,"Signatur")) {
             this->signature = factory::getContent(line,"Signatur");
         } else if(factory::startTagInLine(line,"Location")) {
-            this->loc = CLocation(infile);
-        } else if(factory::startTagInLine(line,"FSK")) {
-            this->loc = CLocation(infile);
+            this->loc.load(infile);
         }else if(factory::startTagInLine(line,"Status")) {
             this->status = CMedium::EnumOfIndex(atoi(factory::getContent(line,"Status").c_str()));
         }else if(factory::startTagInLine(line,"FSK")) {
-            this->agerating = atoi(factory::getContent(line,"Status").c_str());
+            this->agerating = atoi(factory::getContent(line,"FSK").c_str());
         }else if(factory::endTagInLine(line,"Medium")) {
-            line.replace(line.find(line), line.length(), "");
-            cout << '\n';
             break;
         }
-
-        line.replace(line.find(line), line.length(), "");
     }
+    return this;
 }
 
 CMedium::~CMedium()
@@ -78,6 +73,10 @@ void CMedium::print()
     cout << endl << "FSK:      freigegeben ab " << agerating << " Jahren" << endl << "Status:   ";
     getStatus();
     cout << "\n\n";
+}
+
+CMedium::CMedium() {
+
 }
 
 

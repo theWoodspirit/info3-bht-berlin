@@ -10,9 +10,11 @@ using std::string;
 class CMedium
 {
 public:
+    CMedium();
+
     enum Status { verfuegbar, ausgeliehen, bestellt, reserviert };
     CMedium(string, string, CLocation, int, Status);
-    CMedium(std::ifstream& infile);
+    CMedium* load(ifstream &);
     ~CMedium();
     //void setMedium(string, string, CLocation, int, Status);
     void getStatus();
@@ -25,6 +27,7 @@ private:
     int agerating;
     Status EnumOfIndex(int i) { return static_cast<CMedium::Status>(i); }
     Status status;
+
 };
 
 #endif //INFO3_CMEDIUM_H

@@ -18,7 +18,7 @@ void CAddress::print()
     cout << Zipcode << ' ' << Town;
 }
 
-CAddress::CAddress(ifstream& infile) {
+void CAddress::load(ifstream& infile) {
     std::string line;
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Street")) {
@@ -30,11 +30,8 @@ CAddress::CAddress(ifstream& infile) {
         }else if(factory::startTagInLine(line,"Town")) {
             this->Town = factory::getContent(line,"Town");
         }else if(factory::endTagInLine(line,"Address")) {
-            line.replace(line.find(line), line.length(), "");
-            cout << '\n';
             break;
         }
-        line.replace(line.find(line), line.length(), "");
     }
 }
 

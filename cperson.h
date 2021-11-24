@@ -12,15 +12,18 @@ using namespace std;
 
 class CPerson
 {
+
     string name;                       // Eigenschaften
     CAddress address;
     CDate bday;
 
 public:
     CPerson(string, CAddress , CDate); // Konstruktor
-    CPerson(std::ifstream& infile);
     ~CPerson();
     void print();
+    CPerson * load(ifstream &infile);
+
+    CPerson();
 };
 
 #endif //UEB02_CPERSON_H

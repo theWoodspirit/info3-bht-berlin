@@ -18,7 +18,6 @@ int factory::countSpaces(string line) {
 }
 
 int factory::startTagInLine(string line, string word) {
-
     return line.substr(line.find_first_of('<') + 1, strlen(word.c_str())).compare(word) == 0;
 }
 

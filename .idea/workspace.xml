@@ -12,12 +12,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.h" afterDir="false" />
+    <list default="true" id="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" name="Changes" comment="Changes braaaaaaa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMedium.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CMedium.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMedium.h" beforeDir="false" afterPath="$PROJECT_DIR$/CMedium.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/caddress.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/caddress.cpp" afterDir="false" />
@@ -27,29 +23,15 @@
       <change beforePath="$PROJECT_DIR$/clibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/clibrary.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/clibrary.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clibrarypool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/clibrarypool.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clibrarypool.h" beforeDir="false" afterPath="$PROJECT_DIR$/clibrarypool.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clocation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/clocation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clocation.h" beforeDir="false" afterPath="$PROJECT_DIR$/clocation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cperson.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cperson.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cperson.h" beforeDir="false" afterPath="$PROJECT_DIR$/cperson.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/factory.cpp" afterDir="false" />
     </list>
-    <list id="0df22767-21c0-4abe-9f2a-1745821fac7f" name="Changes by Jakob" comment="" />
+    <list id="0df22767-21c0-4abe-9f2a-1745821fac7f" name="Changes by Jakob" comment="">
+      <change beforePath="$PROJECT_DIR$/cperson.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cperson.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +56,19 @@
     <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/clibrary.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/cperson.cpp">
+      <ranges>
+        <range start1="13" end1="13" start2="13" end2="16" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
+        <range start1="14" end1="15" start2="17" end2="18" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
+        <range start1="22" end1="23" start2="25" end2="26" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
+        <range start1="24" end1="25" start2="27" end2="28" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
+        <range start1="26" end1="29" start2="29" end2="29" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
+        <range start1="31" end1="32" start2="31" end2="31" changelist="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" />
+        <range start1="33" end1="33" start2="32" end2="33" changelist="0df22767-21c0-4abe-9f2a-1745821fac7f" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectId" id="20bh7P2ZvTi9UA50H3FCAaIqbZH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -97,11 +92,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ueb03">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/CMakeLists.txt" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -136,8 +126,18 @@
       <workItem from="1637592804922" duration="817000" />
       <workItem from="1637594016400" duration="866000" />
       <workItem from="1637595692606" duration="15046000" />
-      <workItem from="1637677565745" duration="9930000" />
+      <workItem from="1637677565745" duration="12443000" />
+      <workItem from="1637700560030" duration="583000" />
+      <workItem from="1637753219418" duration="5245000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes braaaaaaa">
+      <created>1637687738685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637687738685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,50 +155,15 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes braaaaaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes braaaaaaa" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/clibrary.cpp</url>
-          <line>71</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/clibrarypool.cpp</url>
-          <line>23</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/clibrarypool.cpp</url>
-          <line>20</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/clibrarypool.cpp</url>
-          <line>26</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cperson.cpp</url>
-          <line>18</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/clibrary.cpp</url>
-          <line>23</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/clibrary.cpp</url>
-          <line>25</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cperson.cpp</url>
-          <line>19</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="line" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

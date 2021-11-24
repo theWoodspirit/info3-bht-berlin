@@ -15,7 +15,7 @@ class CLocation
         CLocation(string section, string rack); // Konstruktor
         void print();
 
-    CLocation(std::ifstream& ifstream);
+        void load(std::ifstream &infile);
 };
 
 #endif //UEB02_CLOCATION_H

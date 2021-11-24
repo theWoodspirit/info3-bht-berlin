@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include "cstdlib"
+#include "factory.h"
 
 using namespace std;
 
@@ -16,34 +17,19 @@ CDate::CDate()
     month = now->tm_mon + 1;
     year = now->tm_year + 1900;
 }
-CDate::CDate(std::ifstream& infile){
+CDate* CDate::load(std::ifstream& infile){
     std::string line;
-    int cnt = 0;
-
     while (std::getline(infile, line)) {
-        if (cnt == 0) {
-            cnt++;
-        } else if (cnt == 1) {
-            string s = line.substr(line.find_first_of('>')+1,2).c_str();
-            this->day = atoi(line.substr(line.find_first_of('>')+1,2).c_str());
-            cnt++;
-
-        } else if (cnt == 2) {
-            string s = line.substr(line.find_first_of('>')+1,2).c_str();
-            this->month = atoi(line.substr(line.find_first_of('>')+1,2).c_str());
-            cnt++;
-
-        } else if(cnt == 3){
-            string s = line.substr(line.find_first_of('>')+1,2).c_str();
-            this->year = atoi(line.substr(line.find_first_of('>')+1,4).c_str());
-            cnt++;
+        if (factory::startTagInLine(line,"Day")) {
+            this->day = atoi(factory::getContent(line,"Day").c_str());
+        } else if (factory::startTagInLine(line,"Month")) {
+            this->month = atoi(factory::getContent(line,"Month").c_str());
+        } else if(factory::startTagInLine(line,"Year")) {
+            this->year = atoi(factory::getContent(line,"Year").c_str());
         }
-
-        else if(line.substr(line.find_first_of('<')+1,9).compare("/Birthday") == 0) {
-            line.replace(line.find(line), line.length(), "");
+        else if(factory::endTagInLine(line,"Date")) {
             break;
         }
-        line.replace(line.find(line), line.length(), "");
     }
 }
 CDate::CDate(int Day, int Month, int Year)

@@ -13,7 +13,7 @@ class CAddress
 
     public:
         CAddress(string street, string number, string zipcode, string town);
-        CAddress(std::ifstream& infile);
+
 
     CAddress();
 
@@ -21,6 +21,8 @@ class CAddress
 
     // Konstruktor
         void print();
+
+    void load(ifstream &infile);
 };
 
 #endif //UEB02_CADDRESS_H

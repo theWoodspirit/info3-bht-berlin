@@ -26,7 +26,7 @@ void CLocation::print()
     cout << "Abt.: " << Section << "; Regal: " << Rack;
 }
 
-CLocation::CLocation(std::ifstream &infile) {
+void CLocation::load(std::ifstream &infile) {
     std::string line;
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Section")) {
@@ -34,9 +34,8 @@ CLocation::CLocation(std::ifstream &infile) {
         } else if (factory::startTagInLine(line,"Rack")) {
             this->Rack = factory::getContent(line,"Rack");
         } else if(factory::endTagInLine(line,"Location")) {
-            line.replace(line.find(line), line.length(), "");
             break;
         }
-        line.replace(line.find(line), line.length(), "");
     }
+
 }

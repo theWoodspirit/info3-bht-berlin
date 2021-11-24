@@ -12,32 +12,22 @@ CLibrary::CLibrary(string Name, CAddress Adr, CPerson *Manager)
 {
 }
 
-CLibrary::CLibrary(std::ifstream& infile) {
+CLibrary* CLibrary::load(std::ifstream& infile) {
     std::string line;
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Name")) {
             this->name = factory::getContent(line,"Name");
         }else if(factory::startTagInLine(line,"Address")) {
-            line.replace(line.find(line), line.length(), "");
-            this->adr = CAddress(infile);
+            this->adr.load(infile);
         } else if(factory::startTagInLine(line,"Manager")) {
-            this->manager = new CPerson(infile);
+            this->manager = (new CPerson)->load(infile);
         }else if(factory::startTagInLine(line,"Medium")) {
-            this->add(new CMedium(infile));
+            this->add((new CMedium())->load(infile));
         }else if(factory::endTagInLine(line,"Library")) {
-            line.replace(line.find(line), line.length(), "");
-            cout << '\n';
             break;
         }
-        line.replace(line.find(line), line.length(), "");
     }
-    /*    string name;
-    CAddress adr;
-    CPerson *manager;
-    vector<CMedium *> pMedium;
-     *
-     *
-     * */
+    return this;
 }
 
 CLibrary::~CLibrary()
@@ -67,5 +57,9 @@ void CLibrary::print()
         cout << "Medium Nr. " << i + 1 << endl;
         pMedium.at(i)->print();
     }
+}
+
+CLibrary::CLibrary() {
+
 }
 
