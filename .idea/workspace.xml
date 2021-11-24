@@ -12,7 +12,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" name="Changes" comment="Changes braaaaaaa">
+    <list default="true" id="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" name="Changes" comment="a">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMedium.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CMedium.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMedium.h" beforeDir="false" afterPath="$PROJECT_DIR$/CMedium.h" afterDir="false" />
     </list>
@@ -76,11 +77,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="CMake Application.Unnamed" />
       <item itemvalue="CMake Application.ueb03" />
@@ -102,7 +98,8 @@
       <workItem from="1637595692606" duration="15046000" />
       <workItem from="1637677565745" duration="12443000" />
       <workItem from="1637700560030" duration="583000" />
-      <workItem from="1637753219418" duration="5973000" />
+      <workItem from="1637753219418" duration="6155000" />
+      <workItem from="1637759521141" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Changes braaaaaaa">
       <created>1637687738685</created>
@@ -125,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637758982265</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes braaaaaaa">
+      <created>1637759289153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637759289153</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes braaaaaaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes braaaaaaa" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

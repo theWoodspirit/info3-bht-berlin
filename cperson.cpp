@@ -30,6 +30,7 @@ CPerson * CPerson::load(std::ifstream& infile) {
             break;
         }
     }
+    return this;
 }
 
 CPerson::~CPerson()
