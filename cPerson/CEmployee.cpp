@@ -1,36 +1,42 @@
 #include "cperson.h"
-#include "caddress.h"
+#include "../helperClasses/caddress.h"
 #include <string>
 #include <iostream>
 #include <fstream>
 #include <cstring>
-#include "factory.h"
+#include "../helperClasses/factory.h"
+#include "CEmployee.h"
 using namespace std;
 
-CPerson::CPerson(string Name, CAddress Address, CDate birthday)
-: name(Name), address(Address), bday(birthday)
+CEmployee::CEmployee(string Name, CAddress Address, CDate birthday, int persoNr): CPerson(Name,Address,birthday)
 {
+    this->EmployeeNr = persoNr;
+
 }
-CPerson::CPerson()
+CEmployee::CEmployee()
 {
 }
 
-CPerson * CPerson::load(std::ifstream& infile) {
+CEmployee * CEmployee::load(std::ifstream& infile) {
 
     std::string line;
-
+    /*
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Name")) {
-            this->name = factory::getContent(line,"Name");
+            this= factory::getContent(line,"Name");
         } else if (factory::startTagInLine(line,"Birthday")) {
             this->bday.load(infile);
         } else if(factory::startTagInLine(line,"Address")) {
             this->address.load(infile);
+        } else if(factory::startTagInLine(line,"WorkNr")) {
+            this->EmployeeNr.load(infile);
         } else if(factory::endTagInLine(line,"Person")) {
             break;
         }
     }
+     */
     return this;
+
 }
 
 CPerson::~CPerson()

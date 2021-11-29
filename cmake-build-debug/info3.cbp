@@ -80,6 +80,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CCD.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CCD.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CDVD.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CDVD.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium/CBook.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium/CBook.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium/CMagazine.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium/CMagazine.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cPerson/CCustomer.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cPerson/CCustomer.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cPerson/CEmployee.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cPerson/CEmployee.h">
+			<Option target="ueb03"/>
+		</Unit>
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/caddress.cpp">
 			<Option target="ueb03"/>
 		</Unit>

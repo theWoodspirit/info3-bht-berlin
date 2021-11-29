@@ -7,7 +7,7 @@
 
 using namespace std;
 
-#include "cperson.h"
+#include "../cPerson/cperson.h"
 #include "clibrary.h"
 
 class CLibraryPool

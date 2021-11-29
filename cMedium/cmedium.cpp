@@ -1,6 +1,6 @@
 #include <iostream>
-#include "cperson.h"
-#include "caddress.h"
+#include "../cPerson/cperson.h"
+#include "../helperClasses/caddress.h"
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -10,7 +10,7 @@
 using namespace std;
 
 #include "cmedium.h"
-#include "factory.h"
+#include "../helperClasses/factory.h"
 
 CMedium::CMedium(string t, string s, CLocation l, int a, Status st)
 : title(t), signature(s), loc(l), agerating(a), status(st)

@@ -5,7 +5,7 @@
 
 using std::string;
 
-#include "clocation.h"
+#include "../helperClasses/clocation.h"
 
 class CMedium
 {

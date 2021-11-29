@@ -1,4 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ueb03.dir/cMedium/CCD.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CDVD.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CPrintedMedium.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CBook.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CMagazine.cpp.obj"
+  "CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj"
+  "CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.obj"
   "CMakeFiles/ueb03.dir/caddress.cpp.obj"
   "CMakeFiles/ueb03.dir/cdate.cpp.obj"
   "CMakeFiles/ueb03.dir/clibrary.cpp.obj"

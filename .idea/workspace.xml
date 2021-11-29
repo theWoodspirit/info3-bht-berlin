@@ -12,9 +12,62 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" name="Changes" comment="asd">
+    <list default="true" id="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" name="Changes" comment="ueb04 läuft perfekt">
+      <change afterPath="$PROJECT_DIR$/cMedium/CCD.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cMedium/CCD.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cMedium/CDVD.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cMedium/CDVD.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cMedium/CPrintedMedium.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cMedium/CPrintedMedium.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cMedium/CPrintedMedium/CBook.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cMedium/CPrintedMedium/CBook.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cMedium/CPrintedMedium/CMagazine.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cMedium/CPrintedMedium/CMagazine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cPerson/CCustomer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cPerson/CCustomer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cPerson/CEmployee.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cPerson/CEmployee.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMedium.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMedium.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caddress.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/helperClasses/caddress.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caddress.h" beforeDir="false" afterPath="$PROJECT_DIR$/helperClasses/caddress.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/helperClasses/cdate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdate.h" beforeDir="false" afterPath="$PROJECT_DIR$/helperClasses/cdate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/clibrary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/clibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clibrarypool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/clibrarypool.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clibrarypool.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/clibrarypool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clocation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/helperClasses/clocation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clocation.h" beforeDir="false" afterPath="$PROJECT_DIR$/helperClasses/clocation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/info3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/info3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ueb03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/info3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/info3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmedium.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cMedium/cmedium.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmedium.h" beforeDir="false" afterPath="$PROJECT_DIR$/cMedium/cmedium.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cperson.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cPerson/cperson.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cperson.h" beforeDir="false" afterPath="$PROJECT_DIR$/cPerson/cperson.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/helperClasses/factory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory.h" beforeDir="false" afterPath="$PROJECT_DIR$/helperClasses/factory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <list id="0df22767-21c0-4abe-9f2a-1745821fac7f" name="Changes by Jakob" comment="Changes by Jakob" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,16 +83,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/clibrarypool.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/clocation.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/clibrary.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/clocation.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/cmedium.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/cmedium.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/cperson.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/cperson.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/library/clibrarypool.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/helperClasses/clocation.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/library/clibrary.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/helperClasses/clocation.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cMedium/cmedium.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cMedium/cmedium.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cPerson/cperson.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cPerson/cperson.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/clibrary.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/library/clibrary.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20bh7P2ZvTi9UA50H3FCAaIqbZH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,8 +115,20 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Uni\3.Semester\inf3Github\info3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Uni\3.Semester\inf3Github\info3\helperClasses" />
+      <recent name="D:\Uni\3.Semester\inf3Github\info3\library" />
+      <recent name="D:\Uni\3.Semester\inf3Github\info3\cMedium" />
+      <recent name="D:\Uni\3.Semester\inf3Github\info3" />
+      <recent name="D:\Uni\3.Semester\inf3Github\info3\cPerson" />
+    </key>
   </component>
   <component name="RunManager" selected="CMake Application.ueb03">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/CMakeLists.txt" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -102,7 +167,7 @@
       <workItem from="1637700560030" duration="583000" />
       <workItem from="1637753219418" duration="6155000" />
       <workItem from="1637759521141" duration="460000" />
-      <workItem from="1638197754966" duration="11000" />
+      <workItem from="1638197754966" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="Changes braaaaaaa">
       <created>1637687738685</created>
@@ -139,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637759645141</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ueb04 läuft perfekt">
+      <created>1638197850227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638197850227</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +233,8 @@
     <MESSAGE value="Changes braaaaaaa" />
     <MESSAGE value="a" />
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="ueb04 läuft perfekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="ueb04 läuft perfekt" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

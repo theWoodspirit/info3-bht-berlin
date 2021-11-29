@@ -1,5 +1,25 @@
 <LibraryPool>
-
+ <Name>Buechereiverbund Berlin</Name>
+ <Chairman>
+  <Employee>
+   <Name>Egon Mustermann</Name>
+   <EmployeeNr>P007</EmployeeNr>
+   <Birthday>
+    <Date>
+     <Day>17</Day>
+     <Month>11</Month>
+     <Year>1963</Year>
+    </Date>
+   </Birthday>
+   <CustomerNr>M007</CustomerNr>
+   <Address>
+    <Street>Schlossstr.</Street>
+    <HouseNr>117</HouseNr>
+    <Zipcode>12077</Zipcode>
+    <Town>Berlin</Town>
+   </Address>
+  </Employee>
+ </Chairman>
  <Library>
   <Name>Wedding</Name>
   <Address>
@@ -8,7 +28,9 @@
    <Zipcode>13315</Zipcode>
    <Town>Berlin</Town>
   </Address>
-  <Medium>
+  <Book>
+   <Author>Gerald Kempfer</Author>
+   <Pages>132</Pages>
    <Title>Programmieren in C</Title>
    <Signatur>PC99</Signatur>
    <Location>
@@ -17,8 +39,10 @@
    </Location>
    <FSK>0</FSK>
    <Status>2</Status>
-  </Medium>
-  <Medium>
+  </Book>
+  <Book>
+   <Author>Edgar Wallace</Author>
+   <Pages>248</Pages>
    <Title>Der Hexer</Title>
    <Signatur>He83</Signatur>
    <Location>
@@ -27,30 +51,11 @@
    </Location>
    <FSK>12</FSK>
    <Status>1</Status>
-  </Medium>
-  <Medium>
-   <Title>Programmieren in C</Title>
-   <Signatur>PC99</Signatur>
-   <Location>
-    <Section>Technik</Section>
-    <Rack>Computer</Rack>
-   </Location>
-   <FSK>0</FSK>
-   <Status>2</Status>
-  </Medium>
-  <Medium>
-   <Title>Der Hexer</Title>
-   <Signatur>He83</Signatur>
-   <Location>
-    <Section>Romane</Section>
-    <Rack>Krimi</Rack>
-   </Location>
-   <FSK>12</FSK>
-   <Status>1</Status>
-  </Medium>
+  </Book>
   <Manager>
-   <Person>
+   <Employee>
     <Name>Peter Mueller</Name>
+    <EmployeeNr>P023</EmployeeNr>
     <Birthday>
      <Date>
       <Day>17</Day>
@@ -64,32 +69,13 @@
      <Zipcode>13309</Zipcode>
      <Town>Berlin</Town>
     </Address>
-   </Person>
+   </Employee>
   </Manager>
  </Library>
- <Name>Buechereiverbund Berlin</Name>
- <Chairman>
-  <Person>
-   <Name>Egon Mustermann</Name>
-   <Birthday>
-    <Date>
-     <Day>17</Day>
-     <Month>11</Month>
-     <Year>1963</Year>
-    </Date>
-   </Birthday>
-   <Address>
-    <Street>Schlossstr.</Street>
-    <Number>117</Number>
-    <Zipcode>12077</Zipcode>
-    <Town>Berlin</Town>
-   </Address>
-  </Person>
- </Chairman>
  <Library>
   <Name>Steglitz</Name>
   <Manager>
-   <Person>
+   <Employee>
     <Name>Erika Mueller</Name>
     <Birthday>
      <Date>
@@ -98,13 +84,14 @@
       <Year>1963</Year>
      </Date>
     </Birthday>
+    <EmployeeNr>P014</EmployeeNr>
     <Address>
      <Street>Muellerstr.</Street>
      <Number>39</Number>
      <Zipcode>13309</Zipcode>
      <Town>Berlin</Town>
     </Address>
-   </Person>
+   </Employee>
   </Manager>
   <Address>
    <Street>Schlossstr.</Street>
@@ -112,17 +99,26 @@
    <Zipcode>12077</Zipcode>
    <Town>Berlin</Town>
   </Address>
-  <Medium>
-   <Title>Asterix und Obelix</Title>
-   <Signatur>KC17</Signatur>
+  <Magazine>
+   <Designer>Albert Abstrakt</Designer>
+   <Pages>60</Pages>
+   <Title>Bilder einer Ausstellung</Title>
+   <Signatur>BA17</Signatur>
    <Location>
-    <Rack>Comics</Rack>
-    <Section>Kinder</Section>
+    <Rack>Magazine</Rack>
+    <Section>Kunst</Section>
    </Location>
    <FSK>0</FSK>
    <Status>1</Status>
-  </Medium>
-  <Medium>
+  </Magazine>
+  <DVD>
+   <Actors>Klaus Kinski, Eddi Arend</Actors>
+   <PlayingTime>
+    <Time>
+     <Hour>1</Hour>
+     <Minute>35</Minute>
+    </Time>
+   </PlayingTime>
    <Title>Der Werwolf</Title>
    <Signatur>WW175</Signatur>
     <Location>
@@ -131,134 +127,65 @@
    </Location>
    <FSK>16</FSK>
    <Status>2</Status>
-  </Medium>
-  <Medium>
-   <Title>Asterix und Obelix</Title>
-   <Signatur>KC17</Signatur>
+  </DVD>
+  <CD>
+   <Title>Bravo Hits 2015</Title>
+   <Signatur>BH2015_27</Signatur>
    <Location>
-    <Rack>Comics</Rack>
-    <Section>Kinder</Section>
+    <Section>CDs</Section>
+    <Rack>Musik</Rack>
    </Location>
-   <FSK>0</FSK>
    <Status>1</Status>
-  </Medium>
-  <Medium>
-   <Title>Der Werwolf</Title>
-   <Signatur>WW175</Signatur>
+   <Interpret>Verschiedene</Interpret>
+   <Tracks>21</Tracks>
+  </CD>
+  <Audiobook>
+   <Title>Der grosse Entwurf</Title>
+   <Signatur>UNI123</Signatur>
+   <Author>Stephen Hawking</Author>
    <Location>
-    <Section>DVDs</Section>
-    <Rack>Horror</Rack>
+    <Section>CDs</Section>
+    <Rack>Audiobuecher</Rack>
    </Location>
-   <FSK>16</FSK>
-   <Status>2</Status>
-  </Medium>
+   <Status>1</Status>
+   <Interpret>Leonard Mlodinow</Interpret>
+   <Tracks>15</Tracks>
+   <Pages>560</Pages>
+   <countCDs>3</countCDs>
+  </Audiobook>
  </Library>
  <Customer>
-  <Person>
-   <Name>Marion Schulz</Name>
-   <Address>
-    <Street>Buchallee</Street>
-    <Number>23</Number>
-    <Zipcode>13315</Zipcode>
-    <Town>Berlin</Town>
-   </Address>
-   <Birthday>
-    <Date>
-     <Day>25</Day>
-     <Month>3</Month>
-     <Year>1975</Year>
-    </Date>
-   </Birthday>
-  </Person>
+  <Name>Marion Schulz</Name>
+  <CustomerNr>S317</CustomerNr>
+  <Address>
+   <Street>Buchallee</Street>
+   <Number>23</Number>
+   <Zipcode>13315</Zipcode>
+   <Town>Berlin</Town>
+  </Address>
+  <Birthday>
+   <Date>
+    <Day>25</Day>
+    <Month>3</Month>
+    <Year>1975</Year>
+   </Date>
+  </Birthday>
  </Customer>
  <Customer>
-  <Person>
-   <Name>Marion Schulz</Name>
-   <Address>
-    <Street>Buchallee</Street>
-    <Number>23</Number>
-    <Zipcode>13315</Zipcode>
-    <Town>Berlin</Town>
-   </Address>
-   <Birthday>
-    <Date>
-     <Day>25</Day>
-     <Month>3</Month>
-     <Year>1975</Year>
-    </Date>
-   </Birthday>
-  </Person>
- </Customer>
- <Customer>
-  <Person>
-   <Name>Marion Schulz</Name>
-   <Address>
-    <Street>Buchallee</Street>
-    <Number>23</Number>
-    <Zipcode>13315</Zipcode>
-    <Town>Berlin</Town>
-   </Address>
-   <Birthday>
-    <Date>
-     <Day>25</Day>
-     <Month>3</Month>
-     <Year>1975</Year>
-    </Date>
-   </Birthday>
-  </Person>
- </Customer>
- <Customer>
-  <Person>
-   <Name>Marion Schulz</Name>
-   <Address>
-    <Street>Buchallee</Street>
-    <Number>23</Number>
-    <Zipcode>13315</Zipcode>
-    <Town>Berlin</Town>
-   </Address>
-   <Birthday>
-    <Date>
-     <Day>25</Day>
-     <Month>3</Month>
-     <Year>1975</Year>
-    </Date>
-   </Birthday>
-  </Person>
- </Customer>
- <Customer>
-  <Person>
-   <Name>Marion Schulz</Name>
-   <Address>
-    <Street>Buchallee</Street>
-    <Number>23</Number>
-    <Zipcode>13315</Zipcode>
-    <Town>Berlin</Town>
-   </Address>
-   <Birthday>
-    <Date>
-     <Day>25</Day>
-     <Month>3</Month>
-     <Year>1975</Year>
-    </Date>
-   </Birthday>
-  </Person>
- </Customer>
- <Customer>
-  <Person>
-   <Name>Stefan Meier</Name>
-   <Address>
-    <Town>Berlin</Town>
-    <Zipcode>10815</Zipcode>
-    <Number>41</Number>
-    <Street>Berliner Str.</Street>
-   </Address>
-   <Birthday>
-    <Date>
-     <Day>7</Day>
-     <Month>7</Month>
-     <Year>1977</Year>
-    </Date>
-   </Birthday>
-  </Person>
+  <Name>Stefan Meier</Name>
+  <Address>
+   <Town>Berlin</Town>
+   <Zipcode>10815</Zipcode>
+   <Number>41</Number>
+   <Street>Berliner Str.</Street>
+  </Address>
+  <CustomerNr>M179</CustomerNr>
+  <Birthday>
+   <Date>
+    <Day>7</Day>
+    <Month>7</Month>
+    <Year>1977</Year>
+   </Date>
+  </Birthday>
  </Customer>
 </LibraryPool>

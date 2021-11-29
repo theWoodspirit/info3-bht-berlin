@@ -1,6 +1,6 @@
 #include <cstring>
 #include "clibrarypool.h"
-#include "factory.h"
+#include "../helperClasses/factory.h"
 using namespace std;
 CLibraryPool::CLibraryPool(string Name, CPerson *Manager)
 : name(Name), manager(Manager)

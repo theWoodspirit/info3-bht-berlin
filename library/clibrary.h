@@ -8,10 +8,10 @@
 
 using namespace std;
 
-#include "caddress.h"
-#include "cperson.h"
-#include "cmedium.h"
-#include "factory.h"
+#include "../helperClasses/caddress.h"
+#include "../cPerson/cperson.h"
+#include "../cMedium/cmedium.h"
+#include "../helperClasses/factory.h"
 
 class CLibrary {
     string name;

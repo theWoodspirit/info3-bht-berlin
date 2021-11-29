@@ -2,8 +2,8 @@
 #define UEB02_CPERSON_H
 
 #include <string>
-#include "caddress.h"
-#include "cdate.h"
+#include "../helperClasses/caddress.h"
+#include "../helperClasses/cdate.h"
 
 #include <fstream>
 

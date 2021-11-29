@@ -4,7 +4,7 @@
 #include <vector>
 #include <fstream>
 #include <cstring>
-#include "factory.h"
+#include "../helperClasses/factory.h"
 using namespace std;
 
 CLibrary::CLibrary(string Name, CAddress Adr, CPerson *Manager)

@@ -128,6 +128,174 @@ ueb03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/build
 .PHONY : ueb03/fast
 
+cMedium/CCD.obj: cMedium/CCD.cpp.obj
+.PHONY : cMedium/CCD.obj
+
+# target to build an object file
+cMedium/CCD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CCD.cpp.obj
+.PHONY : cMedium/CCD.cpp.obj
+
+cMedium/CCD.i: cMedium/CCD.cpp.i
+.PHONY : cMedium/CCD.i
+
+# target to preprocess a source file
+cMedium/CCD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CCD.cpp.i
+.PHONY : cMedium/CCD.cpp.i
+
+cMedium/CCD.s: cMedium/CCD.cpp.s
+.PHONY : cMedium/CCD.s
+
+# target to generate assembly for a file
+cMedium/CCD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CCD.cpp.s
+.PHONY : cMedium/CCD.cpp.s
+
+cMedium/CDVD.obj: cMedium/CDVD.cpp.obj
+.PHONY : cMedium/CDVD.obj
+
+# target to build an object file
+cMedium/CDVD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CDVD.cpp.obj
+.PHONY : cMedium/CDVD.cpp.obj
+
+cMedium/CDVD.i: cMedium/CDVD.cpp.i
+.PHONY : cMedium/CDVD.i
+
+# target to preprocess a source file
+cMedium/CDVD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CDVD.cpp.i
+.PHONY : cMedium/CDVD.cpp.i
+
+cMedium/CDVD.s: cMedium/CDVD.cpp.s
+.PHONY : cMedium/CDVD.s
+
+# target to generate assembly for a file
+cMedium/CDVD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CDVD.cpp.s
+.PHONY : cMedium/CDVD.cpp.s
+
+cMedium/CPrintedMedium.obj: cMedium/CPrintedMedium.cpp.obj
+.PHONY : cMedium/CPrintedMedium.obj
+
+# target to build an object file
+cMedium/CPrintedMedium.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium.cpp.obj
+.PHONY : cMedium/CPrintedMedium.cpp.obj
+
+cMedium/CPrintedMedium.i: cMedium/CPrintedMedium.cpp.i
+.PHONY : cMedium/CPrintedMedium.i
+
+# target to preprocess a source file
+cMedium/CPrintedMedium.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium.cpp.i
+.PHONY : cMedium/CPrintedMedium.cpp.i
+
+cMedium/CPrintedMedium.s: cMedium/CPrintedMedium.cpp.s
+.PHONY : cMedium/CPrintedMedium.s
+
+# target to generate assembly for a file
+cMedium/CPrintedMedium.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium.cpp.s
+.PHONY : cMedium/CPrintedMedium.cpp.s
+
+cMedium/CPrintedMedium/CBook.obj: cMedium/CPrintedMedium/CBook.cpp.obj
+.PHONY : cMedium/CPrintedMedium/CBook.obj
+
+# target to build an object file
+cMedium/CPrintedMedium/CBook.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CBook.cpp.obj
+.PHONY : cMedium/CPrintedMedium/CBook.cpp.obj
+
+cMedium/CPrintedMedium/CBook.i: cMedium/CPrintedMedium/CBook.cpp.i
+.PHONY : cMedium/CPrintedMedium/CBook.i
+
+# target to preprocess a source file
+cMedium/CPrintedMedium/CBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CBook.cpp.i
+.PHONY : cMedium/CPrintedMedium/CBook.cpp.i
+
+cMedium/CPrintedMedium/CBook.s: cMedium/CPrintedMedium/CBook.cpp.s
+.PHONY : cMedium/CPrintedMedium/CBook.s
+
+# target to generate assembly for a file
+cMedium/CPrintedMedium/CBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CBook.cpp.s
+.PHONY : cMedium/CPrintedMedium/CBook.cpp.s
+
+cMedium/CPrintedMedium/CMagazine.obj: cMedium/CPrintedMedium/CMagazine.cpp.obj
+.PHONY : cMedium/CPrintedMedium/CMagazine.obj
+
+# target to build an object file
+cMedium/CPrintedMedium/CMagazine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CMagazine.cpp.obj
+.PHONY : cMedium/CPrintedMedium/CMagazine.cpp.obj
+
+cMedium/CPrintedMedium/CMagazine.i: cMedium/CPrintedMedium/CMagazine.cpp.i
+.PHONY : cMedium/CPrintedMedium/CMagazine.i
+
+# target to preprocess a source file
+cMedium/CPrintedMedium/CMagazine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CMagazine.cpp.i
+.PHONY : cMedium/CPrintedMedium/CMagazine.cpp.i
+
+cMedium/CPrintedMedium/CMagazine.s: cMedium/CPrintedMedium/CMagazine.cpp.s
+.PHONY : cMedium/CPrintedMedium/CMagazine.s
+
+# target to generate assembly for a file
+cMedium/CPrintedMedium/CMagazine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CMagazine.cpp.s
+.PHONY : cMedium/CPrintedMedium/CMagazine.cpp.s
+
+cPerson/CCustomer.obj: cPerson/CCustomer.cpp.obj
+.PHONY : cPerson/CCustomer.obj
+
+# target to build an object file
+cPerson/CCustomer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj
+.PHONY : cPerson/CCustomer.cpp.obj
+
+cPerson/CCustomer.i: cPerson/CCustomer.cpp.i
+.PHONY : cPerson/CCustomer.i
+
+# target to preprocess a source file
+cPerson/CCustomer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.i
+.PHONY : cPerson/CCustomer.cpp.i
+
+cPerson/CCustomer.s: cPerson/CCustomer.cpp.s
+.PHONY : cPerson/CCustomer.s
+
+# target to generate assembly for a file
+cPerson/CCustomer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.s
+.PHONY : cPerson/CCustomer.cpp.s
+
+cPerson/CEmployee.obj: cPerson/CEmployee.cpp.obj
+.PHONY : cPerson/CEmployee.obj
+
+# target to build an object file
+cPerson/CEmployee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.obj
+.PHONY : cPerson/CEmployee.cpp.obj
+
+cPerson/CEmployee.i: cPerson/CEmployee.cpp.i
+.PHONY : cPerson/CEmployee.i
+
+# target to preprocess a source file
+cPerson/CEmployee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.i
+.PHONY : cPerson/CEmployee.cpp.i
+
+cPerson/CEmployee.s: cPerson/CEmployee.cpp.s
+.PHONY : cPerson/CEmployee.s
+
+# target to generate assembly for a file
+cPerson/CEmployee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.s
+.PHONY : cPerson/CEmployee.cpp.s
+
 caddress.obj: caddress.cpp.obj
 .PHONY : caddress.obj
 
@@ -353,6 +521,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ueb03
+	@echo ... cMedium/CCD.obj
+	@echo ... cMedium/CCD.i
+	@echo ... cMedium/CCD.s
+	@echo ... cMedium/CDVD.obj
+	@echo ... cMedium/CDVD.i
+	@echo ... cMedium/CDVD.s
+	@echo ... cMedium/CPrintedMedium.obj
+	@echo ... cMedium/CPrintedMedium.i
+	@echo ... cMedium/CPrintedMedium.s
+	@echo ... cMedium/CPrintedMedium/CBook.obj
+	@echo ... cMedium/CPrintedMedium/CBook.i
+	@echo ... cMedium/CPrintedMedium/CBook.s
+	@echo ... cMedium/CPrintedMedium/CMagazine.obj
+	@echo ... cMedium/CPrintedMedium/CMagazine.i
+	@echo ... cMedium/CPrintedMedium/CMagazine.s
+	@echo ... cPerson/CCustomer.obj
+	@echo ... cPerson/CCustomer.i
+	@echo ... cPerson/CCustomer.s
+	@echo ... cPerson/CEmployee.obj
+	@echo ... cPerson/CEmployee.i
+	@echo ... cPerson/CEmployee.s
 	@echo ... caddress.obj
 	@echo ... caddress.i
 	@echo ... caddress.s
