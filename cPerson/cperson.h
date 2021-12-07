@@ -12,8 +12,8 @@ using namespace std;
 
 class CPerson
 {
-
-    string name;                       // Eigenschaften
+private:
+    string name;               // Eigenschaften
     CAddress address;
     CDate bday;
 
@@ -22,8 +22,13 @@ public:
     ~CPerson();
     void print();
     CPerson * load(ifstream &infile);
-
     CPerson();
+    string getName(){return name;};
+    CAddress getAddress(){return address;};
+    CDate getbday(){return bday;};
+    void setName(string nme){name = nme;};
+    void setAdress(CAddress adr){this->address = adr;};
+    void setBday(CDate birthday){bday = birthday;};
 };
 
 #endif //UEB02_CPERSON_H

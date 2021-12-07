@@ -2,31 +2,33 @@
 #include "clibrarypool.h"
 #include "../helperClasses/factory.h"
 using namespace std;
-CLibraryPool::CLibraryPool(string Name, CPerson *Manager)
+CLibraryPool::CLibraryPool(string Name, CEmployee *Manager)
 : name(Name), manager(Manager)
 {
 }
 
 CLibraryPool::CLibraryPool(string fileName) {
-    ifstream infile("D:\\Uni\\3.Semester\\inf3Github\\info3\\data.xml");
+    ifstream infile("data.xml");
     string line;
     string s;
-
+    //int cnt = 0;
     while (std::getline(infile, line)) {
-
+        //cout << line << endl;
+        //cnt++;
         if (factory::startTagInLine(line,"Name")) {
             this->name = factory::getContent(line,"Name");
         }
         else if(factory::startTagInLine(line,"Chairman")){
-            this->manager = (new CPerson)->load(infile);
+            this->manager = (new CEmployee)->load(infile);
         }
         else if(factory::startTagInLine(line,"Library") and !factory::startTagInLine(line,"LibraryPool")){
             this->add((new CLibrary)->load(infile));
         }
         else if(factory::startTagInLine(line,"Customer")){
-            this->add((new CPerson)->load(infile));
+            this->add((new CCustomer)->load(infile));
         }
     }
+    //cout << cnt << endl;
 }
 
 
@@ -37,10 +39,7 @@ void CLibraryPool::add(CLibrary *Branch)
     branch.push_back(Branch);
 }
 
-void CLibraryPool::add(CPerson *Customer)
-{
-    customer.push_back(Customer);
-}
+
 
 void CLibraryPool::print()
 {
@@ -56,11 +55,17 @@ void CLibraryPool::print()
     for(i = 0; i < branch.size(); i++)
         branch.at(i)->print();
 
-    cout << "Der Buechereiverband hat " << customer.size() << " Kunden:";
+    cout << "Die Buecherei hat " << customer.size() << " Kunden:";
     for(i = 0; i < customer.size(); i++)
     {
         cout << "\n\n";
         customer.at(i)->print();
     }
+
+
     cout << endl;
+}
+
+void CLibraryPool::add(CCustomer * x) {
+    customer.push_back(x);
 }

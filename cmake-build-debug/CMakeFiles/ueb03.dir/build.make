@@ -78,109 +78,109 @@ CMakeFiles/ueb03.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/main.cpp.s"
 	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\main.cpp -o CMakeFiles\ueb03.dir\main.cpp.s
 
-CMakeFiles/ueb03.dir/caddress.cpp.obj: CMakeFiles/ueb03.dir/flags.make
-CMakeFiles/ueb03.dir/caddress.cpp.obj: ../caddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ueb03.dir/caddress.cpp.obj"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\caddress.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\caddress.cpp
+CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.obj: CMakeFiles/ueb03.dir/flags.make
+CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.obj: ../helperClasses/caddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.obj"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\helperClasses\caddress.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\helperClasses\caddress.cpp
 
-CMakeFiles/ueb03.dir/caddress.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/caddress.cpp.i"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\caddress.cpp > CMakeFiles\ueb03.dir\caddress.cpp.i
+CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.i"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\helperClasses\caddress.cpp > CMakeFiles\ueb03.dir\helperClasses\caddress.cpp.i
 
-CMakeFiles/ueb03.dir/caddress.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/caddress.cpp.s"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\caddress.cpp -o CMakeFiles\ueb03.dir\caddress.cpp.s
+CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.s"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\helperClasses\caddress.cpp -o CMakeFiles\ueb03.dir\helperClasses\caddress.cpp.s
 
-CMakeFiles/ueb03.dir/cdate.cpp.obj: CMakeFiles/ueb03.dir/flags.make
-CMakeFiles/ueb03.dir/cdate.cpp.obj: ../cdate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ueb03.dir/cdate.cpp.obj"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\cdate.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\cdate.cpp
+CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.obj: CMakeFiles/ueb03.dir/flags.make
+CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.obj: ../helperClasses/cdate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.obj"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\helperClasses\cdate.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\helperClasses\cdate.cpp
 
-CMakeFiles/ueb03.dir/cdate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/cdate.cpp.i"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\cdate.cpp > CMakeFiles\ueb03.dir\cdate.cpp.i
+CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.i"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\helperClasses\cdate.cpp > CMakeFiles\ueb03.dir\helperClasses\cdate.cpp.i
 
-CMakeFiles/ueb03.dir/cdate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/cdate.cpp.s"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\cdate.cpp -o CMakeFiles\ueb03.dir\cdate.cpp.s
+CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.s"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\helperClasses\cdate.cpp -o CMakeFiles\ueb03.dir\helperClasses\cdate.cpp.s
 
-CMakeFiles/ueb03.dir/clibrary.cpp.obj: CMakeFiles/ueb03.dir/flags.make
-CMakeFiles/ueb03.dir/clibrary.cpp.obj: ../clibrary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ueb03.dir/clibrary.cpp.obj"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\clibrary.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\clibrary.cpp
+CMakeFiles/ueb03.dir/library/clibrary.cpp.obj: CMakeFiles/ueb03.dir/flags.make
+CMakeFiles/ueb03.dir/library/clibrary.cpp.obj: ../library/clibrary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ueb03.dir/library/clibrary.cpp.obj"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\library\clibrary.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\library\clibrary.cpp
 
-CMakeFiles/ueb03.dir/clibrary.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/clibrary.cpp.i"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\clibrary.cpp > CMakeFiles\ueb03.dir\clibrary.cpp.i
+CMakeFiles/ueb03.dir/library/clibrary.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/library/clibrary.cpp.i"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\library\clibrary.cpp > CMakeFiles\ueb03.dir\library\clibrary.cpp.i
 
-CMakeFiles/ueb03.dir/clibrary.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/clibrary.cpp.s"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\clibrary.cpp -o CMakeFiles\ueb03.dir\clibrary.cpp.s
+CMakeFiles/ueb03.dir/library/clibrary.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/library/clibrary.cpp.s"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\library\clibrary.cpp -o CMakeFiles\ueb03.dir\library\clibrary.cpp.s
 
-CMakeFiles/ueb03.dir/clibrarypool.cpp.obj: CMakeFiles/ueb03.dir/flags.make
-CMakeFiles/ueb03.dir/clibrarypool.cpp.obj: ../clibrarypool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ueb03.dir/clibrarypool.cpp.obj"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\clibrarypool.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\clibrarypool.cpp
+CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj: CMakeFiles/ueb03.dir/flags.make
+CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj: ../library/clibrarypool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\library\clibrarypool.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\library\clibrarypool.cpp
 
-CMakeFiles/ueb03.dir/clibrarypool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/clibrarypool.cpp.i"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\clibrarypool.cpp > CMakeFiles\ueb03.dir\clibrarypool.cpp.i
+CMakeFiles/ueb03.dir/library/clibrarypool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/library/clibrarypool.cpp.i"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\library\clibrarypool.cpp > CMakeFiles\ueb03.dir\library\clibrarypool.cpp.i
 
-CMakeFiles/ueb03.dir/clibrarypool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/clibrarypool.cpp.s"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\clibrarypool.cpp -o CMakeFiles\ueb03.dir\clibrarypool.cpp.s
+CMakeFiles/ueb03.dir/library/clibrarypool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/library/clibrarypool.cpp.s"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\library\clibrarypool.cpp -o CMakeFiles\ueb03.dir\library\clibrarypool.cpp.s
 
-CMakeFiles/ueb03.dir/clocation.cpp.obj: CMakeFiles/ueb03.dir/flags.make
-CMakeFiles/ueb03.dir/clocation.cpp.obj: ../clocation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ueb03.dir/clocation.cpp.obj"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\clocation.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\clocation.cpp
+CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.obj: CMakeFiles/ueb03.dir/flags.make
+CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.obj: ../helperClasses/clocation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.obj"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\helperClasses\clocation.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\helperClasses\clocation.cpp
 
-CMakeFiles/ueb03.dir/clocation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/clocation.cpp.i"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\clocation.cpp > CMakeFiles\ueb03.dir\clocation.cpp.i
+CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.i"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\helperClasses\clocation.cpp > CMakeFiles\ueb03.dir\helperClasses\clocation.cpp.i
 
-CMakeFiles/ueb03.dir/clocation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/clocation.cpp.s"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\clocation.cpp -o CMakeFiles\ueb03.dir\clocation.cpp.s
+CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.s"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\helperClasses\clocation.cpp -o CMakeFiles\ueb03.dir\helperClasses\clocation.cpp.s
 
-CMakeFiles/ueb03.dir/cmedium.cpp.obj: CMakeFiles/ueb03.dir/flags.make
-CMakeFiles/ueb03.dir/cmedium.cpp.obj: ../cmedium.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ueb03.dir/cmedium.cpp.obj"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\cmedium.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\cmedium.cpp
+CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj: CMakeFiles/ueb03.dir/flags.make
+CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj: ../cMedium/cmedium.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\cMedium\cmedium.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\cMedium\cmedium.cpp
 
-CMakeFiles/ueb03.dir/cmedium.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/cmedium.cpp.i"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\cmedium.cpp > CMakeFiles\ueb03.dir\cmedium.cpp.i
+CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.i"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\cMedium\cmedium.cpp > CMakeFiles\ueb03.dir\cMedium\cmedium.cpp.i
 
-CMakeFiles/ueb03.dir/cmedium.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/cmedium.cpp.s"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\cmedium.cpp -o CMakeFiles\ueb03.dir\cmedium.cpp.s
+CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.s"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\cMedium\cmedium.cpp -o CMakeFiles\ueb03.dir\cMedium\cmedium.cpp.s
 
-CMakeFiles/ueb03.dir/cperson.cpp.obj: CMakeFiles/ueb03.dir/flags.make
-CMakeFiles/ueb03.dir/cperson.cpp.obj: ../cperson.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ueb03.dir/cperson.cpp.obj"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\cperson.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\cperson.cpp
+CMakeFiles/ueb03.dir/cPerson/cperson.cpp.obj: CMakeFiles/ueb03.dir/flags.make
+CMakeFiles/ueb03.dir/cPerson/cperson.cpp.obj: ../cPerson/cperson.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ueb03.dir/cPerson/cperson.cpp.obj"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\cPerson\cperson.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\cPerson\cperson.cpp
 
-CMakeFiles/ueb03.dir/cperson.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/cperson.cpp.i"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\cperson.cpp > CMakeFiles\ueb03.dir\cperson.cpp.i
+CMakeFiles/ueb03.dir/cPerson/cperson.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/cPerson/cperson.cpp.i"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\cPerson\cperson.cpp > CMakeFiles\ueb03.dir\cPerson\cperson.cpp.i
 
-CMakeFiles/ueb03.dir/cperson.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/cperson.cpp.s"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\cperson.cpp -o CMakeFiles\ueb03.dir\cperson.cpp.s
+CMakeFiles/ueb03.dir/cPerson/cperson.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/cPerson/cperson.cpp.s"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\cPerson\cperson.cpp -o CMakeFiles\ueb03.dir\cPerson\cperson.cpp.s
 
-CMakeFiles/ueb03.dir/factory.cpp.obj: CMakeFiles/ueb03.dir/flags.make
-CMakeFiles/ueb03.dir/factory.cpp.obj: ../factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ueb03.dir/factory.cpp.obj"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\factory.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\factory.cpp
+CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj: CMakeFiles/ueb03.dir/flags.make
+CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj: ../helperClasses/factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Uni\3.Semester\inf3Github\info3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\helperClasses\factory.cpp.obj -c D:\Uni\3.Semester\inf3Github\info3\helperClasses\factory.cpp
 
-CMakeFiles/ueb03.dir/factory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/factory.cpp.i"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\factory.cpp > CMakeFiles\ueb03.dir\factory.cpp.i
+CMakeFiles/ueb03.dir/helperClasses/factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/helperClasses/factory.cpp.i"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Uni\3.Semester\inf3Github\info3\helperClasses\factory.cpp > CMakeFiles\ueb03.dir\helperClasses\factory.cpp.i
 
-CMakeFiles/ueb03.dir/factory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/factory.cpp.s"
-	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\factory.cpp -o CMakeFiles\ueb03.dir\factory.cpp.s
+CMakeFiles/ueb03.dir/helperClasses/factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/helperClasses/factory.cpp.s"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Uni\3.Semester\inf3Github\info3\helperClasses\factory.cpp -o CMakeFiles\ueb03.dir\helperClasses\factory.cpp.s
 
 CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj: CMakeFiles/ueb03.dir/flags.make
 CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj: ../cPerson/CCustomer.cpp
@@ -276,14 +276,14 @@ CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CBook.cpp.s: cmake_force
 # Object files for target ueb03
 ueb03_OBJECTS = \
 "CMakeFiles/ueb03.dir/main.cpp.obj" \
-"CMakeFiles/ueb03.dir/caddress.cpp.obj" \
-"CMakeFiles/ueb03.dir/cdate.cpp.obj" \
-"CMakeFiles/ueb03.dir/clibrary.cpp.obj" \
-"CMakeFiles/ueb03.dir/clibrarypool.cpp.obj" \
-"CMakeFiles/ueb03.dir/clocation.cpp.obj" \
-"CMakeFiles/ueb03.dir/cmedium.cpp.obj" \
-"CMakeFiles/ueb03.dir/cperson.cpp.obj" \
-"CMakeFiles/ueb03.dir/factory.cpp.obj" \
+"CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.obj" \
+"CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.obj" \
+"CMakeFiles/ueb03.dir/library/clibrary.cpp.obj" \
+"CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj" \
+"CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.obj" \
+"CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj" \
+"CMakeFiles/ueb03.dir/cPerson/cperson.cpp.obj" \
+"CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj" \
 "CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj" \
 "CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.obj" \
 "CMakeFiles/ueb03.dir/cMedium/CCD.cpp.obj" \
@@ -296,14 +296,14 @@ ueb03_OBJECTS = \
 ueb03_EXTERNAL_OBJECTS =
 
 ueb03.exe: CMakeFiles/ueb03.dir/main.cpp.obj
-ueb03.exe: CMakeFiles/ueb03.dir/caddress.cpp.obj
-ueb03.exe: CMakeFiles/ueb03.dir/cdate.cpp.obj
-ueb03.exe: CMakeFiles/ueb03.dir/clibrary.cpp.obj
-ueb03.exe: CMakeFiles/ueb03.dir/clibrarypool.cpp.obj
-ueb03.exe: CMakeFiles/ueb03.dir/clocation.cpp.obj
-ueb03.exe: CMakeFiles/ueb03.dir/cmedium.cpp.obj
-ueb03.exe: CMakeFiles/ueb03.dir/cperson.cpp.obj
-ueb03.exe: CMakeFiles/ueb03.dir/factory.cpp.obj
+ueb03.exe: CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.obj
+ueb03.exe: CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.obj
+ueb03.exe: CMakeFiles/ueb03.dir/library/clibrary.cpp.obj
+ueb03.exe: CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj
+ueb03.exe: CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.obj
+ueb03.exe: CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj
+ueb03.exe: CMakeFiles/ueb03.dir/cPerson/cperson.cpp.obj
+ueb03.exe: CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj
 ueb03.exe: CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj
 ueb03.exe: CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.obj
 ueb03.exe: CMakeFiles/ueb03.dir/cMedium/CCD.cpp.obj

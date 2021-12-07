@@ -4,7 +4,4 @@
 
 #include "CDVD.h"
 
-CDVD::CDVD(string, string, CLocation, int, Status, string, CTime) {
-
-}
 

@@ -7,7 +7,7 @@
 #include "../helperClasses/factory.h"
 using namespace std;
 
-CLibrary::CLibrary(string Name, CAddress Adr, CPerson *Manager)
+CLibrary::CLibrary(string Name, CAddress Adr, CEmployee *Manager)
 : name(Name), adr(Adr), manager(Manager)
 {
 }
@@ -20,10 +20,10 @@ CLibrary* CLibrary::load(std::ifstream& infile) {
         }else if(factory::startTagInLine(line,"Address")) {
             this->adr.load(infile);
         } else if(factory::startTagInLine(line,"Manager")) {
-            this->manager = (new CPerson)->load(infile);
-        }else if(factory::startTagInLine(line,"Medium")) {
+            this->manager = (new CEmployee)->load(infile);
+        }/*else if(factory::startTagInLine(line,"Medium")) {
             this->add((new CMedium())->load(infile));
-        }else if(factory::endTagInLine(line,"Library")) {
+        }*/else if(factory::endTagInLine(line,"Library")) {
             break;
         }
     }
@@ -57,6 +57,7 @@ void CLibrary::print()
         cout << "Medium Nr. " << i + 1 << endl;
         pMedium.at(i)->print();
     }
+
 }
 
 CLibrary::CLibrary() {

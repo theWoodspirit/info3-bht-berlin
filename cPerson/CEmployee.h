@@ -16,9 +16,9 @@ using namespace std;
 class CEmployee : public CPerson
 {
 private:
-    int EmployeeNr;
+    string EmployeeNr;
 public:
-    CEmployee(string, CAddress , CDate, int); // Konstruktor
+    CEmployee(string, CAddress , CDate, string); // Konstruktor
     ~CEmployee();
     void print();
     CEmployee * load(ifstream &infile);

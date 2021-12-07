@@ -12,21 +12,25 @@ using namespace std;
 #include "../cPerson/cperson.h"
 #include "../cMedium/cmedium.h"
 #include "../helperClasses/factory.h"
+#include "../cPerson/CEmployee.h"
+#include "../cPerson/CCustomer.h"
 
 class CLibrary {
     string name;
     CAddress adr;
-    CPerson *manager;
+    CEmployee *manager;
     vector<CMedium *> pMedium;
 
+
 public:
-    CLibrary(string, CAddress, CPerson *);
+    CLibrary(string, CAddress, CEmployee *);
 
 
 
     ~CLibrary();
 
     void add(CMedium *);
+
 
     void print();
 

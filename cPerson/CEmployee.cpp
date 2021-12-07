@@ -4,11 +4,12 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <cstdlib>
 #include "../helperClasses/factory.h"
 #include "CEmployee.h"
 using namespace std;
 
-CEmployee::CEmployee(string Name, CAddress Address, CDate birthday, int persoNr): CPerson(Name,Address,birthday)
+CEmployee::CEmployee(string Name, CAddress Address, CDate birthday, string persoNr): CPerson(Name,Address,birthday)
 {
     this->EmployeeNr = persoNr;
 
@@ -18,36 +19,38 @@ CEmployee::CEmployee()
 }
 
 CEmployee * CEmployee::load(std::ifstream& infile) {
-
     std::string line;
-    /*
+
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Name")) {
-            this= factory::getContent(line,"Name");
+            setName(factory::getContent(line,"Name"));
         } else if (factory::startTagInLine(line,"Birthday")) {
-            this->bday.load(infile);
+            CDate date;
+            date.load(infile);
+            setBday(date);
         } else if(factory::startTagInLine(line,"Address")) {
-            this->address.load(infile);
-        } else if(factory::startTagInLine(line,"WorkNr")) {
-            this->EmployeeNr.load(infile);
-        } else if(factory::endTagInLine(line,"Person")) {
+            CAddress adr;
+            adr.load(infile);
+            setAdress(adr);
+        } else if (factory::startTagInLine(line,"EmployeeNr")) {
+            this->EmployeeNr = factory::getContent(line,"EmployeeNr").c_str();
+        } else if(factory::endTagInLine(line,"Employee")) {
             break;
         }
     }
-     */
     return this;
-
 }
 
-CPerson::~CPerson()
+CEmployee::~CEmployee()
 {
-    cout << "Die Person '" << name << "' wird vernichtet!" << endl;
+    cout << "Die Person '" << this->getName() << "' wird vernichtet!" << endl;
 }
 
-void CPerson::print()
+void CEmployee::print()
 {
-    cout << name << endl;
-    address.print();
+    cout << this->getName() << endl;
+    this->getAddress().print();
     cout << endl;
-    bday.print();
+    this->getbday().print();
+    cout << endl << EmployeeNr;
 }

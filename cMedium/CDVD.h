@@ -8,20 +8,22 @@
 
 using std::string;
 
-#include "CDVD.h"
+
+#include "cmedium.h"
+#include "time.h"
 
 class CDVD : public CMedium
 {
 public:
     CDVD();
-    CDVD(string, string, CLocation, int, Status, string, CTime);
+    CDVD(string, string, CLocation, int, Status, string, time_t);
     CDVD* load(std::ifstream &);
     ~CDVD();
     void print();
 
 private:
     string actor;
-    CTime length;
+    time_t length;
 
 };
 #endif //INFO3_CDVD_H

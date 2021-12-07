@@ -248,6 +248,30 @@ cMedium/CPrintedMedium/CMagazine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CMagazine.cpp.s
 .PHONY : cMedium/CPrintedMedium/CMagazine.cpp.s
 
+cMedium/cmedium.obj: cMedium/cmedium.cpp.obj
+.PHONY : cMedium/cmedium.obj
+
+# target to build an object file
+cMedium/cmedium.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj
+.PHONY : cMedium/cmedium.cpp.obj
+
+cMedium/cmedium.i: cMedium/cmedium.cpp.i
+.PHONY : cMedium/cmedium.i
+
+# target to preprocess a source file
+cMedium/cmedium.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.i
+.PHONY : cMedium/cmedium.cpp.i
+
+cMedium/cmedium.s: cMedium/cmedium.cpp.s
+.PHONY : cMedium/cmedium.s
+
+# target to generate assembly for a file
+cMedium/cmedium.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.s
+.PHONY : cMedium/cmedium.cpp.s
+
 cPerson/CCustomer.obj: cPerson/CCustomer.cpp.obj
 .PHONY : cPerson/CCustomer.obj
 
@@ -296,197 +320,173 @@ cPerson/CEmployee.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.s
 .PHONY : cPerson/CEmployee.cpp.s
 
-caddress.obj: caddress.cpp.obj
-.PHONY : caddress.obj
+cPerson/cperson.obj: cPerson/cperson.cpp.obj
+.PHONY : cPerson/cperson.obj
 
 # target to build an object file
-caddress.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/caddress.cpp.obj
-.PHONY : caddress.cpp.obj
+cPerson/cperson.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/cperson.cpp.obj
+.PHONY : cPerson/cperson.cpp.obj
 
-caddress.i: caddress.cpp.i
-.PHONY : caddress.i
+cPerson/cperson.i: cPerson/cperson.cpp.i
+.PHONY : cPerson/cperson.i
 
 # target to preprocess a source file
-caddress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/caddress.cpp.i
-.PHONY : caddress.cpp.i
+cPerson/cperson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/cperson.cpp.i
+.PHONY : cPerson/cperson.cpp.i
 
-caddress.s: caddress.cpp.s
-.PHONY : caddress.s
+cPerson/cperson.s: cPerson/cperson.cpp.s
+.PHONY : cPerson/cperson.s
 
 # target to generate assembly for a file
-caddress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/caddress.cpp.s
-.PHONY : caddress.cpp.s
+cPerson/cperson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cPerson/cperson.cpp.s
+.PHONY : cPerson/cperson.cpp.s
 
-cdate.obj: cdate.cpp.obj
-.PHONY : cdate.obj
+helperClasses/caddress.obj: helperClasses/caddress.cpp.obj
+.PHONY : helperClasses/caddress.obj
 
 # target to build an object file
-cdate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cdate.cpp.obj
-.PHONY : cdate.cpp.obj
+helperClasses/caddress.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.obj
+.PHONY : helperClasses/caddress.cpp.obj
 
-cdate.i: cdate.cpp.i
-.PHONY : cdate.i
+helperClasses/caddress.i: helperClasses/caddress.cpp.i
+.PHONY : helperClasses/caddress.i
 
 # target to preprocess a source file
-cdate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cdate.cpp.i
-.PHONY : cdate.cpp.i
+helperClasses/caddress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.i
+.PHONY : helperClasses/caddress.cpp.i
 
-cdate.s: cdate.cpp.s
-.PHONY : cdate.s
+helperClasses/caddress.s: helperClasses/caddress.cpp.s
+.PHONY : helperClasses/caddress.s
 
 # target to generate assembly for a file
-cdate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cdate.cpp.s
-.PHONY : cdate.cpp.s
+helperClasses/caddress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.s
+.PHONY : helperClasses/caddress.cpp.s
 
-clibrary.obj: clibrary.cpp.obj
-.PHONY : clibrary.obj
+helperClasses/cdate.obj: helperClasses/cdate.cpp.obj
+.PHONY : helperClasses/cdate.obj
 
 # target to build an object file
-clibrary.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clibrary.cpp.obj
-.PHONY : clibrary.cpp.obj
+helperClasses/cdate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.obj
+.PHONY : helperClasses/cdate.cpp.obj
 
-clibrary.i: clibrary.cpp.i
-.PHONY : clibrary.i
+helperClasses/cdate.i: helperClasses/cdate.cpp.i
+.PHONY : helperClasses/cdate.i
 
 # target to preprocess a source file
-clibrary.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clibrary.cpp.i
-.PHONY : clibrary.cpp.i
+helperClasses/cdate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.i
+.PHONY : helperClasses/cdate.cpp.i
 
-clibrary.s: clibrary.cpp.s
-.PHONY : clibrary.s
+helperClasses/cdate.s: helperClasses/cdate.cpp.s
+.PHONY : helperClasses/cdate.s
 
 # target to generate assembly for a file
-clibrary.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clibrary.cpp.s
-.PHONY : clibrary.cpp.s
+helperClasses/cdate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.s
+.PHONY : helperClasses/cdate.cpp.s
 
-clibrarypool.obj: clibrarypool.cpp.obj
-.PHONY : clibrarypool.obj
+helperClasses/clocation.obj: helperClasses/clocation.cpp.obj
+.PHONY : helperClasses/clocation.obj
 
 # target to build an object file
-clibrarypool.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clibrarypool.cpp.obj
-.PHONY : clibrarypool.cpp.obj
+helperClasses/clocation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.obj
+.PHONY : helperClasses/clocation.cpp.obj
 
-clibrarypool.i: clibrarypool.cpp.i
-.PHONY : clibrarypool.i
+helperClasses/clocation.i: helperClasses/clocation.cpp.i
+.PHONY : helperClasses/clocation.i
 
 # target to preprocess a source file
-clibrarypool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clibrarypool.cpp.i
-.PHONY : clibrarypool.cpp.i
+helperClasses/clocation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.i
+.PHONY : helperClasses/clocation.cpp.i
 
-clibrarypool.s: clibrarypool.cpp.s
-.PHONY : clibrarypool.s
+helperClasses/clocation.s: helperClasses/clocation.cpp.s
+.PHONY : helperClasses/clocation.s
 
 # target to generate assembly for a file
-clibrarypool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clibrarypool.cpp.s
-.PHONY : clibrarypool.cpp.s
+helperClasses/clocation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.s
+.PHONY : helperClasses/clocation.cpp.s
 
-clocation.obj: clocation.cpp.obj
-.PHONY : clocation.obj
+helperClasses/factory.obj: helperClasses/factory.cpp.obj
+.PHONY : helperClasses/factory.obj
 
 # target to build an object file
-clocation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clocation.cpp.obj
-.PHONY : clocation.cpp.obj
+helperClasses/factory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj
+.PHONY : helperClasses/factory.cpp.obj
 
-clocation.i: clocation.cpp.i
-.PHONY : clocation.i
+helperClasses/factory.i: helperClasses/factory.cpp.i
+.PHONY : helperClasses/factory.i
 
 # target to preprocess a source file
-clocation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clocation.cpp.i
-.PHONY : clocation.cpp.i
+helperClasses/factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/factory.cpp.i
+.PHONY : helperClasses/factory.cpp.i
 
-clocation.s: clocation.cpp.s
-.PHONY : clocation.s
+helperClasses/factory.s: helperClasses/factory.cpp.s
+.PHONY : helperClasses/factory.s
 
 # target to generate assembly for a file
-clocation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clocation.cpp.s
-.PHONY : clocation.cpp.s
+helperClasses/factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/factory.cpp.s
+.PHONY : helperClasses/factory.cpp.s
 
-cmedium.obj: cmedium.cpp.obj
-.PHONY : cmedium.obj
+library/clibrary.obj: library/clibrary.cpp.obj
+.PHONY : library/clibrary.obj
 
 # target to build an object file
-cmedium.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cmedium.cpp.obj
-.PHONY : cmedium.cpp.obj
+library/clibrary.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/library/clibrary.cpp.obj
+.PHONY : library/clibrary.cpp.obj
 
-cmedium.i: cmedium.cpp.i
-.PHONY : cmedium.i
+library/clibrary.i: library/clibrary.cpp.i
+.PHONY : library/clibrary.i
 
 # target to preprocess a source file
-cmedium.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cmedium.cpp.i
-.PHONY : cmedium.cpp.i
+library/clibrary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/library/clibrary.cpp.i
+.PHONY : library/clibrary.cpp.i
 
-cmedium.s: cmedium.cpp.s
-.PHONY : cmedium.s
+library/clibrary.s: library/clibrary.cpp.s
+.PHONY : library/clibrary.s
 
 # target to generate assembly for a file
-cmedium.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cmedium.cpp.s
-.PHONY : cmedium.cpp.s
+library/clibrary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/library/clibrary.cpp.s
+.PHONY : library/clibrary.cpp.s
 
-cperson.obj: cperson.cpp.obj
-.PHONY : cperson.obj
+library/clibrarypool.obj: library/clibrarypool.cpp.obj
+.PHONY : library/clibrarypool.obj
 
 # target to build an object file
-cperson.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cperson.cpp.obj
-.PHONY : cperson.cpp.obj
+library/clibrarypool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj
+.PHONY : library/clibrarypool.cpp.obj
 
-cperson.i: cperson.cpp.i
-.PHONY : cperson.i
-
-# target to preprocess a source file
-cperson.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cperson.cpp.i
-.PHONY : cperson.cpp.i
-
-cperson.s: cperson.cpp.s
-.PHONY : cperson.s
-
-# target to generate assembly for a file
-cperson.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cperson.cpp.s
-.PHONY : cperson.cpp.s
-
-factory.obj: factory.cpp.obj
-.PHONY : factory.obj
-
-# target to build an object file
-factory.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/factory.cpp.obj
-.PHONY : factory.cpp.obj
-
-factory.i: factory.cpp.i
-.PHONY : factory.i
+library/clibrarypool.i: library/clibrarypool.cpp.i
+.PHONY : library/clibrarypool.i
 
 # target to preprocess a source file
-factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/factory.cpp.i
-.PHONY : factory.cpp.i
+library/clibrarypool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/library/clibrarypool.cpp.i
+.PHONY : library/clibrarypool.cpp.i
 
-factory.s: factory.cpp.s
-.PHONY : factory.s
+library/clibrarypool.s: library/clibrarypool.cpp.s
+.PHONY : library/clibrarypool.s
 
 # target to generate assembly for a file
-factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/factory.cpp.s
-.PHONY : factory.cpp.s
+library/clibrarypool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/library/clibrarypool.cpp.s
+.PHONY : library/clibrarypool.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -536,36 +536,36 @@ help:
 	@echo ... cMedium/CPrintedMedium/CMagazine.obj
 	@echo ... cMedium/CPrintedMedium/CMagazine.i
 	@echo ... cMedium/CPrintedMedium/CMagazine.s
+	@echo ... cMedium/cmedium.obj
+	@echo ... cMedium/cmedium.i
+	@echo ... cMedium/cmedium.s
 	@echo ... cPerson/CCustomer.obj
 	@echo ... cPerson/CCustomer.i
 	@echo ... cPerson/CCustomer.s
 	@echo ... cPerson/CEmployee.obj
 	@echo ... cPerson/CEmployee.i
 	@echo ... cPerson/CEmployee.s
-	@echo ... caddress.obj
-	@echo ... caddress.i
-	@echo ... caddress.s
-	@echo ... cdate.obj
-	@echo ... cdate.i
-	@echo ... cdate.s
-	@echo ... clibrary.obj
-	@echo ... clibrary.i
-	@echo ... clibrary.s
-	@echo ... clibrarypool.obj
-	@echo ... clibrarypool.i
-	@echo ... clibrarypool.s
-	@echo ... clocation.obj
-	@echo ... clocation.i
-	@echo ... clocation.s
-	@echo ... cmedium.obj
-	@echo ... cmedium.i
-	@echo ... cmedium.s
-	@echo ... cperson.obj
-	@echo ... cperson.i
-	@echo ... cperson.s
-	@echo ... factory.obj
-	@echo ... factory.i
-	@echo ... factory.s
+	@echo ... cPerson/cperson.obj
+	@echo ... cPerson/cperson.i
+	@echo ... cPerson/cperson.s
+	@echo ... helperClasses/caddress.obj
+	@echo ... helperClasses/caddress.i
+	@echo ... helperClasses/caddress.s
+	@echo ... helperClasses/cdate.obj
+	@echo ... helperClasses/cdate.i
+	@echo ... helperClasses/cdate.s
+	@echo ... helperClasses/clocation.obj
+	@echo ... helperClasses/clocation.i
+	@echo ... helperClasses/clocation.s
+	@echo ... helperClasses/factory.obj
+	@echo ... helperClasses/factory.i
+	@echo ... helperClasses/factory.s
+	@echo ... library/clibrary.obj
+	@echo ... library/clibrary.i
+	@echo ... library/clibrary.s
+	@echo ... library/clibrarypool.obj
+	@echo ... library/clibrarypool.i
+	@echo ... library/clibrarypool.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -17,7 +17,7 @@ public:
     CPrintedMedium();
 
 
-    CPrintedMedium(string, string, CLocation, int, Status,int );
+    CPrintedMedium(string, string, CLocation, int, Status ,int );
     CPrintedMedium* load(std::ifstream &);
     ~CPrintedMedium();
     void print();

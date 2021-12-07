@@ -12,16 +12,19 @@ using namespace std;
 
 class CLibraryPool
 {
+
+
     string name;
-    CPerson *manager;
+    CEmployee *manager;
     vector<CLibrary *> branch;
-    vector<CPerson *> customer;
+    vector<CCustomer*> customer;
+
 
 public:
-    CLibraryPool(string, CPerson *);
+    CLibraryPool(string Name, CEmployee *Manager);
     CLibraryPool(string path);
     void add(CLibrary *);
-    void add(CPerson *);
+    void add(CCustomer *);
     void print();
 };
 
