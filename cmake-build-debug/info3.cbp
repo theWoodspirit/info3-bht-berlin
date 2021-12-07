@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CAudiobook.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CAudiobook.h">
+			<Option target="ueb03"/>
+		</Unit>
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CCD.cpp">
 			<Option target="ueb03"/>
 		</Unit>
@@ -92,12 +98,6 @@
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CDVD.h">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium.cpp">
-			<Option target="ueb03"/>
-		</Unit>
-		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium.h">
-			<Option target="ueb03"/>
-		</Unit>
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium/CBook.cpp">
 			<Option target="ueb03"/>
 		</Unit>
@@ -108,6 +108,12 @@
 			<Option target="ueb03"/>
 		</Unit>
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium/CMagazine.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium/CPrintedMedium.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/CPrintedMedium/CPrintedMedium.h">
 			<Option target="ueb03"/>
 		</Unit>
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/cMedium/cmedium.cpp">

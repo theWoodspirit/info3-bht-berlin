@@ -5,6 +5,11 @@
 #include <fstream>
 #include <cstring>
 #include "../helperClasses/factory.h"
+#include "../cMedium/CPrintedMedium/CBook.h"
+#include "../cMedium/CPrintedMedium/CMagazine.h"
+#include "../cMedium/CCD.h"
+#include "../cMedium/CDVD.h"
+
 using namespace std;
 
 CLibrary::CLibrary(string Name, CAddress Adr, CEmployee *Manager)
@@ -21,9 +26,13 @@ CLibrary* CLibrary::load(std::ifstream& infile) {
             this->adr.load(infile);
         } else if(factory::startTagInLine(line,"Manager")) {
             this->manager = (new CEmployee)->load(infile);
-        }/*else if(factory::startTagInLine(line,"Medium")) {
-            this->add((new CMedium())->load(infile));
-        }*/else if(factory::endTagInLine(line,"Library")) {
+        }else if(factory::startTagInLine(line,"Book")) {
+            this->add((new CBook())->load(infile));
+        }else if(factory::startTagInLine(line,"Magazine")) {
+            this->add((new CMagazine())->load(infile));
+        }else if(factory::startTagInLine(line,"DVD")) {
+            this->add((new CDVD())->load(infile));
+        }else if(factory::endTagInLine(line,"Library")) {
             break;
         }
     }
@@ -32,13 +41,10 @@ CLibrary* CLibrary::load(std::ifstream& infile) {
 
 CLibrary::~CLibrary()
 {
-    pMedium.clear();
+
 }
 
-void CLibrary::add(CMedium *medium)
-{
-    pMedium.push_back(medium);
-}
+
 
 void CLibrary::print()
 {
@@ -50,12 +56,22 @@ void CLibrary::print()
     manager->print();
     cout << endl;
 
-    cout << "Es stehen " << pMedium.size() << " Medien zur Verfuegung: " << "\n\n";
+    cout << "\nEs stehen " << pBooks.size() + pDVDs.size() + pMagazine.size() << " Medien zur Verfuegung: " << "\n\n";
 
-    for(i = 0; i < pMedium.size(); i++)
+    for(i = 0; i < pBooks.size(); i++)
     {
-        cout << "Medium Nr. " << i + 1 << endl;
-        pMedium.at(i)->print();
+        cout << "Buch Nr. " << i + 1 << endl;
+        pBooks.at(i)->print();
+    }
+    for(i = 0; i < pDVDs.size(); i++)
+    {
+        cout << "DVD Nr. " << i + 1 << endl;
+        pDVDs.at(i)->print();
+    }
+    for(i = 0; i < pMagazine.size(); i++)
+    {
+        cout << "Magazine Nr. " << i + 1 << endl;
+        pMagazine.at(i)->print();
     }
 
 }

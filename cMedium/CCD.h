@@ -8,15 +8,14 @@
 
 using namespace std;
 
-#include "CCD.h"
+
 #include "cmedium.h"
 
 class CCD : public CMedium
 {
+
 public:
     CCD();
-
-
     CCD(string, string, CLocation, int, Status, string, int);
     CCD* load(std::ifstream &);
     ~CCD();

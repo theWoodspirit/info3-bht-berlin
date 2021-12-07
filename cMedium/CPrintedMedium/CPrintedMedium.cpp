@@ -1,13 +1,22 @@
+
 //
 // Created by marku on 29.11.2021.
 //
 
-#include <cstdlib>
-#include "CMagazine.h"
-#include "../../helperClasses/factory.h"
+#include "CPrintedMedium.h"
 
-CMagazine *CMagazine::load(std::ifstream & infile) {
+#include "../../helperClasses/factory.h"
+#include <string>
+
+#include <cstdlib>
+
+CPrintedMedium::CPrintedMedium(string t, string s, CLocation l , int a, CMedium::Status st, int sites):CMedium(t,s,l,a, st) {
+ this->sites = sites;
+}
+
+CPrintedMedium *CPrintedMedium::load(ifstream & infile) {
     std::string line;
+    // wird nicht benutzt...
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Title")) {
             this->setTitle(factory::getContent(line,"Title"));
@@ -22,23 +31,25 @@ CMagazine *CMagazine::load(std::ifstream & infile) {
         }else if(factory::startTagInLine(line,"FSK")) {
             this->setAge(atoi(factory::getContent(line,"FSK").c_str()));
         }else if (factory::startTagInLine(line,"Pages")) {
-            this->setSites(atoi(factory::getContent(line,"Pages").c_str()));
-        }else if (factory::startTagInLine(line,"Designer")) {
-            this->Designer= factory::getContent(line,"Designer");
+            this->sites = atoi(factory::getContent(line,"Pages").c_str());
         }
-        else if(factory::endTagInLine(line,"Magazine")) {
+        else if(factory::endTagInLine(line,"CprintedMedium")) {
             break;
         }
     }
     return this;
-}
-
-void CMagazine::print() {
-    CPrintedMedium::print();
-    cout <<"\nDesigner: " << this->Designer << "\n\n";
-}
-
-CMagazine::CMagazine() {
 
 }
 
+CPrintedMedium::~CPrintedMedium() {
+
+}
+
+void CPrintedMedium::print() {
+    CMedium::print();
+    cout << "\nSeiten: " << this->sites;
+}
+
+CPrintedMedium::CPrintedMedium() {
+
+}

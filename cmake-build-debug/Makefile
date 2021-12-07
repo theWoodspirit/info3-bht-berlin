@@ -128,6 +128,30 @@ ueb03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/build
 .PHONY : ueb03/fast
 
+cMedium/CAudiobook.obj: cMedium/CAudiobook.cpp.obj
+.PHONY : cMedium/CAudiobook.obj
+
+# target to build an object file
+cMedium/CAudiobook.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CAudiobook.cpp.obj
+.PHONY : cMedium/CAudiobook.cpp.obj
+
+cMedium/CAudiobook.i: cMedium/CAudiobook.cpp.i
+.PHONY : cMedium/CAudiobook.i
+
+# target to preprocess a source file
+cMedium/CAudiobook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CAudiobook.cpp.i
+.PHONY : cMedium/CAudiobook.cpp.i
+
+cMedium/CAudiobook.s: cMedium/CAudiobook.cpp.s
+.PHONY : cMedium/CAudiobook.s
+
+# target to generate assembly for a file
+cMedium/CAudiobook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CAudiobook.cpp.s
+.PHONY : cMedium/CAudiobook.cpp.s
+
 cMedium/CCD.obj: cMedium/CCD.cpp.obj
 .PHONY : cMedium/CCD.obj
 
@@ -176,30 +200,6 @@ cMedium/CDVD.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CDVD.cpp.s
 .PHONY : cMedium/CDVD.cpp.s
 
-cMedium/CPrintedMedium.obj: cMedium/CPrintedMedium.cpp.obj
-.PHONY : cMedium/CPrintedMedium.obj
-
-# target to build an object file
-cMedium/CPrintedMedium.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium.cpp.obj
-.PHONY : cMedium/CPrintedMedium.cpp.obj
-
-cMedium/CPrintedMedium.i: cMedium/CPrintedMedium.cpp.i
-.PHONY : cMedium/CPrintedMedium.i
-
-# target to preprocess a source file
-cMedium/CPrintedMedium.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium.cpp.i
-.PHONY : cMedium/CPrintedMedium.cpp.i
-
-cMedium/CPrintedMedium.s: cMedium/CPrintedMedium.cpp.s
-.PHONY : cMedium/CPrintedMedium.s
-
-# target to generate assembly for a file
-cMedium/CPrintedMedium.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium.cpp.s
-.PHONY : cMedium/CPrintedMedium.cpp.s
-
 cMedium/CPrintedMedium/CBook.obj: cMedium/CPrintedMedium/CBook.cpp.obj
 .PHONY : cMedium/CPrintedMedium/CBook.obj
 
@@ -247,6 +247,30 @@ cMedium/CPrintedMedium/CMagazine.s: cMedium/CPrintedMedium/CMagazine.cpp.s
 cMedium/CPrintedMedium/CMagazine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CMagazine.cpp.s
 .PHONY : cMedium/CPrintedMedium/CMagazine.cpp.s
+
+cMedium/CPrintedMedium/CPrintedMedium.obj: cMedium/CPrintedMedium/CPrintedMedium.cpp.obj
+.PHONY : cMedium/CPrintedMedium/CPrintedMedium.obj
+
+# target to build an object file
+cMedium/CPrintedMedium/CPrintedMedium.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CPrintedMedium.cpp.obj
+.PHONY : cMedium/CPrintedMedium/CPrintedMedium.cpp.obj
+
+cMedium/CPrintedMedium/CPrintedMedium.i: cMedium/CPrintedMedium/CPrintedMedium.cpp.i
+.PHONY : cMedium/CPrintedMedium/CPrintedMedium.i
+
+# target to preprocess a source file
+cMedium/CPrintedMedium/CPrintedMedium.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CPrintedMedium.cpp.i
+.PHONY : cMedium/CPrintedMedium/CPrintedMedium.cpp.i
+
+cMedium/CPrintedMedium/CPrintedMedium.s: cMedium/CPrintedMedium/CPrintedMedium.cpp.s
+.PHONY : cMedium/CPrintedMedium/CPrintedMedium.s
+
+# target to generate assembly for a file
+cMedium/CPrintedMedium/CPrintedMedium.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CPrintedMedium.cpp.s
+.PHONY : cMedium/CPrintedMedium/CPrintedMedium.cpp.s
 
 cMedium/cmedium.obj: cMedium/cmedium.cpp.obj
 .PHONY : cMedium/cmedium.obj
@@ -521,21 +545,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ueb03
+	@echo ... cMedium/CAudiobook.obj
+	@echo ... cMedium/CAudiobook.i
+	@echo ... cMedium/CAudiobook.s
 	@echo ... cMedium/CCD.obj
 	@echo ... cMedium/CCD.i
 	@echo ... cMedium/CCD.s
 	@echo ... cMedium/CDVD.obj
 	@echo ... cMedium/CDVD.i
 	@echo ... cMedium/CDVD.s
-	@echo ... cMedium/CPrintedMedium.obj
-	@echo ... cMedium/CPrintedMedium.i
-	@echo ... cMedium/CPrintedMedium.s
 	@echo ... cMedium/CPrintedMedium/CBook.obj
 	@echo ... cMedium/CPrintedMedium/CBook.i
 	@echo ... cMedium/CPrintedMedium/CBook.s
 	@echo ... cMedium/CPrintedMedium/CMagazine.obj
 	@echo ... cMedium/CPrintedMedium/CMagazine.i
 	@echo ... cMedium/CPrintedMedium/CMagazine.s
+	@echo ... cMedium/CPrintedMedium/CPrintedMedium.obj
+	@echo ... cMedium/CPrintedMedium/CPrintedMedium.i
+	@echo ... cMedium/CPrintedMedium/CPrintedMedium.s
 	@echo ... cMedium/cmedium.obj
 	@echo ... cMedium/cmedium.i
 	@echo ... cMedium/cmedium.s

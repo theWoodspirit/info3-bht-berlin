@@ -23,6 +23,12 @@ public:
     void print();
     CPerson * load(ifstream &infile);
     CPerson();
+
+
+
+    //####################################################
+    // setter / getter
+    //####################################################
     string getName(){return name;};
     CAddress getAddress(){return address;};
     CDate getbday(){return bday;};

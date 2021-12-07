@@ -12,24 +12,39 @@ using namespace std;
 
 class CMedium
 {
-
-
-public:
-    enum Status { verfuegbar, ausgeliehen, bestellt, reserviert };
+private:
     string title;
     string signature;
     CLocation loc;
     int agerating;
-    Status EnumOfIndex(int i) { return static_cast<CMedium::Status>(i); };
-    Status status;
-    CMedium();
 
+public:
+    enum Status { verfuegbar, ausgeliehen, bestellt, reserviert };
+
+
+    CMedium();
+    ~CMedium();
     CMedium(string, string, CLocation, int, Status);
     CMedium * load(ifstream & infile);
-    ~CMedium();
-    //void setMedium(string, string, CLocation, int, Status);
+
+    Status status;
+    Status EnumOfIndex(int i) { return static_cast<CMedium::Status>(i); };
     void getStatus();
+
     void print();
+
+    //####################################################
+    // setter / getter
+    //####################################################
+    void setTitle(string title){this->title = title;};
+    void setSig(string sig){this->signature = sig;};
+    void setLoc(CLocation loc){this->loc = loc;};
+    void setAge(int a){this->agerating = a;};
+
+    string getTitle(){return title;};
+    string getSig(){return signature;};
+    CLocation getLoc(){return loc;};
+    int getAge(){return agerating;};
 
 };
 

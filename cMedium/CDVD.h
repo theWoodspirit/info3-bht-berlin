@@ -16,14 +16,17 @@ class CDVD : public CMedium
 {
 public:
     CDVD();
-    CDVD(string, string, CLocation, int, Status, string, time_t);
+
+
+    CDVD(string t, string s, CLocation l, int a, Status st, string actor, tm length);
+
     CDVD* load(std::ifstream &);
     ~CDVD();
     void print();
 
 private:
     string actor;
-    time_t length;
+    tm length;
 
 };
 #endif //INFO3_CDVD_H

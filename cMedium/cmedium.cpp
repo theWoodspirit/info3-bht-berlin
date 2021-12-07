@@ -72,7 +72,7 @@ void CMedium::print()
     loc.print();
     cout << endl << "FSK:      freigegeben ab " << agerating << " Jahren" << endl << "Status:   ";
     getStatus();
-    cout << "\n\n";
+
 }
 
 CMedium::CMedium() {
