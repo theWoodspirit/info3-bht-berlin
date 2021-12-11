@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2021.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Uni\3.Semester\inf3Github\info3
+CMAKE_SOURCE_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Uni\3.Semester\inf3Github\info3\cmake-build-release
+CMAKE_BINARY_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-release"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\Uni\3.Semester\inf3Github\info3\cmake-build-release
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Uni\3.Semester\inf3Github\info3\cmake-build-release\CMakeFiles D:\Uni\3.Semester\inf3Github\info3\cmake-build-release\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-release\CMakeFiles" "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-release\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Uni\3.Semester\inf3Github\info3\cmake-build-release\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-release\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,30 @@ ueb03: cmake_check_build_system
 ueb03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/build
 .PHONY : ueb03/fast
+
+CMedium.obj: CMedium.cpp.obj
+.PHONY : CMedium.obj
+
+# target to build an object file
+CMedium.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/CMedium.cpp.obj
+.PHONY : CMedium.cpp.obj
+
+CMedium.i: CMedium.cpp.i
+.PHONY : CMedium.i
+
+# target to preprocess a source file
+CMedium.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/CMedium.cpp.i
+.PHONY : CMedium.cpp.i
+
+CMedium.s: CMedium.cpp.s
+.PHONY : CMedium.s
+
+# target to generate assembly for a file
+CMedium.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/CMedium.cpp.s
+.PHONY : CMedium.cpp.s
 
 caddress.obj: caddress.cpp.obj
 .PHONY : caddress.obj
@@ -248,30 +272,6 @@ clocation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clocation.cpp.s
 .PHONY : clocation.cpp.s
 
-cmedium.obj: cmedium.cpp.obj
-.PHONY : cmedium.obj
-
-# target to build an object file
-cmedium.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cmedium.cpp.obj
-.PHONY : cmedium.cpp.obj
-
-cmedium.i: cmedium.cpp.i
-.PHONY : cmedium.i
-
-# target to preprocess a source file
-cmedium.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cmedium.cpp.i
-.PHONY : cmedium.cpp.i
-
-cmedium.s: cmedium.cpp.s
-.PHONY : cmedium.s
-
-# target to generate assembly for a file
-cmedium.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cmedium.cpp.s
-.PHONY : cmedium.cpp.s
-
 cperson.obj: cperson.cpp.obj
 .PHONY : cperson.obj
 
@@ -353,6 +353,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ueb03
+	@echo ... CMedium.obj
+	@echo ... CMedium.i
+	@echo ... CMedium.s
 	@echo ... caddress.obj
 	@echo ... caddress.i
 	@echo ... caddress.s
@@ -368,9 +371,6 @@ help:
 	@echo ... clocation.obj
 	@echo ... clocation.i
 	@echo ... clocation.s
-	@echo ... cmedium.obj
-	@echo ... cmedium.i
-	@echo ... cmedium.s
 	@echo ... cperson.obj
 	@echo ... cperson.i
 	@echo ... cperson.s

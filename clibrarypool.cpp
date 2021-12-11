@@ -8,7 +8,7 @@ CLibraryPool::CLibraryPool(string Name, CPerson *Manager)
 }
 
 CLibraryPool::CLibraryPool(string fileName) {
-    ifstream infile("D:\\Uni\\3.Semester\\inf3Github\\info3\\data.xml");
+    ifstream infile("data.xml");
     string line;
     string s;
 

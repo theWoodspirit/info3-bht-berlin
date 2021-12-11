@@ -6,19 +6,79 @@
 
 #IncludeRegexTransform: 
 
-D:/Uni/3.Semester/inf3Github/info3/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.cpp
+iostream
+-
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
+caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+cstdlib
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.h
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.h
+string
+-
+clocation.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.cpp
+caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstdlib
+-
+cstring
+-
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
 string
 -
 
-D:/Uni/3.Semester/inf3Github/info3/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.cpp
+cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
+ctime
+-
+string
+-
+iostream
+-
+fstream
+-
+cstdlib
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cstdlib
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
 ctime
 -
 string
 -
 
-D:/Uni/3.Semester/inf3Github/info3/clibrary.cpp
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.cpp
 clibrary.h
-D:/Uni/3.Semester/inf3Github/info3/clibrary.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.h
 iostream
 -
 string
@@ -30,9 +90,9 @@ fstream
 cstring
 -
 factory.h
-D:/Uni/3.Semester/inf3Github/info3/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
 
-D:/Uni/3.Semester/inf3Github/info3/clibrary.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.h
 string
 -
 vector
@@ -42,23 +102,43 @@ iostream
 fstream
 -
 caddress.h
-D:/Uni/3.Semester/inf3Github/info3/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
 cperson.h
-D:/Uni/3.Semester/inf3Github/info3/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
 cmedium.h
-D:/Uni/3.Semester/inf3Github/info3/cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.h
 factory.h
-D:/Uni/3.Semester/inf3Github/info3/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
 
-D:/Uni/3.Semester/inf3Github/info3/clocation.cpp
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.cpp
+cstring
+-
+clibrarypool.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.h
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.h
+iostream
+-
+string
+-
+vector
+-
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
+clibrary.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.cpp
 clocation.h
-D:/Uni/3.Semester/inf3Github/info3/clocation.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h
 string
 -
 iostream
 -
 caddress.h
-D:/Uni/3.Semester/inf3Github/info3/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
 string
 -
 iostream
@@ -68,29 +148,53 @@ fstream
 cstring
 -
 factory.h
-D:/Uni/3.Semester/inf3Github/info3/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
 
-D:/Uni/3.Semester/inf3Github/info3/clocation.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h
 string
 -
 
-D:/Uni/3.Semester/inf3Github/info3/cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.cpp
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
+caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
 string
 -
-clocation.h
-D:/Uni/3.Semester/inf3Github/info3/clocation.h
+iostream
+-
+fstream
+-
+cstring
+-
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
 
-D:/Uni/3.Semester/inf3Github/info3/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
 string
 -
 caddress.h
-D:/Uni/3.Semester/inf3Github/info3/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
 cdate.h
-D:/Uni/3.Semester/inf3Github/info3/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
 fstream
 -
 
-D:/Uni/3.Semester/inf3Github/info3/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.cpp
+cstring
+-
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
 string
-D:/Uni/3.Semester/inf3Github/info3/string
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/string
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+string
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/string
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/main.cpp
+iostream
+-
+clibrarypool.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.h
 
