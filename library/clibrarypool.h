@@ -7,22 +7,25 @@
 
 using namespace std;
 
-#include "cperson.h"
+#include "../cPerson/cperson.h"
 #include "clibrary.h"
 
 class CLibraryPool
 {
+
+
     string name;
-    CPerson *manager;
+    CEmployee *manager;
     vector<CLibrary *> branch;
-    vector<CPerson *> customer;
+    vector<CCustomer*> customer;
 
 public:
-    CLibraryPool(string, CPerson *);
+    CLibraryPool(string Name, CEmployee *Manager);
     CLibraryPool(string path);
     void add(CLibrary *);
-    void add(CPerson *);
+    void add(CCustomer *);
     void print();
+    ~CLibraryPool();
 };
 
 #endif //INFO3_CLIBRARYPOOL_H

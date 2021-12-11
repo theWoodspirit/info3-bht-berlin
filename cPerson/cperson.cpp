@@ -1,10 +1,10 @@
 #include "cperson.h"
-#include "caddress.h"
+#include "../helperClasses/caddress.h"
 #include <string>
 #include <iostream>
 #include <fstream>
 #include <cstring>
-#include "factory.h"
+#include "../helperClasses/factory.h"
 using namespace std;
 
 CPerson::CPerson(string Name, CAddress Address, CDate birthday)

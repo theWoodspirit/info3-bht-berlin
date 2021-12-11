@@ -1,6 +1,6 @@
 #include <iostream>
-#include "cperson.h"
-#include "caddress.h"
+#include "../cPerson/cperson.h"
+#include "../helperClasses/caddress.h"
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -10,7 +10,7 @@
 using namespace std;
 
 #include "cmedium.h"
-#include "factory.h"
+#include "../helperClasses/factory.h"
 
 CMedium::CMedium(string t, string s, CLocation l, int a, Status st)
 : title(t), signature(s), loc(l), agerating(a), status(st)
@@ -41,6 +41,7 @@ CMedium* CMedium::load(std::ifstream& infile) {
 CMedium::~CMedium()
 {
     cout << "Das Medium '" << title << "' mit der Signatur '" << signature << "' wird vernichtet!" << endl;
+
 }
 
 void CMedium::getStatus()
@@ -72,7 +73,7 @@ void CMedium::print()
     loc.print();
     cout << endl << "FSK:      freigegeben ab " << agerating << " Jahren" << endl << "Status:   ";
     getStatus();
-    cout << "\n\n";
+
 }
 
 CMedium::CMedium() {
