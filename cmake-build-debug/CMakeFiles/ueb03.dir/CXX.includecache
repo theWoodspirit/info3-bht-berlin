@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< Updated upstream
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.cpp
 iostream
 -
@@ -34,6 +35,8 @@ string
 clocation.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h
 
+=======
+>>>>>>> Stashed changes
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.cpp
 caddress.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
@@ -67,8 +70,11 @@ fstream
 -
 cstdlib
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cstdlib
+<<<<<<< Updated upstream
 factory.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+=======
+>>>>>>> Stashed changes
 
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
 ctime
@@ -106,7 +112,11 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 cperson.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
 cmedium.h
+<<<<<<< Updated upstream
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.h
+>>>>>>> Stashed changes
 factory.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
 
@@ -154,6 +164,37 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 string
 -
 
+<<<<<<< Updated upstream
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.cpp
+iostream
+-
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
+caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+cstdlib
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.h
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.h
+string
+-
+clocation.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h
+
+>>>>>>> Stashed changes
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.cpp
 cperson.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h

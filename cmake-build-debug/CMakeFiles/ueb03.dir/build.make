@@ -143,6 +143,7 @@ CMakeFiles/ueb03.dir/clocation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/clocation.cpp.s"
 	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\clocation.cpp" -o CMakeFiles\ueb03.dir\clocation.cpp.s
 
+<<<<<<< Updated upstream
 CMakeFiles/ueb03.dir/CMedium.cpp.obj: CMakeFiles/ueb03.dir/flags.make
 CMakeFiles/ueb03.dir/CMedium.cpp.obj: ../CMedium.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ueb03.dir/CMedium.cpp.obj"
@@ -155,6 +156,20 @@ CMakeFiles/ueb03.dir/CMedium.cpp.i: cmake_force
 CMakeFiles/ueb03.dir/CMedium.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/CMedium.cpp.s"
 	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\CMedium.cpp" -o CMakeFiles\ueb03.dir\CMedium.cpp.s
+=======
+CMakeFiles/ueb03.dir/cmedium.cpp.obj: CMakeFiles/ueb03.dir/flags.make
+CMakeFiles/ueb03.dir/cmedium.cpp.obj: ../cmedium.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ueb03.dir/cmedium.cpp.obj"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ueb03.dir\cmedium.cpp.obj -c "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmedium.cpp"
+
+CMakeFiles/ueb03.dir/cmedium.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ueb03.dir/cmedium.cpp.i"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmedium.cpp" > CMakeFiles\ueb03.dir\cmedium.cpp.i
+
+CMakeFiles/ueb03.dir/cmedium.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ueb03.dir/cmedium.cpp.s"
+	C:\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmedium.cpp" -o CMakeFiles\ueb03.dir\cmedium.cpp.s
+>>>>>>> Stashed changes
 
 CMakeFiles/ueb03.dir/cperson.cpp.obj: CMakeFiles/ueb03.dir/flags.make
 CMakeFiles/ueb03.dir/cperson.cpp.obj: ../cperson.cpp
@@ -190,7 +205,11 @@ ueb03_OBJECTS = \
 "CMakeFiles/ueb03.dir/clibrary.cpp.obj" \
 "CMakeFiles/ueb03.dir/clibrarypool.cpp.obj" \
 "CMakeFiles/ueb03.dir/clocation.cpp.obj" \
+<<<<<<< Updated upstream
 "CMakeFiles/ueb03.dir/CMedium.cpp.obj" \
+=======
+"CMakeFiles/ueb03.dir/cmedium.cpp.obj" \
+>>>>>>> Stashed changes
 "CMakeFiles/ueb03.dir/cperson.cpp.obj" \
 "CMakeFiles/ueb03.dir/factory.cpp.obj"
 
@@ -203,7 +222,11 @@ ueb03.exe: CMakeFiles/ueb03.dir/cdate.cpp.obj
 ueb03.exe: CMakeFiles/ueb03.dir/clibrary.cpp.obj
 ueb03.exe: CMakeFiles/ueb03.dir/clibrarypool.cpp.obj
 ueb03.exe: CMakeFiles/ueb03.dir/clocation.cpp.obj
+<<<<<<< Updated upstream
 ueb03.exe: CMakeFiles/ueb03.dir/CMedium.cpp.obj
+=======
+ueb03.exe: CMakeFiles/ueb03.dir/cmedium.cpp.obj
+>>>>>>> Stashed changes
 ueb03.exe: CMakeFiles/ueb03.dir/cperson.cpp.obj
 ueb03.exe: CMakeFiles/ueb03.dir/factory.cpp.obj
 ueb03.exe: CMakeFiles/ueb03.dir/build.make

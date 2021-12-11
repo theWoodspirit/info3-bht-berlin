@@ -128,6 +128,7 @@ ueb03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/build
 .PHONY : ueb03/fast
 
+<<<<<<< Updated upstream
 CMedium.obj: CMedium.cpp.obj
 .PHONY : CMedium.obj
 
@@ -152,6 +153,8 @@ CMedium.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/CMedium.cpp.s
 .PHONY : CMedium.cpp.s
 
+=======
+>>>>>>> Stashed changes
 caddress.obj: caddress.cpp.obj
 .PHONY : caddress.obj
 
@@ -272,6 +275,33 @@ clocation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clocation.cpp.s
 .PHONY : clocation.cpp.s
 
+<<<<<<< Updated upstream
+=======
+cmedium.obj: cmedium.cpp.obj
+.PHONY : cmedium.obj
+
+# target to build an object file
+cmedium.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cmedium.cpp.obj
+.PHONY : cmedium.cpp.obj
+
+cmedium.i: cmedium.cpp.i
+.PHONY : cmedium.i
+
+# target to preprocess a source file
+cmedium.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cmedium.cpp.i
+.PHONY : cmedium.cpp.i
+
+cmedium.s: cmedium.cpp.s
+.PHONY : cmedium.s
+
+# target to generate assembly for a file
+cmedium.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/cmedium.cpp.s
+.PHONY : cmedium.cpp.s
+
+>>>>>>> Stashed changes
 cperson.obj: cperson.cpp.obj
 .PHONY : cperson.obj
 
@@ -353,9 +383,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ueb03
+<<<<<<< Updated upstream
 	@echo ... CMedium.obj
 	@echo ... CMedium.i
 	@echo ... CMedium.s
+=======
+>>>>>>> Stashed changes
 	@echo ... caddress.obj
 	@echo ... caddress.i
 	@echo ... caddress.s
@@ -371,6 +404,12 @@ help:
 	@echo ... clocation.obj
 	@echo ... clocation.i
 	@echo ... clocation.s
+<<<<<<< Updated upstream
+=======
+	@echo ... cmedium.obj
+	@echo ... cmedium.i
+	@echo ... cmedium.s
+>>>>>>> Stashed changes
 	@echo ... cperson.obj
 	@echo ... cperson.i
 	@echo ... cperson.s

@@ -1,10 +1,17 @@
 file(REMOVE_RECURSE
+<<<<<<< Updated upstream
   "CMakeFiles/ueb03.dir/CMedium.cpp.obj"
+=======
+>>>>>>> Stashed changes
   "CMakeFiles/ueb03.dir/caddress.cpp.obj"
   "CMakeFiles/ueb03.dir/cdate.cpp.obj"
   "CMakeFiles/ueb03.dir/clibrary.cpp.obj"
   "CMakeFiles/ueb03.dir/clibrarypool.cpp.obj"
   "CMakeFiles/ueb03.dir/clocation.cpp.obj"
+<<<<<<< Updated upstream
+=======
+  "CMakeFiles/ueb03.dir/cmedium.cpp.obj"
+>>>>>>> Stashed changes
   "CMakeFiles/ueb03.dir/cperson.cpp.obj"
   "CMakeFiles/ueb03.dir/factory.cpp.obj"
   "CMakeFiles/ueb03.dir/main.cpp.obj"

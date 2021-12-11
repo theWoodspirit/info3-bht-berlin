@@ -80,12 +80,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< Updated upstream
 		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.cpp">
 			<Option target="ueb03"/>
 		</Unit>
 		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.h">
 			<Option target="ueb03"/>
 		</Unit>
+=======
+>>>>>>> Stashed changes
 		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.cpp">
 			<Option target="ueb03"/>
 		</Unit>
@@ -116,6 +119,15 @@
 		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h">
 			<Option target="ueb03"/>
 		</Unit>
+<<<<<<< Updated upstream
+=======
+		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.h">
+			<Option target="ueb03"/>
+		</Unit>
+>>>>>>> Stashed changes
 		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.cpp">
 			<Option target="ueb03"/>
 		</Unit>
