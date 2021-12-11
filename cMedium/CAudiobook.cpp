@@ -45,12 +45,12 @@ CAudiobook::CAudiobook() {
 }
 
 void CAudiobook::print() {
-    cout << "\n";
+    //cout << "\n";
     CCD::print();
     cout << "Autor: " << CBook::autor << endl;
 }
 
 CAudiobook::~CAudiobook() {
-    cout << "Audiobook '" << CCD::getTitle() << "' wurde geloescht";
+    cout << "Das Audiobook '" << CCD::getTitle() << "' wurde geloescht";
 }
 

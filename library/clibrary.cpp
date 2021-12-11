@@ -62,7 +62,8 @@ CLibrary::~CLibrary()
 
 void CLibrary::print()
 {
-    int i;
+    size_t i;
+    int j=1;
 
     cout << endl << "Buecherei Filiale " << name << endl;
     adr.print();
@@ -75,6 +76,8 @@ void CLibrary::print()
 
     for(i = 0; i < pMediums.size(); i++)
     {
+       cout << "Medium Nr. " << j << endl;
+       j++;
         if (dynamic_cast<CCD *>(pMediums.at(i))) {
             CCD * x = dynamic_cast<CCD *>(pMediums.at(i));
             x->print();
@@ -94,6 +97,8 @@ void CLibrary::print()
     }
     for(i = 0; i < pAudioBooks.size(); i++)
     {
+       cout << "Medium Nr. " << j << endl;
+       j++;
         pAudioBooks.at(i)->print();
     }
 }

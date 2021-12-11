@@ -54,5 +54,5 @@ CCD::~CCD() {
 void CCD::print() {
     CMedium::print();
     cout << "\nInterpret: " << interpret;
-    cout << "\nTitel: " << tracksSize << endl;
+    cout << "\nAnzahl Tracks: " << tracksSize << endl << endl;
 }
