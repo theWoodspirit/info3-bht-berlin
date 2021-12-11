@@ -56,7 +56,7 @@ CDVD* CDVD::load(std::ifstream& infile) {
 
 CDVD::~CDVD()
 {
-    cout << "Das Medium '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
+    cout << "Die DVD '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
 }
 
 void CDVD::print()

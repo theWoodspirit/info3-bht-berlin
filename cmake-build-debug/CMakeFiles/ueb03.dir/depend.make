@@ -8,7 +8,8 @@ CMakeFiles/ueb03.dir/cMedium/CAudiobook.cpp.obj: \
  ../cMedium/CPrintedMedium/CBook.h \
  ../cMedium/CPrintedMedium/CPrintedMedium.h \
  ../cMedium/cmedium.h \
- ../helperClasses/clocation.h
+ ../helperClasses/clocation.h \
+ ../helperClasses/factory.h
 CMakeFiles/ueb03.dir/cMedium/CCD.cpp.obj: \
  ../cMedium/CCD.cpp \
  ../cMedium/CCD.h \
@@ -60,6 +61,7 @@ CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj: \
  ../helperClasses/cdate.h \
  ../helperClasses/factory.h
 CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.obj: \
+ ../cPerson/CCustomer.h \
  ../cPerson/CEmployee.cpp \
  ../cPerson/CEmployee.h \
  ../cPerson/cperson.h \
@@ -89,6 +91,7 @@ CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj: \
  ../helperClasses/factory.cpp \
  ../helperClasses/factory.h
 CMakeFiles/ueb03.dir/library/clibrary.cpp.obj: \
+ ../cMedium/CAudiobook.h \
  ../cMedium/CCD.h \
  ../cMedium/CDVD.h \
  ../cMedium/CPrintedMedium/CBook.h \
@@ -105,6 +108,7 @@ CMakeFiles/ueb03.dir/library/clibrary.cpp.obj: \
  ../library/clibrary.cpp \
  ../library/clibrary.h
 CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj: \
+ ../cMedium/CAudiobook.h \
  ../cMedium/CCD.h \
  ../cMedium/CDVD.h \
  ../cMedium/CPrintedMedium/CBook.h \
@@ -122,6 +126,7 @@ CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj: \
  ../library/clibrarypool.cpp \
  ../library/clibrarypool.h
 CMakeFiles/ueb03.dir/main.cpp.obj: \
+ ../cMedium/CAudiobook.h \
  ../cMedium/CCD.h \
  ../cMedium/CDVD.h \
  ../cMedium/CPrintedMedium/CBook.h \

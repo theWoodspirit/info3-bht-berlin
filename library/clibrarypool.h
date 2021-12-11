@@ -19,13 +19,13 @@ class CLibraryPool
     vector<CLibrary *> branch;
     vector<CCustomer*> customer;
 
-
 public:
     CLibraryPool(string Name, CEmployee *Manager);
     CLibraryPool(string path);
     void add(CLibrary *);
     void add(CCustomer *);
     void print();
+    ~CLibraryPool();
 };
 
 #endif //INFO3_CLIBRARYPOOL_H

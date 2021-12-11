@@ -9,9 +9,10 @@
 #include "CEmployee.h"
 using namespace std;
 
-CEmployee::CEmployee(string Name, CAddress Address, CDate birthday, string persoNr): CPerson(Name,Address,birthday)
+CEmployee::CEmployee(string Name, CAddress Address, CDate birthday, string persoNr, string customerNr): CPerson(Name,Address,birthday)
 {
     this->EmployeeNr = persoNr;
+    this->setCustomerNr(customerNr);
 
 }
 CEmployee::CEmployee()
@@ -23,17 +24,19 @@ CEmployee * CEmployee::load(std::ifstream& infile) {
 
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Name")) {
-            setName(factory::getContent(line,"Name"));
+            CCustomer::setName(factory::getContent(line,"Name"));
         } else if (factory::startTagInLine(line,"Birthday")) {
             CDate date;
             date.load(infile);
-            setBday(date);
+            CCustomer::setBday(date);
         } else if(factory::startTagInLine(line,"Address")) {
             CAddress adr;
             adr.load(infile);
-            setAdress(adr);
+            CCustomer::setAdress(adr);
         } else if (factory::startTagInLine(line,"EmployeeNr")) {
             this->EmployeeNr = factory::getContent(line,"EmployeeNr").c_str();
+        }else if (factory::startTagInLine(line,"CustomerNr")) {
+             CCustomer::setCustomerNr(factory::getContent(line,"CustomerNr").c_str());
         } else if(factory::endTagInLine(line,"Employee")) {
             break;
         }
@@ -43,14 +46,12 @@ CEmployee * CEmployee::load(std::ifstream& infile) {
 
 CEmployee::~CEmployee()
 {
-    cout << "Die Person '" << this->getName() << "' wird vernichtet!" << endl;
+    cout << "Der Angestellte: " << getName() << " wurde vernichtet. " << endl;
 }
 
 void CEmployee::print()
 {
-    cout << this->getName() << endl;
-    this->getAddress().print();
-    cout << endl;
-    this->getbday().print();
-    cout << endl << EmployeeNr;
+    CCustomer::print();
+    cout << endl << "PersonalNr.: "<<  this->EmployeeNr << endl;
+
 }

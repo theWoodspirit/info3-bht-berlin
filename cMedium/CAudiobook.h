@@ -1,12 +1,3 @@
-//
-// Created by marku on 07.12.2021.
-//
-
-#ifndef INFO3_CAUDIOBOOK_H
-#define INFO3_CAUDIOBOOK_H
-//
-// Created by marku on 29.11.2021.
-//
 
 #ifndef INFO3_CAudiobook_H
 #define INFO3_CAudiobook_H
@@ -20,13 +11,13 @@ using std::string;
 #include "CPrintedMedium/CBook.h"
 #include "CCD.h"
 
-class CAudiobook : public CBook,public CCD
+class CAudiobook : virtual public CCD,virtual public CBook
 {
 public:
     CAudiobook();
 
 
-    //CAudiobook(string t, string s, CLocation l, int a, Status st, );
+    //CAudiobook(string t, string s, CLocation l, int a, Status st, string inter, int titleNr, string autor);
 
     CAudiobook* load(std::ifstream &);
     ~CAudiobook();
@@ -37,4 +28,4 @@ private:
 };
 #endif //INFO3_CAudiobook_H
 
-#endif //INFO3_CAUDIOBOOK_H
+

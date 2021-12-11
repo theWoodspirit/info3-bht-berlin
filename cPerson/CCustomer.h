@@ -12,12 +12,12 @@
 using std::string;
 using namespace std;
 
-class CCustomer : public CPerson {
+class CCustomer : virtual public CPerson {
 private:
     string CustomerNr;
 public:
     CCustomer(string, CAddress, CDate, string); // Konstruktor
-    ~CCustomer();
+    virtual ~CCustomer();
 
     void print();
 

@@ -48,11 +48,11 @@ CCD *CCD::load(ifstream & infile) {
 }
 
 CCD::~CCD() {
-
+    cout << "Die CCD '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
 }
 
 void CCD::print() {
     CMedium::print();
     cout << "\nInterpret: " << interpret;
-    cout << "\nTitel:" << tracksSize;
+    cout << "\nTitel: " << tracksSize << endl;
 }

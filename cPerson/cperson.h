@@ -19,7 +19,7 @@ private:
 
 public:
     CPerson(string, CAddress , CDate); // Konstruktor
-    ~CPerson();
+    virtual ~CPerson();
     void print();
     CPerson * load(ifstream &infile);
     CPerson();

@@ -42,3 +42,7 @@ CMagazine::CMagazine() {
 
 }
 
+CMagazine::~CMagazine() {
+    cout << "Magazin " << getTitle() << "mit der Signatur '"<< getSig() <<"' wurde geloescht." << endl;
+}
+

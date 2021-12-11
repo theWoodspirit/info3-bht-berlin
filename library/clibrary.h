@@ -17,6 +17,7 @@ using namespace std;
 #include "../cMedium/CPrintedMedium/CBook.h"
 #include "../cMedium/CDVD.h"
 #include "../cMedium/CCD.h"
+#include "../cMedium/CAudiobook.h"
 #include "../cMedium/CPrintedMedium/CMagazine.h"
 
 
@@ -25,11 +26,8 @@ class CLibrary {
     string name;
     CAddress adr;
     CEmployee *manager;
-    vector<CBook *> pBooks;
-    vector<CDVD *> pDVDs;
-    //vector<a *> pCDs;
-    vector<CMagazine *> pMagazine;
-
+    vector<CMedium *> pMediums;
+    vector<CAudiobook*> pAudioBooks;
 
 public:
     CLibrary(string, CAddress, CEmployee *);
@@ -38,10 +36,11 @@ public:
 
     ~CLibrary();
 
-    void add(CBook * book){this->pBooks.push_back(book);};
-    void add(CDVD * dvd){this->pDVDs.push_back(dvd);};
-    void add(CMagazine * mag ){this->pMagazine.push_back(mag);};
-
+    void add(CBook * book){this->pMediums.push_back(book);};
+    void add(CDVD * dvd){this->pMediums.push_back(dvd);};
+    void add(CMagazine * mag ){this->pMediums.push_back(mag);};
+    void add(CCD * cd ){this->pMediums.push_back(cd);};
+    void add(CAudiobook * cd ){this->pAudioBooks.push_back(cd);};
     void print();
 
     CLibrary * load(ifstream &infile);

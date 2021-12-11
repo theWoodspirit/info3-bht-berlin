@@ -8,10 +8,12 @@ CLibraryPool::CLibraryPool(string Name, CEmployee *Manager)
 }
 
 CLibraryPool::CLibraryPool(string fileName) {
-    ifstream infile("data.xml");
+    ifstream infile(fileName.c_str());
+    cout << "Datei '"<< fileName << "' wird geoeffnet" << endl;
     string line;
     string s;
-    //int cnt = 0;
+
+    cout << "Datei wird eingelesen" << endl;
     while (std::getline(infile, line)) {
         //cout << line << endl;
         //cnt++;
@@ -28,7 +30,8 @@ CLibraryPool::CLibraryPool(string fileName) {
             this->add((new CCustomer)->load(infile));
         }
     }
-    //cout << cnt << endl;
+    infile.close();
+    cout << "Datei wird geschlossen" << endl;
 }
 
 
@@ -52,13 +55,16 @@ void CLibraryPool::print()
     manager->print();
 
     cout << endl << "Zum Buechereiverband gehoeren " << branch.size() << " Filialen:" << endl;
-    for(i = 0; i < branch.size(); i++)
+    for(i = 0; i < branch.size(); i++){
+        cout << "\nBuecherei Nr."<< i+1  << endl;
         branch.at(i)->print();
+    }
 
-    cout << "Die Buecherei hat " << customer.size() << " Kunden:";
+
+    cout << "\nDer Buchereiverband hat " << customer.size() << " Kunden:";
     for(i = 0; i < customer.size(); i++)
     {
-        cout << "\n\n";
+        cout << "\n\nKunde Nr." << i+1 << endl;
         customer.at(i)->print();
     }
 
@@ -68,4 +74,18 @@ void CLibraryPool::print()
 
 void CLibraryPool::add(CCustomer * x) {
     customer.push_back(x);
+}
+
+CLibraryPool::~CLibraryPool() {
+    for(int i = 0; i < this->branch.size(); i++){
+        delete(this->branch.at(i));
+        cout << endl;
+    }
+    for (int i = 0; i < this->customer.size(); ++i) {
+        delete(this->customer.at(i));
+        cout << endl;
+    }
+    delete(this->manager);
+
+    cout << "LibraryPool wurde geloescht." << endl;
 }

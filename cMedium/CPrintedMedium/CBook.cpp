@@ -35,10 +35,14 @@ CBook *CBook::load(std::ifstream & infile) {
 
 void CBook::print() {
     CPrintedMedium::print();
-    cout <<"\nAutor: "<< this->autor << "\n\n";
+    cout <<"\nAutor: "<< this->autor << "\n";
 }
 
 CBook::CBook() {
 
+}
+
+CBook::~CBook() {
+    cout << "Das Buch " << getTitle() << " wurde geloescht" << endl;
 }
 
