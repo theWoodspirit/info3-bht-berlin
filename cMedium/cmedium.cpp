@@ -1,5 +1,4 @@
 #include <iostream>
-<<<<<<< Updated upstream:cMedium/cmedium.cpp
 #include "../cPerson/cperson.h"
 #include "../helperClasses/caddress.h"
 #include <string>
@@ -7,22 +6,16 @@
 #include <fstream>
 #include <cstring>
 #include <cstdlib>
-=======
->>>>>>> Stashed changes:cmedium.cpp
 
 using namespace std;
 
 #include "cmedium.h"
-<<<<<<< Updated upstream:cMedium/cmedium.cpp
 #include "../helperClasses/factory.h"
-=======
->>>>>>> Stashed changes:cmedium.cpp
 
 CMedium::CMedium(string t, string s, CLocation l, int a, Status st)
 : title(t), signature(s), loc(l), agerating(a), status(st)
 {
 }
-<<<<<<< Updated upstream:cMedium/cmedium.cpp
 CMedium* CMedium::load(std::ifstream& infile) {
 
     std::string line;
@@ -44,23 +37,12 @@ CMedium* CMedium::load(std::ifstream& infile) {
     }
     return this;
 }
-=======
->>>>>>> Stashed changes:cmedium.cpp
 
 CMedium::~CMedium()
 {
     cout << "Das Medium '" << title << "' mit der Signatur '" << signature << "' wird vernichtet!" << endl;
 
 }
-
-/*void CMedium:: setMedium(string title, string signature, CLocation loc, int agerating, Status status)
-{
-    this->title = title;
-    this->signature = signature;
-    this->loc = loc;
-    this->agerating = agerating;
-    this->status = status;
-}*/
 
 void CMedium::getStatus()
 {
@@ -91,7 +73,6 @@ void CMedium::print()
     loc.print();
     cout << endl << "FSK:      freigegeben ab " << agerating << " Jahren" << endl << "Status:   ";
     getStatus();
-<<<<<<< Updated upstream:cMedium/cmedium.cpp
 
 }
 
@@ -100,7 +81,3 @@ CMedium::CMedium() {
 }
 
 
-=======
-    cout << "\n\n";
-}
->>>>>>> Stashed changes:cmedium.cpp
