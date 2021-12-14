@@ -49,10 +49,6 @@ CLibrary::~CLibrary()
         delete(pMediums.at(i));
         cout << endl;
     }
-    for(int i = 0; i < this->pAudioBooks.size(); i++){
-        delete(pAudioBooks.at(i));
-        cout << endl;
-    }
     delete(this->manager);
 
     cout << "Bib " << name << " wurde geloescht." << endl;
@@ -71,7 +67,7 @@ void CLibrary::print()
     manager->print();
     cout << endl;
 
-    cout << "\nEs stehen " << pMediums.size() + pAudioBooks.size() << " Medien zur Verfuegung: " << "\n\n";
+    cout << "\nEs stehen " << pMediums.size() << " Medien zur Verfuegung: " << "\n\n";
 
 
     for(i = 0; i < pMediums.size(); i++)
@@ -80,7 +76,14 @@ void CLibrary::print()
        j++;
         if (dynamic_cast<CCD *>(pMediums.at(i))) {
             CCD * x = dynamic_cast<CCD *>(pMediums.at(i));
-            x->print();
+            if(dynamic_cast<CAudiobook*>(x)){
+                CAudiobook * y = dynamic_cast<CAudiobook*>(x);
+                y->print();
+            }
+            else{
+                x->print();
+            }
+
 
         } else if(dynamic_cast<CMagazine *>(pMediums.at(i))){
             CMagazine * x = dynamic_cast<CMagazine *>(pMediums.at(i));
@@ -94,12 +97,7 @@ void CLibrary::print()
             CBook * x = dynamic_cast<CBook *>(pMediums.at(i));
             x->print();
         }
-    }
-    for(i = 0; i < pAudioBooks.size(); i++)
-    {
-       cout << "Medium Nr. " << j << endl;
-       j++;
-        pAudioBooks.at(i)->print();
+        cout << endl;
     }
 }
 

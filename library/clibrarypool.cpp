@@ -24,11 +24,13 @@ CLibraryPool::CLibraryPool(string fileName) {
         else if(factory::startTagInLine(line,"Chairman")){
             this->manager = (new CEmployee)->load(infile);
         }
-        else if(factory::startTagInLine(line,"Library") and !factory::startTagInLine(line,"LibraryPool")){
+        else if((factory::startTagInLine(line,"Library")) && (!factory::startTagInLine(line,"LibraryPool"))){
             this->add((new CLibrary)->load(infile));
         }
         else if(factory::startTagInLine(line,"Customer")){
             this->add((new CCustomer)->load(infile));
+        }else if(factory::startTagInLine(line, "Loan")){
+            readLoan(infile);
         }
     }
     cout << "ok" << endl;
@@ -71,7 +73,12 @@ void CLibraryPool::print()
         customer.at(i)->print();
     }
 
+    cout << "\n Der Buecheiverband hat " << loans.size() << " Medien ausgeliehen.";
 
+    for(int i = 0; i < loans.size(); i++){
+        cout << "\n\n Ausgeliehenes Medium Nr.: " << i+1 << endl;
+        loans.at(i)->print();
+    }
     cout << endl;
 }
 
@@ -94,4 +101,44 @@ CLibraryPool::~CLibraryPool() {
     delete(this->manager);
 
     cout << "LibraryPool wurde geloescht." << endl;
+}
+
+void CLibraryPool::readLoan(ifstream & infile) {
+    std::string line;
+    CPerson * loaner;
+    CMedium * loanedMedium;
+    CDate startDate;
+    string temp;
+    int found = 0;
+    while (std::getline(infile, line)) {
+        if (factory::startTagInLine(line,"Signatur")) {
+            temp = factory::getContent(line, "Signatur");
+            for(int i = 0; i < this->branch.size(); i++){
+                for(int j = 0; j < this->branch.at(i)->getMedia().size(); j++){
+                    if(temp.compare(this->branch.at(i)->getMedia().at(j)->getSig()) == 0){
+                        loanedMedium = this->branch.at(i)->getMedia().at(j);
+                        found ++;
+                    }
+                }
+            }
+        }else if(factory::startTagInLine(line,"CustomerNr")) {
+            temp = factory::getContent(line,"CustomerNr");
+            for(int i = 0; i < this->customer.size(); i++){
+                if(temp.compare(this->customer.at(i)->getCstNr()) == 0){
+                    loaner = this->customer.at(i);
+                    found ++;
+                }
+            }
+        }else if(factory::startTagInLine(line,"Date")) {
+            startDate.load(infile);
+        } else if(factory::endTagInLine(line,"Loan")) {
+            if(found == 2){
+                CLoan * x = new CLoan(loaner,loanedMedium,startDate,startDate);
+                add(x);
+                dynamic_cast<CCustomer*>(loaner)->add(x);
+                loanedMedium->status = loanedMedium->EnumOfIndex(1);
+            }
+            break;
+        }
+    }
 }

@@ -8,6 +8,7 @@
 #include "../helperClasses/caddress.h"
 #include "../helperClasses/cdate.h"
 #include "cperson.h"
+#include "../library/CLoan.h"
 #include <fstream>
 using std::string;
 using namespace std;
@@ -15,6 +16,7 @@ using namespace std;
 class CCustomer : virtual public CPerson {
 private:
     string CustomerNr;
+    vector<CLoan *> myLoans;
 public:
     CCustomer(string, CAddress, CDate, string); // Konstruktor
     virtual ~CCustomer();
@@ -23,8 +25,9 @@ public:
 
     CCustomer *load(ifstream &infile);
 
+    void add(Cloan * loan){myLoans.push_back(loan);};
     CCustomer();
-
+    string getCstNr(){return this->CustomerNr;};
     void setCustomerNr(string Nr) { this->CustomerNr = Nr; };
 };
 #endif //INFO3_CCUSTOMER_H

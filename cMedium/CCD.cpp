@@ -41,6 +41,9 @@ CCD *CCD::load(ifstream & infile) {
             this->tracksSize = atoi(factory::getContent(line,"Tracks").c_str());
         }
         else if(factory::endTagInLine(line,"CD")) {
+            if(getAge() <= 0){
+                setAge(0);
+            }
             break;
         }
     }
@@ -54,5 +57,5 @@ CCD::~CCD() {
 void CCD::print() {
     CMedium::print();
     cout << "\nInterpret: " << interpret;
-    cout << "\nAnzahl Tracks: " << tracksSize << endl << endl;
+    cout << "\nAnzahl Tracks: " << tracksSize << endl;
 }

@@ -9,15 +9,17 @@ using namespace std;
 
 #include "../cPerson/cperson.h"
 #include "clibrary.h"
+#include "CLoan.h"
 
 class CLibraryPool
 {
 
-
+protected:
     string name;
     CEmployee *manager;
     vector<CLibrary *> branch;
     vector<CCustomer*> customer;
+    vector<CLoan*> loans;
 
 public:
     CLibraryPool(string Name, CEmployee *Manager);
@@ -26,6 +28,10 @@ public:
     void add(CCustomer *);
     void print();
     ~CLibraryPool();
+
+    void add(CLoan * loan){loans.push_back(loan);};
+
+    void readLoan(ifstream &infile);
 };
 
 #endif //INFO3_CLIBRARYPOOL_H

@@ -27,8 +27,8 @@ CDate* CDate::load(std::ifstream& infile){
         } else if(factory::startTagInLine(line,"Year")) {
             this->year = atoi(factory::getContent(line,"Year").c_str());
         }
-        else if(factory::endTagInLine(line,"Date")) {
-            break;
+        else if(factory::endTagInLine(line,"Date")){
+            return this;
         }
     }
 }
