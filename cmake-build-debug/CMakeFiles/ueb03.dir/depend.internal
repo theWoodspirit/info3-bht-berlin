@@ -54,20 +54,39 @@ CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
  C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.cpp
  C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h
  C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
 CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.obj
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
  C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
  C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.cpp
  C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h
  C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
 CMakeFiles/ueb03.dir/cPerson/cperson.cpp.obj
  C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.cpp
  C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
@@ -122,6 +141,7 @@ CMakeFiles/ueb03.dir/library/clibrary.cpp.obj
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
  C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+ C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
  C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.cpp
  C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
 CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj

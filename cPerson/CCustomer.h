@@ -25,7 +25,7 @@ public:
 
     CCustomer *load(ifstream &infile);
 
-    void add(Cloan * loan){myLoans.push_back(loan);};
+    void add(CLoan * loan){myLoans.push_back(loan);};
     CCustomer();
     string getCstNr(){return this->CustomerNr;};
     void setCustomerNr(string Nr) { this->CustomerNr = Nr; };
