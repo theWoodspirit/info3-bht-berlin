@@ -16,7 +16,7 @@ using namespace std;
 class CCustomer : virtual public CPerson {
 private:
     string CustomerNr;
-    vector<CLoan *> myLoans;
+    vector<CLoan*> myLoans;
 public:
     CCustomer(string, CAddress, CDate, string); // Konstruktor
     virtual ~CCustomer();

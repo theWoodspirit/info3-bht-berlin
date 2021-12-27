@@ -14,17 +14,17 @@
 using std::string;
 using namespace std;
 
-class CEmployee : virtual public CPerson,virtual public CCustomer
-{
-private:
-    string EmployeeNr;
-public:
-    CEmployee(string, CAddress , CDate, string, string); // Konstruktor
-    ~CEmployee();
-    void print();
-    CEmployee * load(ifstream &infile);
-    CEmployee();
-    void setEmployeeNr(int Nr){this->EmployeeNr = Nr;};
+class CEmployee : virtual public CPerson, virtual public CCustomer
+        {
+    private:
+        string EmployeeNr;
+    public:
+        CEmployee(string, CAddress , CDate, string, string); // Konstruktor
+        ~CEmployee();
+        void print();
+        CEmployee * load(ifstream &infile);
+        CEmployee();
+        void setEmployeeNr(int Nr){this->EmployeeNr = Nr;};
 };
 
 
