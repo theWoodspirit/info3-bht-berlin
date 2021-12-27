@@ -4,134 +4,192 @@
 	<Project>
 		<Option title="info3"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release"/>
+				<Option working_dir="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ueb03">
-				<Option output="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/ueb03.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release"/>
+				<Option output="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/ueb03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 ueb03"/>
-					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 ueb03"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ueb03/fast">
-				<Option output="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/ueb03.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release"/>
+				<Option output="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/ueb03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 ueb03/fast"/>
-					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 ueb03/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release"/>
+				<Option working_dir="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release"/>
+				<Option working_dir="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.cpp">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.cpp">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.h">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.cpp">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.cpp">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.h">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.cpp">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.cpp">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.cpp">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.cpp">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.h">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.cpp">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.cpp">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.h">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.h">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.cpp">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CPrintedMedium.cpp">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CPrintedMedium.h">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.cpp">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.cpp">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.cpp">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.cpp">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/main.cpp">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.cpp">
 			<Option target="ueb03"/>
 		</Unit>
-		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMakeLists.txt">
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/main.cpp">
+			<Option target="ueb03"/>
+		</Unit>
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,23 +1,25 @@
 file(REMOVE_RECURSE
-<<<<<<< Updated upstream
-  "CMakeFiles/ueb03.dir/CMedium.cpp.obj"
-=======
->>>>>>> Stashed changes
-  "CMakeFiles/ueb03.dir/caddress.cpp.obj"
-  "CMakeFiles/ueb03.dir/cdate.cpp.obj"
-  "CMakeFiles/ueb03.dir/clibrary.cpp.obj"
-  "CMakeFiles/ueb03.dir/clibrarypool.cpp.obj"
-  "CMakeFiles/ueb03.dir/clocation.cpp.obj"
-<<<<<<< Updated upstream
-=======
-  "CMakeFiles/ueb03.dir/cmedium.cpp.obj"
->>>>>>> Stashed changes
-  "CMakeFiles/ueb03.dir/cperson.cpp.obj"
-  "CMakeFiles/ueb03.dir/factory.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CAudiobook.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CCD.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CDVD.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CBook.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CMagazine.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/CPrintedMedium/CPrintedMedium.cpp.obj"
+  "CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj"
+  "CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj"
+  "CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.obj"
+  "CMakeFiles/ueb03.dir/cPerson/cperson.cpp.obj"
+  "CMakeFiles/ueb03.dir/helperClasses/caddress.cpp.obj"
+  "CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.obj"
+  "CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.obj"
+  "CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj"
+  "CMakeFiles/ueb03.dir/library/CLoan.cpp.obj"
+  "CMakeFiles/ueb03.dir/library/clibrary.cpp.obj"
+  "CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj"
   "CMakeFiles/ueb03.dir/main.cpp.obj"
-  "libueb03.dll.a"
   "ueb03.exe"
   "ueb03.exe.manifest"
+  "ueb03.lib"
   "ueb03.pdb"
 )
 

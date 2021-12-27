@@ -27,7 +27,6 @@ class CLibrary {
     CAddress adr;
     CEmployee *manager;
     vector<CMedium *> pMediums;
-    vector<CAudiobook*> pAudioBooks;
 
 public:
     CLibrary(string, CAddress, CEmployee *);
@@ -40,11 +39,11 @@ public:
     void add(CDVD * dvd){this->pMediums.push_back(dvd);};
     void add(CMagazine * mag ){this->pMediums.push_back(mag);};
     void add(CCD * cd ){this->pMediums.push_back(cd);};
-    void add(CAudiobook * cd ){this->pAudioBooks.push_back(cd);};
+    void add(CAudiobook * cd ){this->pMediums.push_back(static_cast<CCD*>(cd));};
     void print();
 
     CLibrary * load(ifstream &infile);
-
+    vector<CMedium *> getMedia(){return this->pMediums;};
     CLibrary();
 }
 ;

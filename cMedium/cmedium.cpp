@@ -27,11 +27,10 @@ CMedium* CMedium::load(std::ifstream& infile) {
             this->signature = factory::getContent(line,"Signatur");
         } else if(factory::startTagInLine(line,"Location")) {
             this->loc.load(infile);
-        }else if(factory::startTagInLine(line,"Status")) {
-            this->status = CMedium::EnumOfIndex(atoi(factory::getContent(line,"Status").c_str()));
         }else if(factory::startTagInLine(line,"FSK")) {
             this->agerating = atoi(factory::getContent(line,"FSK").c_str());
         }else if(factory::endTagInLine(line,"Medium")) {
+            this->status = EnumOfIndex(0);
             break;
         }
     }

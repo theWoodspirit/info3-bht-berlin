@@ -6,85 +6,203 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< Updated upstream
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.cpp
-iostream
--
-cperson.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
-caddress.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
 string
--
-iostream
--
-fstream
--
-cstring
--
-cstdlib
 -
 cmedium.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.h
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+time.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/time.h
+CPrintedMedium/CBook.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
+CCD.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.h
 
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.h
 string
 -
-clocation.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h
+cmedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
 
-=======
->>>>>>> Stashed changes
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.cpp
-caddress.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h
+string
+-
+cmedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+time.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/time.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
+CPrintedMedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+../cmedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+time.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/time.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.h
+CPrintedMedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+../cmedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+time.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/time.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+string
+-
+CPrintedMedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+../cmedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+time.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/time.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+../helperClasses/clocation.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.cpp
+cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
 string
 -
 iostream
 -
 fstream
 -
-cstdlib
+cstring
+-
+../helperClasses/factory.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+CCustomer.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
+string
+-
+../helperClasses/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
+cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+../library/CLoan.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
+fstream
+-
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.cpp
+cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
 -
 cstring
 -
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+cstdlib
+-
+../helperClasses/factory.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+CEmployee.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h
 
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h
+string
+-
+../helperClasses/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
+CCustomer.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
+cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+fstream
+-
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+string
+-
+../helperClasses/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
+fstream
+-
+
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
 string
 -
 
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.cpp
-cdate.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
 ctime
 -
 string
 -
+
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
+string
+-
+
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+string
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/string
+
+C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.cpp
+CLoan.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
+string
+-
+vector
+-
 iostream
 -
 fstream
 -
-cstdlib
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cstdlib
-<<<<<<< Updated upstream
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
-=======
->>>>>>> Stashed changes
+../helperClasses/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+../cPerson/cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+../cMedium/cmedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+../helperClasses/factory.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+../cPerson/CEmployee.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h
+../cPerson/CCustomer.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
+../cMedium/CPrintedMedium/CBook.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
+../cMedium/CDVD.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h
+../cMedium/CCD.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.h
+../cMedium/CAudiobook.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
+../cMedium/CPrintedMedium/CMagazine.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.h
 
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
-ctime
--
-string
--
-
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.cpp
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.cpp
 clibrary.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
 iostream
 -
 string
@@ -95,10 +213,20 @@ fstream
 -
 cstring
 -
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+../helperClasses/factory.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+../cMedium/CPrintedMedium/CBook.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
+../cMedium/CPrintedMedium/CMagazine.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.h
+../cMedium/CCD.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.h
+../cMedium/CDVD.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h
+../cMedium/CAudiobook.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
 
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
 string
 -
 vector
@@ -107,135 +235,54 @@ iostream
 -
 fstream
 -
-caddress.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
-cperson.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
-cmedium.h
-<<<<<<< Updated upstream
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMedium.h
-=======
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.h
->>>>>>> Stashed changes
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+../helperClasses/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+../cPerson/cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+../cMedium/cmedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+../helperClasses/factory.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+../cPerson/CEmployee.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h
+../cPerson/CCustomer.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
+../cMedium/CPrintedMedium/CBook.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
+../cMedium/CDVD.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h
+../cMedium/CCD.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.h
+../cMedium/CAudiobook.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
+../cMedium/CPrintedMedium/CMagazine.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.h
 
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.cpp
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.cpp
 cstring
 -
 clibrarypool.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.h
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h
+../helperClasses/factory.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h
 iostream
 -
 string
 -
 vector
 -
-cperson.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
+../cPerson/cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
 clibrary.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrary.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
+CLoan.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
 
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.cpp
-clocation.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h
-string
--
+C:/UserData/z00430rr/Documents/GitHub/info3/main.cpp
 iostream
 -
-caddress.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
-string
--
-iostream
--
-fstream
--
-cstring
--
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
-
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h
-string
--
-
-<<<<<<< Updated upstream
-=======
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.cpp
-iostream
--
-cperson.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
-caddress.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
-string
--
-iostream
--
-fstream
--
-cstring
--
-cstdlib
--
-cmedium.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.h
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
-
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmedium.h
-string
--
-clocation.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clocation.h
-
->>>>>>> Stashed changes
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.cpp
-cperson.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
-caddress.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
-string
--
-iostream
--
-fstream
--
-cstring
--
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
-
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cperson.h
-string
--
-caddress.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/caddress.h
-cdate.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cdate.h
-fstream
--
-
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.cpp
-cstring
--
-factory.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
-string
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/string
-
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/factory.h
-string
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/string
-
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/main.cpp
-iostream
--
-clibrarypool.h
-C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/clibrarypool.h
+library/clibrarypool.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h
 

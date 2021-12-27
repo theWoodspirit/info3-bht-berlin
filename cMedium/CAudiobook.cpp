@@ -35,6 +35,10 @@ CAudiobook *CAudiobook::load(std::ifstream & infile) {
             CBook::autor = factory::getContent(line,"Author");
         }
         else if(factory::endTagInLine(line,"Audiobook")) {
+            if(CCD::getAge() < 0){
+                CCD::setAge(0);
+                CBook::setAge(0);
+            }
             break;
         }
     }
