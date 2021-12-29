@@ -5,16 +5,18 @@
 #ifndef INFO3_CEMPLOYEE_H
 #define INFO3_CEMPLOYEE_H
 #include <string>
-#include "../helperClasses/caddress.h"
-#include "../helperClasses/cdate.h"
-#include "CCustomer.h"
-#include "cperson.h"
+#include <vector>
+#include <iostream>
 #include <fstream>
+
+
+#include "CCustomer.h"
+
 
 using std::string;
 using namespace std;
 
-class CEmployee : virtual public CPerson,virtual public CCustomer
+class CEmployee : virtual public CCustomer, virtual public CPerson
 {
 private:
     string EmployeeNr;
