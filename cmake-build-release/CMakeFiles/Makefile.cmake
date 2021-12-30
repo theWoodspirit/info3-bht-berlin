@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+<<<<<<< HEAD
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCCompiler.cmake.in"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCCompilerABI.c"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCInformation.cmake"
@@ -25,10 +26,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeDetermineSystem.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeFindBinUtils.cmake"
+=======
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCInformation.cmake"
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeFindCodeBlocks.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeGenericSystem.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake"
+<<<<<<< HEAD
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeMinGWFindMake.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeParseImplicitIncludeInfo.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeParseImplicitLinkInfo.cmake"
@@ -94,6 +102,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Internal/FeatureTesting.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-Determine-CXX.cmake"
+=======
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeRCInformation.cmake"
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake"
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake"
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-C.cmake"
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-CXX.cmake"
+  "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU.cmake"
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C.cmake"
   "D:/CLion 2021.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -118,12 +135,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+<<<<<<< HEAD
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

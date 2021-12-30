@@ -7,16 +7,15 @@
 #include "CPrintedMedium.h"
 #include "../cmedium.h"
 #include "time.h"
-class CBook : virtual public CPrintedMedium
+class CBook : public CPrintedMedium
 {
 public:
     //CBook(string, string, CLocation, int, Status ,int , string );
     CBook* load(std::ifstream &);
-    virtual ~CBook();
+    ~CBook();
     void print();
     CBook();
-
-protected:
+private:
     string autor;
 };
 #endif //INFO3_CBOOK_H

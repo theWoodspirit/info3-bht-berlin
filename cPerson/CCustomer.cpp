@@ -48,11 +48,14 @@ CCustomer * CCustomer::load(std::ifstream& infile) {
 
 CCustomer::~CCustomer()
 {
-    cout << "Der Kunde: " << getName() << " wurde vernichtet. " << endl;
+    cout << "Die Person '" << this->getName() << "' wird vernichtet!" << endl;
 }
 
 void CCustomer::print()
 {
-    CPerson::print();
-    cout << endl << "KundenNr.: " << CustomerNr ;
+    cout << this->getName() << endl;
+    this->getAddress().print();
+    cout << endl;
+    this->getbday().print();
+    cout << endl << CustomerNr;
 }

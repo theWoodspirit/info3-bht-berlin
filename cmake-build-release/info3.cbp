@@ -164,12 +164,15 @@
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/helperClasses/factory.h">
 			<Option target="ueb03"/>
 		</Unit>
+<<<<<<< HEAD
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/library/CLoan.cpp">
 			<Option target="ueb03"/>
 		</Unit>
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/library/CLoan.h">
 			<Option target="ueb03"/>
 		</Unit>
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/library/clibrary.cpp">
 			<Option target="ueb03"/>
 		</Unit>

@@ -42,7 +42,10 @@ CMagazine::CMagazine() {
 
 }
 
+<<<<<<< HEAD
 CMagazine::~CMagazine() {
     cout << "Das Magazin " << getTitle() << "mit der Signatur '"<< getSig() <<"' wurde geloescht." << endl;
 }
 
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)

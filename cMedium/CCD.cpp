@@ -51,11 +51,15 @@ CCD *CCD::load(ifstream & infile) {
 }
 
 CCD::~CCD() {
-    cout << "Die CCD '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
+
 }
 
 void CCD::print() {
     CMedium::print();
     cout << "\nInterpret: " << interpret;
+<<<<<<< HEAD
     cout << "\nAnzahl Tracks: " << tracksSize << endl;
+=======
+    cout << "\nTitel:" << tracksSize;
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 }

@@ -8,6 +8,7 @@ CLibraryPool::CLibraryPool(string Name, CEmployee *Manager)
 }
 
 CLibraryPool::CLibraryPool(string fileName) {
+<<<<<<< HEAD
    cout << "Datei '"<< fileName << "' wird geoeffnet ... ";
     ifstream infile(fileName.c_str());
     cout << "ok" << endl;
@@ -15,6 +16,12 @@ CLibraryPool::CLibraryPool(string fileName) {
     string s;
 
     cout << "Datei wird eingelesen ... ";
+=======
+    ifstream infile("data.xml");
+    string line;
+    string s;
+    //int cnt = 0;
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
     while (std::getline(infile, line)) {
         //cout << line << endl;
         //cnt++;
@@ -33,10 +40,14 @@ CLibraryPool::CLibraryPool(string fileName) {
             readLoan(infile);
         }
     }
+<<<<<<< HEAD
     cout << "ok" << endl;
     cout << "Datei wird geschlossen ... ";
     infile.close();
     cout << "ok" << endl << endl;
+=======
+    //cout << cnt << endl;
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 }
 
 
@@ -60,16 +71,13 @@ void CLibraryPool::print()
     manager->print();
 
     cout << endl << "Zum Buechereiverband gehoeren " << branch.size() << " Filialen:" << endl;
-    for(i = 0; i < branch.size(); i++){
-        cout << "\nBuecherei Nr."<< i+1  << endl;
+    for(i = 0; i < branch.size(); i++)
         branch.at(i)->print();
-    }
 
-
-    cout << "\nDer Buchereiverband hat " << customer.size() << " Kunden:";
+    cout << "Die Buecherei hat " << customer.size() << " Kunden:";
     for(i = 0; i < customer.size(); i++)
     {
-        cout << "\n\nKunde Nr." << i+1 << endl;
+        cout << "\n\n";
         customer.at(i)->print();
     }
 
@@ -85,6 +93,7 @@ void CLibraryPool::print()
 void CLibraryPool::add(CCustomer * x) {
     customer.push_back(x);
 }
+<<<<<<< HEAD
 
 CLibraryPool::~CLibraryPool() {
 
@@ -142,3 +151,5 @@ void CLibraryPool::readLoan(ifstream & infile) {
         }
     }
 }
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)

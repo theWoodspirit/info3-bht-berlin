@@ -464,6 +464,7 @@ helperClasses/factory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/helperClasses/factory.cpp.s
 .PHONY : helperClasses/factory.cpp.s
 
+<<<<<<< HEAD
 library/CLoan.obj: library/CLoan.cpp.obj
 .PHONY : library/CLoan.obj
 
@@ -488,6 +489,8 @@ library/CLoan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/library/CLoan.cpp.s
 .PHONY : library/CLoan.cpp.s
 
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 library/clibrary.obj: library/clibrary.cpp.obj
 .PHONY : library/clibrary.obj
 
@@ -611,9 +614,12 @@ help:
 	@echo ... helperClasses/factory.obj
 	@echo ... helperClasses/factory.i
 	@echo ... helperClasses/factory.s
+<<<<<<< HEAD
 	@echo ... library/CLoan.obj
 	@echo ... library/CLoan.i
 	@echo ... library/CLoan.s
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 	@echo ... library/clibrary.obj
 	@echo ... library/clibrary.i
 	@echo ... library/clibrary.s

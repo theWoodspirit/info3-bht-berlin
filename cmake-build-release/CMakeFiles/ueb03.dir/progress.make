@@ -16,5 +16,8 @@ CMAKE_PROGRESS_15 = 15
 CMAKE_PROGRESS_16 = 16
 CMAKE_PROGRESS_17 = 17
 CMAKE_PROGRESS_18 = 18
+<<<<<<< HEAD
 CMAKE_PROGRESS_19 = 19
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 

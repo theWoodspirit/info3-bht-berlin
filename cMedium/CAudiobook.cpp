@@ -2,10 +2,9 @@
 // Created by marku on 07.12.2021.
 //
 
-#include <cstdlib>
 #include "CAudiobook.h"
-#include "../helperClasses/factory.h"
 
+<<<<<<< HEAD
 CAudiobook *CAudiobook::load(std::ifstream & infile) {
     std::string line;
     while (std::getline(infile, line)) {
@@ -56,5 +55,13 @@ void CAudiobook::print() {
 
 CAudiobook::~CAudiobook() {
     cout << "Das Audiobook '" << CCD::getTitle() << "' wurde geloescht";
+=======
+CAudiobook *CAudiobook::load(std::ifstream &) {
+    return NULL;
+}
+
+CAudiobook::CAudiobook() {
+
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 }
 

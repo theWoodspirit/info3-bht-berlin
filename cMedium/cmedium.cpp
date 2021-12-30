@@ -40,7 +40,6 @@ CMedium* CMedium::load(std::ifstream& infile) {
 CMedium::~CMedium()
 {
     cout << "Das Medium '" << title << "' mit der Signatur '" << signature << "' wird vernichtet!" << endl;
-
 }
 
 void CMedium::getStatus()

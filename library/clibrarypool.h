@@ -21,17 +21,21 @@ protected:
     vector<CCustomer*> customer;
     vector<CLoan*> loans;
 
+
 public:
     CLibraryPool(string Name, CEmployee *Manager);
     CLibraryPool(string path);
     void add(CLibrary *);
     void add(CCustomer *);
     void print();
+<<<<<<< HEAD
     ~CLibraryPool();
 
     void add(CLoan * loan){loans.push_back(loan);};
 
     void readLoan(ifstream &infile);
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 };
 
 #endif //INFO3_CLIBRARYPOOL_H

@@ -8,8 +8,7 @@ CMakeFiles/ueb03.dir/cMedium/CAudiobook.cpp.obj: \
  ../cMedium/CPrintedMedium/CBook.h \
  ../cMedium/CPrintedMedium/CPrintedMedium.h \
  ../cMedium/cmedium.h \
- ../helperClasses/clocation.h \
- ../helperClasses/factory.h
+ ../helperClasses/clocation.h
 CMakeFiles/ueb03.dir/cMedium/CCD.cpp.obj: \
  ../cMedium/CCD.cpp \
  ../cMedium/CCD.h \
@@ -71,22 +70,12 @@ CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj: \
  ../helperClasses/factory.h \
  ../library/CLoan.h
 CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.obj: \
- ../cMedium/CAudiobook.h \
- ../cMedium/CCD.h \
- ../cMedium/CDVD.h \
- ../cMedium/CPrintedMedium/CBook.h \
- ../cMedium/CPrintedMedium/CMagazine.h \
- ../cMedium/CPrintedMedium/CPrintedMedium.h \
- ../cMedium/cmedium.h \
- ../cPerson/CCustomer.h \
  ../cPerson/CEmployee.cpp \
  ../cPerson/CEmployee.h \
  ../cPerson/cperson.h \
  ../helperClasses/caddress.h \
  ../helperClasses/cdate.h \
- ../helperClasses/clocation.h \
- ../helperClasses/factory.h \
- ../library/CLoan.h
+ ../helperClasses/factory.h
 CMakeFiles/ueb03.dir/cPerson/cperson.cpp.obj: \
  ../cPerson/cperson.cpp \
  ../cPerson/cperson.h \

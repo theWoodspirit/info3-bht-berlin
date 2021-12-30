@@ -13,7 +13,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.obj"
   "CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.obj"
   "CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj"
+<<<<<<< HEAD
   "CMakeFiles/ueb03.dir/library/CLoan.cpp.obj"
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
   "CMakeFiles/ueb03.dir/library/clibrary.cpp.obj"
   "CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj"
   "CMakeFiles/ueb03.dir/main.cpp.obj"

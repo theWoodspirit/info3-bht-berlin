@@ -42,7 +42,7 @@ CPrintedMedium *CPrintedMedium::load(ifstream & infile) {
 }
 
 CPrintedMedium::~CPrintedMedium() {
-    cout << "Das PrintedMedium '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
+
 }
 
 void CPrintedMedium::print() {

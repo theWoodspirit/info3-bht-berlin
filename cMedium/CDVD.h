@@ -19,6 +19,7 @@ public:
 
 
     CDVD(string t, string s, CLocation l, int a, Status st, string actor, tm length);
+
     CDVD* load(std::ifstream &);
     ~CDVD();
     void print();

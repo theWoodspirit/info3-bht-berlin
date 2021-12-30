@@ -23,7 +23,7 @@ public:
 
 
     CMedium();
-    virtual ~CMedium();
+    ~CMedium();
     CMedium(string, string, CLocation, int, Status);
     CMedium * load(ifstream & infile);
 

@@ -13,13 +13,13 @@
 using std::string;
 using namespace std;
 
-class CCustomer : virtual public CPerson {
+class CCustomer : public CPerson {
 private:
     string CustomerNr;
     vector<CLoan*> myLoans;
 public:
     CCustomer(string, CAddress, CDate, string); // Konstruktor
-    virtual ~CCustomer();
+    ~CCustomer();
 
     void print();
 

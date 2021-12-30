@@ -9,7 +9,7 @@
 #include "../cMedium/CPrintedMedium/CMagazine.h"
 #include "../cMedium/CCD.h"
 #include "../cMedium/CDVD.h"
-#include "../cMedium/CAudiobook.h"
+
 using namespace std;
 
 CLibrary::CLibrary(string Name, CAddress Adr, CEmployee *Manager)
@@ -32,10 +32,6 @@ CLibrary* CLibrary::load(std::ifstream& infile) {
             this->add((new CMagazine())->load(infile));
         }else if(factory::startTagInLine(line,"DVD")) {
             this->add((new CDVD())->load(infile));
-        }else if(factory::startTagInLine(line,"CD")) {
-            this->add((new CCD())->load(infile));
-        }else if(factory::startTagInLine(line,"Audiobook")) {
-            this->add((new CAudiobook())->load(infile));
         }else if(factory::endTagInLine(line,"Library")) {
             break;
         }
@@ -45,13 +41,15 @@ CLibrary* CLibrary::load(std::ifstream& infile) {
 
 CLibrary::~CLibrary()
 {
+<<<<<<< HEAD
     for(int i= 0; i < this->pMediums.size(); i ++){
         delete(pMediums.at(i));
         cout << endl;
     }
     delete(this->manager);
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 
-    cout << "Bib " << name << " wurde geloescht." << endl;
 }
 
 
@@ -67,11 +65,15 @@ void CLibrary::print()
     manager->print();
     cout << endl;
 
+<<<<<<< HEAD
     cout << "\nEs stehen " << pMediums.size() << " Medien zur Verfuegung: " << "\n\n";
+=======
+    cout << "\nEs stehen " << pBooks.size() + pDVDs.size() + pMagazine.size() << " Medien zur Verfuegung: " << "\n\n";
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 
-
-    for(i = 0; i < pMediums.size(); i++)
+    for(i = 0; i < pBooks.size(); i++)
     {
+<<<<<<< HEAD
        cout << "Medium Nr. " << j << endl;
        j++;
         if (dynamic_cast<CCD *>(pMediums.at(i))) {
@@ -98,7 +100,22 @@ void CLibrary::print()
             x->print();
         }
         cout << endl;
+=======
+        cout << "Buch Nr. " << i + 1 << endl;
+        pBooks.at(i)->print();
     }
+    for(i = 0; i < pDVDs.size(); i++)
+    {
+        cout << "DVD Nr. " << i + 1 << endl;
+        pDVDs.at(i)->print();
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
+    }
+    for(i = 0; i < pMagazine.size(); i++)
+    {
+        cout << "Magazine Nr. " << i + 1 << endl;
+        pMagazine.at(i)->print();
+    }
+
 }
 
 CLibrary::CLibrary() {

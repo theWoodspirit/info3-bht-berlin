@@ -42,7 +42,3 @@ CBook::CBook() {
 
 }
 
-CBook::~CBook() {
-    cout << "Das Buch " << getTitle() << " wurde geloescht" << endl;
-}
-
