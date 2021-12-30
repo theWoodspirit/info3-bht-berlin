@@ -21,7 +21,7 @@ CCD::CCD(string t, string s, CLocation l, int a, Status st, string inter, int ti
 
 CCD *CCD::load(ifstream & infile) {
     std::string line;
-    int hour,minute;
+    int minute;
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Title")) {
             this->setTitle(factory::getContent(line,"Title"));
