@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ToolSet: 16.0 (local)@C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+=======
+ToolSet: w64 6.0 (local)@C:\mingw\mingw64
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 Options: 
 
 Options:

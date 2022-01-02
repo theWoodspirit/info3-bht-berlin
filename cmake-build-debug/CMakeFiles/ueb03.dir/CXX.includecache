@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
 string
 -
@@ -59,6 +60,149 @@ time.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/time.h
 
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CAudiobook.cpp
+CAudiobook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CAudiobook.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CAudiobook.h
+string
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+time.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/time.h
+CPrintedMedium/CBook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CBook.h
+CCD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CCD.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CCD.cpp
+CCD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CCD.h
+iostream
+-
+string
+-
+cstdlib
+-
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CCD.h
+string
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CDVD.cpp
+CDVD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CDVD.h
+iostream
+-
+../cPerson/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+cstdlib
+-
+CDVD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CDVD.h
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CDVD.h
+string
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+time.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/time.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CBook.cpp
+cstdlib
+-
+CBook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CBook.h
+../../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CBook.h
+CPrintedMedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+../cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+time.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/time.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CMagazine.cpp
+cstdlib
+-
+CMagazine.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CMagazine.h
+../../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CMagazine.h
+CPrintedMedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+../cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+time.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/time.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CPrintedMedium.cpp
+CPrintedMedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+../../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+string
+-
+cstdlib
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+string
+-
+CPrintedMedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CPrintedMedium.h
+../cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+time.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/time.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.cpp
+iostream
+-
+../cPerson/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+cstdlib
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 string
 -
 vector
@@ -68,6 +212,7 @@ iostream
 fstream
 -
 ../helperClasses/clocation.h
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
 
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.cpp
@@ -75,6 +220,15 @@ cperson.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
 ../helperClasses/caddress.h
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/clocation.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CCustomer.cpp
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 string
 -
 iostream
@@ -84,6 +238,7 @@ fstream
 cstring
 -
 ../helperClasses/factory.h
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 CCustomer.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
@@ -107,6 +262,31 @@ cperson.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
 ../helperClasses/caddress.h
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+CCustomer.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CCustomer.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CCustomer.h
+string
+-
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/cdate.h
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+../library/CLoan.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/CLoan.h
+fstream
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CEmployee.cpp
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 string
 -
 iostream
@@ -118,6 +298,7 @@ cstring
 cstdlib
 -
 ../helperClasses/factory.h
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 CEmployee.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h
@@ -151,11 +332,93 @@ string
 -
 
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+CEmployee.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CEmployee.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CEmployee.h
+string
+-
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/cdate.h
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+fstream
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.cpp
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+string
+-
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/cdate.h
+fstream
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.cpp
+caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstdlib
+-
+cstring
+-
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+string
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/cdate.cpp
+cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/cdate.h
+ctime
+-
+string
+-
+iostream
+-
+fstream
+-
+cstdlib
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/cstdlib
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/cdate.h
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 ctime
 -
 string
 -
 
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
 string
 -
@@ -169,6 +432,49 @@ CLoan.h
 C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
 
 C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/clocation.cpp
+clocation.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/clocation.h
+string
+-
+iostream
+-
+caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/clocation.h
+string
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.cpp
+cstring
+-
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+string
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/string
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+string
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/string
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/CLoan.cpp
+CLoan.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/CLoan.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/CLoan.h
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 string
 -
 vector
@@ -178,6 +484,7 @@ iostream
 fstream
 -
 ../helperClasses/caddress.h
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
 ../cPerson/cperson.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
@@ -203,6 +510,33 @@ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.h
 C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.cpp
 clibrary.h
 C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+../cPerson/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+../cMedium/cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+../cPerson/CEmployee.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CEmployee.h
+../cPerson/CCustomer.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CCustomer.h
+../cMedium/CPrintedMedium/CBook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CBook.h
+../cMedium/CDVD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CDVD.h
+../cMedium/CCD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CCD.h
+../cMedium/CAudiobook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CAudiobook.h
+../cMedium/CPrintedMedium/CMagazine.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CMagazine.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrary.cpp
+clibrary.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrary.h
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 iostream
 -
 string
@@ -214,6 +548,7 @@ fstream
 cstring
 -
 ../helperClasses/factory.h
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 ../cMedium/CPrintedMedium/CBook.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
@@ -227,6 +562,19 @@ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
 
 C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+../cMedium/CPrintedMedium/CBook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CBook.h
+../cMedium/CPrintedMedium/CMagazine.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CMagazine.h
+../cMedium/CCD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CCD.h
+../cMedium/CDVD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CDVD.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrary.h
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 string
 -
 vector
@@ -236,6 +584,7 @@ iostream
 fstream
 -
 ../helperClasses/caddress.h
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
 ../cPerson/cperson.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
@@ -267,6 +616,37 @@ C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 
 C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
+../cPerson/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+../cMedium/cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+../cPerson/CEmployee.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CEmployee.h
+../cPerson/CCustomer.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/CCustomer.h
+../cMedium/CPrintedMedium/CBook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CBook.h
+../cMedium/CDVD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CDVD.h
+../cMedium/CCD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CCD.h
+../cMedium/CPrintedMedium/CMagazine.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CPrintedMedium/CMagazine.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrarypool.cpp
+cstring
+-
+clibrarypool.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrarypool.h
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrarypool.h
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 iostream
 -
 string
@@ -274,6 +654,7 @@ string
 vector
 -
 ../cPerson/cperson.h
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
 clibrary.h
 C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
@@ -285,4 +666,17 @@ iostream
 -
 library/clibrarypool.h
 C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h
+=======
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cPerson/cperson.h
+clibrary.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrary.h
+CLoan.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/CLoan.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/main.cpp
+iostream
+-
+library/clibrarypool.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrarypool.h
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 

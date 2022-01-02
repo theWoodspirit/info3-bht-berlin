@@ -11,22 +11,19 @@ using namespace std;
 
 #include "../helperClasses/factory.h"
 
-CCD::CCD()
-{}
+CCD::CCD() {
+}
 
-CCD::CCD(string t, string s, CLocation l, int a, Status st, string inter, int titleNr)
-: CMedium(t,s,l,a, st)
-{
+CCD::CCD(string t, string s, CLocation l, int a, Status st, string inter, int titleNr) : CMedium(t,s,l,a, st){
     this->interpret = inter;
     this->tracksSize = titleNr;
 }
 
 CCD *CCD::load(ifstream & infile) {
     std::string line;
-
+    int minute;
     while (std::getline(infile, line)) {
-        if (factory::startTagInLine(line,"Title"))
-        {
+        if (factory::startTagInLine(line,"Title")) {
             this->setTitle(factory::getContent(line,"Title"));
         } else if (factory::startTagInLine(line,"Signatur")) {
             this->setSig(factory::getContent(line,"Signatur"));
@@ -44,6 +41,9 @@ CCD *CCD::load(ifstream & infile) {
             this->tracksSize = atoi(factory::getContent(line,"Tracks").c_str());
         }
         else if(factory::endTagInLine(line,"CD")) {
+            if(getAge() <= 0){
+                setAge(0);
+            }
             break;
         }
     }
@@ -51,12 +51,15 @@ CCD *CCD::load(ifstream & infile) {
 }
 
 CCD::~CCD() {
-    cout << "Die CD '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
+
 }
 
-void CCD::print()
-{
-    cout << "Interpret:    " << interpret << endl;
-    cout << "Anz. Tracks:  " << tracksSize << endl;
+void CCD::print() {
     CMedium::print();
+    cout << "\nInterpret: " << interpret;
+<<<<<<< HEAD
+    cout << "\nAnzahl Tracks: " << tracksSize << endl;
+=======
+    cout << "\nTitel:" << tracksSize;
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
 }

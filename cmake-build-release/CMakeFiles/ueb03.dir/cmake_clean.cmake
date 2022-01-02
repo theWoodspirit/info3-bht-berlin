@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ueb03.dir/helperClasses/cdate.cpp.obj"
   "CMakeFiles/ueb03.dir/helperClasses/clocation.cpp.obj"
   "CMakeFiles/ueb03.dir/helperClasses/factory.cpp.obj"
+<<<<<<< HEAD
   "CMakeFiles/ueb03.dir/library/CLoan.cpp.obj"
   "CMakeFiles/ueb03.dir/library/clibrary.cpp.obj"
   "CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj"
@@ -20,6 +21,18 @@ file(REMOVE_RECURSE
   "ueb03.exe"
   "ueb03.exe.manifest"
   "ueb03.lib"
+=======
+<<<<<<< HEAD
+  "CMakeFiles/ueb03.dir/library/CLoan.cpp.obj"
+=======
+>>>>>>> parent of 4ca5bf4 (markus abagbe)
+  "CMakeFiles/ueb03.dir/library/clibrary.cpp.obj"
+  "CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj"
+  "CMakeFiles/ueb03.dir/main.cpp.obj"
+  "libueb03.dll.a"
+  "ueb03.exe"
+  "ueb03.exe.manifest"
+>>>>>>> parent of 8bc1cc9 (Übung 5)
   "ueb03.pdb"
 )
 

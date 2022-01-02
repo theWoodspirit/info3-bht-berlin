@@ -1,3 +1,8 @@
+
+//
+// Created by marku on 29.11.2021.
+//
+
 #include "CPrintedMedium.h"
 
 #include "../../helperClasses/factory.h"
@@ -5,13 +10,13 @@
 
 #include <cstdlib>
 
-CPrintedMedium::CPrintedMedium(string t, string s, CLocation l , int a, CMedium::Status st, int sites)
-: CMedium(t,s,l,a, st), sites(sites)
-{}
+CPrintedMedium::CPrintedMedium(string t, string s, CLocation l , int a, CMedium::Status st, int sites):CMedium(t,s,l,a, st) {
+ this->sites = sites;
+}
 
 CPrintedMedium *CPrintedMedium::load(ifstream & infile) {
     std::string line;
-
+    // wird nicht benutzt...
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Title")) {
             this->setTitle(factory::getContent(line,"Title"));
@@ -33,18 +38,18 @@ CPrintedMedium *CPrintedMedium::load(ifstream & infile) {
         }
     }
     return this;
+
 }
 
-CPrintedMedium::~CPrintedMedium()
-{
-    cout << "Das Printed-Medium '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
+CPrintedMedium::~CPrintedMedium() {
+
 }
 
-void CPrintedMedium::print()
-{
-    cout << "Anz. Seiten:  " << sites << endl;
+void CPrintedMedium::print() {
     CMedium::print();
+    cout << "\nSeiten: " << this->sites;
 }
 
-CPrintedMedium::CPrintedMedium()
-{}
+CPrintedMedium::CPrintedMedium() {
+
+}

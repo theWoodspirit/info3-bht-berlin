@@ -51,6 +51,7 @@ EQUALS = =
 
 # The top-level source directory on which CMake was run.
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 5\ueb05_clion"
 
 # The top-level build directory on which CMake was run.
@@ -61,16 +62,26 @@ CMAKE_SOURCE_DIR = C:\UserData\z00430rr\Documents\GitHub\info3
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+CMAKE_SOURCE_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug"
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 <<<<<<< HEAD
+<<<<<<< HEAD
 all: CMakeFiles/ueb05_clion.dir/all
 =======
 all: CMakeFiles\ueb03.dir\all
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+all: CMakeFiles/ueb03.dir/all
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,35 +90,48 @@ preinstall:
 
 # The main recursive "clean" target.
 <<<<<<< HEAD
+<<<<<<< HEAD
 clean: CMakeFiles/ueb05_clion.dir/clean
 =======
 clean: CMakeFiles\ueb03.dir\clean
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+clean: CMakeFiles/ueb03.dir/clean
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ueb05_clion.dir
+# Target rules for target CMakeFiles/ueb03.dir
 
 # All Build rule for target.
+<<<<<<< HEAD
 <<<<<<< HEAD
 CMakeFiles/ueb05_clion.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb05_clion.dir\build.make CMakeFiles/ueb05_clion.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb05_clion.dir\build.make CMakeFiles/ueb05_clion.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 5\ueb05_clion\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target ueb05_clion"
 .PHONY : CMakeFiles/ueb05_clion.dir/all
+=======
+CMakeFiles/ueb03.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target ueb03"
+.PHONY : CMakeFiles/ueb03.dir/all
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ueb05_clion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 5\ueb05_clion\cmake-build-debug\CMakeFiles" 18
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ueb05_clion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 5\ueb05_clion\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/ueb05_clion.dir/rule
+CMakeFiles/ueb03.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug\CMakeFiles" 19
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ueb03.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\info3\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/ueb03.dir/rule
 
 # Convenience name for target.
-ueb05_clion: CMakeFiles/ueb05_clion.dir/rule
-.PHONY : ueb05_clion
+ueb03: CMakeFiles/ueb03.dir/rule
+.PHONY : ueb03
 
 # clean rule for target.
+<<<<<<< HEAD
 CMakeFiles/ueb05_clion.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb05_clion.dir\build.make CMakeFiles/ueb05_clion.dir/clean
 .PHONY : CMakeFiles/ueb05_clion.dir/clean
@@ -134,6 +158,11 @@ CMakeFiles\ueb03.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ueb03.dir\clean
 .PHONY : CMakeFiles\ueb03.dir\clean
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+CMakeFiles/ueb03.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make CMakeFiles/ueb03.dir/clean
+.PHONY : CMakeFiles/ueb03.dir/clean
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 
 #=============================================================================
 # Special targets to cleanup operation of make.

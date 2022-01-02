@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 set(CMAKE_CXX_COMPILER "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30037/bin/Hostx86/x86/cl.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 set(CMAKE_CXX_COMPILER_VERSION "19.29.30038.1")
+=======
+set(CMAKE_CXX_COMPILER "C:/mingw/mingw64/bin/g++.exe")
+set(CMAKE_CXX_COMPILER_ARG1 "")
+set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_VERSION "8.1.0")
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")
@@ -13,6 +20,7 @@ set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")
 set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")
 set(CMAKE_CXX23_COMPILE_FEATURES "")
 
+<<<<<<< HEAD
 set(CMAKE_CXX_PLATFORM_ID "Windows")
 set(CMAKE_CXX_SIMULATE_ID "")
 set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")
@@ -32,6 +40,27 @@ set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
 set(CMAKE_CXX_ABI_COMPILED TRUE)
 set(CMAKE_COMPILER_IS_MINGW )
+=======
+set(CMAKE_CXX_PLATFORM_ID "MinGW")
+set(CMAKE_CXX_SIMULATE_ID "")
+set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")
+set(CMAKE_CXX_SIMULATE_VERSION "")
+
+
+
+
+set(CMAKE_AR "C:/mingw/mingw64/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/mingw/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "C:/mingw/mingw64/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/mingw/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/mingw/mingw64/bin/ld.exe")
+set(CMAKE_MT "")
+set(CMAKE_COMPILER_IS_GNUCXX 1)
+set(CMAKE_CXX_COMPILER_LOADED 1)
+set(CMAKE_CXX_COMPILER_WORKS TRUE)
+set(CMAKE_CXX_ABI_COMPILED TRUE)
+set(CMAKE_COMPILER_IS_MINGW 1)
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 set(CMAKE_COMPILER_IS_CYGWIN )
 if(CMAKE_COMPILER_IS_CYGWIN)
   set(CYGWIN 1)
@@ -59,7 +88,11 @@ set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
 
 # Save compiler ABI information.
+<<<<<<< HEAD
 set(CMAKE_CXX_SIZEOF_DATA_PTR "4")
+=======
+set(CMAKE_CXX_SIZEOF_DATA_PTR "8")
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 set(CMAKE_CXX_COMPILER_ABI "")
 set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")
 set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")
@@ -85,7 +118,13 @@ endif()
 
 
 
+<<<<<<< HEAD
 set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
+=======
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++;C:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32;C:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward;C:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include;C:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;C:/mingw/mingw64/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0;C:/mingw/mingw64/lib/gcc;C:/mingw/mingw64/x86_64-w64-mingw32/lib;C:/mingw/mingw64/lib")
+>>>>>>> parent of 8bc1cc9 (Übung 5)
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

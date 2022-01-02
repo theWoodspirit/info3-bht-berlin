@@ -17,9 +17,15 @@ file(REMOVE_RECURSE
   "CMakeFiles/ueb03.dir/library/clibrary.cpp.obj"
   "CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj"
   "CMakeFiles/ueb03.dir/main.cpp.obj"
+<<<<<<< HEAD
   "ueb03.exe"
   "ueb03.exe.manifest"
   "ueb03.lib"
+=======
+  "libueb03.dll.a"
+  "ueb03.exe"
+  "ueb03.exe.manifest"
+>>>>>>> parent of 8bc1cc9 (Übung 5)
   "ueb03.pdb"
 )
 
