@@ -11,19 +11,17 @@ using namespace std;
 
 #include "cmedium.h"
 
-class CCD : virtual public CMedium
+class CCD : public CMedium
 {
 
 public:
     CCD();
     CCD(string, string, CLocation, int, Status, string, int);
     CCD* load(std::ifstream &);
-    virtual ~CCD();
-
-
+    ~CCD();
     void print();
 
-protected:
+private:
     string interpret;
     int tracksSize;
 };

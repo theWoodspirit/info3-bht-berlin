@@ -1,3 +1,7 @@
+//
+// Created by marku on 29.11.2021.
+//
+
 #include <cstdlib>
 #include "CBook.h"
 #include "../../helperClasses/factory.h"
@@ -6,7 +10,7 @@ CBook *CBook::load(std::ifstream & infile) {
     std::string line;
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Title")) {
-            setTitle(factory::getContent(line,"Title"));
+            this->setTitle(factory::getContent(line,"Title"));
         } else if (factory::startTagInLine(line,"Signatur")) {
             this->setSig(factory::getContent(line,"Signatur"));
         } else if(factory::startTagInLine(line,"Location")) {
@@ -29,17 +33,12 @@ CBook *CBook::load(std::ifstream & infile) {
     return this;
 }
 
-void CBook::print()
-{
-    cout << "Autor:        " << autor << endl;
+void CBook::print() {
     CPrintedMedium::print();
+    cout <<"\nAutor: "<< this->autor << "\n\n";
 }
 
 CBook::CBook() {
 
-}
-
-CBook::~CBook() {
-    cout << "Das Buch '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
 }
 

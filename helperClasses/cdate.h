@@ -16,7 +16,9 @@ class CDate
         CDate();                                    // Standardkonstruktor
         CDate(int, int, int);        // Konstruktor
         void print();
-        void load(std::ifstream &infile);
+
+
+    CDate *load(std::ifstream &infile);
 };
 
 #endif //INFO3_CDATE_H
