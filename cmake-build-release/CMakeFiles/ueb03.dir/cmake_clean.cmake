@@ -19,6 +19,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj"
   "CMakeFiles/ueb03.dir/main.cpp.obj"
 <<<<<<< HEAD
+<<<<<<< HEAD
   "ueb03.exe"
   "ueb03.exe.manifest"
   "ueb03.lib"
@@ -39,6 +40,11 @@ file(REMOVE_RECURSE
   "ueb03.exe.manifest"
   "ueb03.lib"
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+  "ueb03.exe"
+  "ueb03.exe.manifest"
+  "ueb03.lib"
+>>>>>>> parent of 899812a (asd)
   "ueb03.pdb"
 )
 

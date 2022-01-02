@@ -36,6 +36,7 @@ SHELL = cmd.exe
 # The CMake executable.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
@@ -52,11 +53,18 @@ CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cma
 # The command to remove a file.
 RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+
+# The command to remove a file.
+RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+>>>>>>> parent of 899812a (asd)
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,10 +75,13 @@ CMAKE_BINARY_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule
 =======
 =======
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
 CMAKE_SOURCE_DIR = C:\UserData\z00430rr\Documents\GitHub\info3
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
 =======
@@ -81,11 +92,14 @@ CMAKE_BINARY_DIR = "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule
 >>>>>>> parent of 8bc1cc9 (Übung 5)
 =======
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,6 +113,9 @@ all: CMakeFiles/ueb03.dir/all
 =======
 all: CMakeFiles\ueb03.dir\all
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+all: CMakeFiles\ueb03.dir\all
+>>>>>>> parent of 899812a (asd)
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -106,6 +123,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,12 +137,16 @@ clean: CMakeFiles/ueb03.dir/clean
 =======
 clean: CMakeFiles\ueb03.dir\clean
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+clean: CMakeFiles\ueb03.dir\clean
+>>>>>>> parent of 899812a (asd)
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ueb03.dir
 
 # All Build rule for target.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +202,15 @@ CMakeFiles\ueb03.dir\all:
 .PHONY : CMakeFiles\ueb03.dir\all
 
 # Build rule for subdir invocation for target.
+=======
+CMakeFiles\ueb03.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ueb03.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ueb03.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target ueb03"
+.PHONY : CMakeFiles\ueb03.dir\all
+
+# Build rule for subdir invocation for target.
+>>>>>>> parent of 899812a (asd)
 CMakeFiles\ueb03.dir\rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\ueb03.dir\all
@@ -194,6 +225,7 @@ ueb03: CMakeFiles\ueb03.dir\rule
 CMakeFiles\ueb03.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ueb03.dir\clean
 .PHONY : CMakeFiles\ueb03.dir\clean
+<<<<<<< HEAD
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
 =======
 CMakeFiles/ueb03.dir/clean:
@@ -205,6 +237,8 @@ CMakeFiles\ueb03.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ueb03.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ueb03.dir\clean
 .PHONY : CMakeFiles\ueb03.dir\clean
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
 
 #=============================================================================
 # Special targets to cleanup operation of make.

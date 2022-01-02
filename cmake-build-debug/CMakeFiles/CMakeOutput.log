@@ -19,10 +19,13 @@ CMakeCCompilerId.obj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 The C compiler identification is GNU, found in "C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/a.exe"
 =======
 =======
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
 
@@ -30,12 +33,15 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 The C compiler identification is MSVC, found in "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
 =======
 The C compiler identification is GNU, found in "C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/a.exe"
 >>>>>>> parent of 8bc1cc9 (Übung 5)
 =======
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30037/bin/Hostx86/x86/cl.exe 
@@ -54,6 +60,7 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 /out:CMakeCXXCompilerId.exe 
 CMakeCXXCompilerId.obj 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,6 +417,28 @@ Change Dir: C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeF
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/CMakeTmp
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_e477a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e477a.dir\build.make /nologo -L                  CMakeFiles\cmTC_e477a.dir\build
+Building C object CMakeFiles/cmTC_e477a.dir/CMakeCCompilerABI.c.obj
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_e477a.dir\CMakeCCompilerABI.c.obj.d --working-dir=C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @C:\Users\z00430rr\AppData\Local\Temp\nmEF61.tmp
+Linking C executable cmTC_e477a.exe
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e477a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e477a.dir\objects1.rsp @C:\Users\z00430rr\AppData\Local\Temp\nmF492.tmp
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/CMakeTmp
+>>>>>>> parent of 899812a (asd)
 
 Run Build Command(s):nmake -f Makefile /nologo cmTC_2502c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_2502c.dir\build.make /nologo -L                  CMakeFiles\cmTC_2502c.dir\build
 Building CXX object CMakeFiles/cmTC_2502c.dir/CMakeCXXCompilerABI.cpp.obj
@@ -417,6 +446,7 @@ Building CXX object CMakeFiles/cmTC_2502c.dir/CMakeCXXCompilerABI.cpp.obj
 Linking CXX executable cmTC_2502c.exe
 	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2502c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_2502c.dir\objects1.rsp @C:\Users\z00430rr\AppData\Local\Temp\nm720.tmp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Parsed CXX implicit link information from above output:
@@ -582,5 +612,7 @@ Parsed CXX implicit link information from above output:
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
 =======
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
 
 

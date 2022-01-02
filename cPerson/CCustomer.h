@@ -24,6 +24,7 @@ class CCustomer : virtual public CPerson {
 private:
     string CustomerNr;
     vector<CLoan *> myLoans;
+<<<<<<< HEAD
 public:
     CCustomer(string, CAddress, CDate, string); // Konstruktor
     virtual ~CCustomer();
@@ -36,6 +37,11 @@ public:
     CCustomer(string, CAddress, CDate, string); // Konstruktor
     ~CCustomer();
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+public:
+    CCustomer(string, CAddress, CDate, string); // Konstruktor
+    virtual ~CCustomer();
+>>>>>>> parent of 899812a (asd)
 
     void print();
 

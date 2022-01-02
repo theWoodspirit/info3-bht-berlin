@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   "C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCCompiler.cmake.in"
   "C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCCompilerABI.c"
@@ -111,6 +112,8 @@ set(CMAKE_MAKEFILE_DEPENDS
 =======
 =======
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeCInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
@@ -132,9 +135,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/ProcessorCount.cmake"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
 =======
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
   "../CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"

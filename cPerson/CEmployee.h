@@ -7,12 +7,17 @@
 #include <string>
 #include "../helperClasses/caddress.h"
 #include "../helperClasses/cdate.h"
+<<<<<<< HEAD
+=======
+#include "CCustomer.h"
+>>>>>>> parent of 899812a (asd)
 #include "cperson.h"
 #include <fstream>
 
 using std::string;
 using namespace std;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class CEmployee : virtual public CPerson, virtual public CCustomer
@@ -43,6 +48,8 @@ class CEmployee : public CPerson
        void setEmployeeNr(int Nr){this->EmployeeNr = Nr;}
 =======
 =======
+=======
+>>>>>>> parent of 899812a (asd)
 class CEmployee : virtual public CPerson,virtual public CCustomer
 {
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)

@@ -20,6 +20,7 @@
     <list default="true" id="41fa9a6d-0ce9-49e0-87a7-7be0cdf93f33" name="Changes" comment="ausleihen fast fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cPerson/CCustomer.h" beforeDir="false" afterPath="$PROJECT_DIR$/cPerson/CCustomer.h" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj" beforeDir="false" />
@@ -82,10 +83,19 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/depend.make" afterDir="false" />
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/cMedium/cmedium.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/cPerson/CCustomer.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/cPerson/CEmployee.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/depend.make" afterDir="false" />
+>>>>>>> parent of 899812a (asd)
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/library/CLoan.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/library/clibrary.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/library/clibrary.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/main.cpp.obj" afterDir="false" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/vc140.pdb" afterDir="false" />
@@ -129,6 +139,9 @@
 =======
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/vc140.pdb" afterDir="false" />
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ueb03.dir/vc140.pdb" afterDir="false" />
+>>>>>>> parent of 899812a (asd)
     </list>
     <list id="0df22767-21c0-4abe-9f2a-1745821fac7f" name="Changes by Jakob" comment="" />
 =======
@@ -179,6 +192,7 @@
     <setting file="file://$PROJECT_DIR$/cmedium.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="20bh7P2ZvTi9UA50H3FCAaIqbZH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
@@ -203,6 +217,8 @@
     <setting file="file://$PROJECT_DIR$/library/clibrary.cpp" root0="FORCE_HIGHLIGHTING" />
 >>>>>>> parent of 4ca5bf4 (markus abagbe)
   </component>
+=======
+>>>>>>> parent of 899812a (asd)
   <component name="ProjectId" id="20bh7P2ZvTi9UA50H3FCAaIqbZH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
 >>>>>>> parent of 8bc1cc9 (Übung 5)
@@ -220,9 +236,12 @@
     <property name="cmake.loaded.for.project" value="true" />
 <<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug" />
+<<<<<<< HEAD
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
 >>>>>>> parent of 4ca5bf4 (markus abagbe)
+=======
+>>>>>>> parent of 899812a (asd)
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
@@ -439,12 +458,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/library/clibrarypool.h</url>
           <line>9</line>
 =======
           <url>file://$PROJECT_DIR$/cPerson/CCustomer.cpp</url>
           <line>26</line>
 >>>>>>> parent of 4ca5bf4 (markus abagbe)
+=======
+          <url>file://$PROJECT_DIR$/library/clibrarypool.h</url>
+          <line>9</line>
+>>>>>>> parent of 899812a (asd)
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

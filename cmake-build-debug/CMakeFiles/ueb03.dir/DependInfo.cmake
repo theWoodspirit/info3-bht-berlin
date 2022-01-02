@@ -10,8 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
   "C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/ueb03.dir/cMedium/CAudiobook.cpp.obj"
   "C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/ueb03.dir/cMedium/CCD.cpp.obj"
   "C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/ueb03.dir/cMedium/CDVD.cpp.obj"
@@ -30,6 +33,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/ueb03.dir/library/clibrary.cpp.obj"
   "C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj"
   "C:/UserData/z00430rr/Documents/GitHub/info3/main.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/ueb03.dir/main.cpp.obj"
+<<<<<<< HEAD
 <<<<<<< HEAD
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
@@ -59,6 +63,10 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+  )
+set(CMAKE_CXX_COMPILER_ID "MSVC")
+>>>>>>> parent of 899812a (asd)
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

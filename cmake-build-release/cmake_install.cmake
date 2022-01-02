@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Install script for directory: C:/UserData/z00430rr/Documents/GitHub/info3
 =======
 # Install script for directory: D:/Uni/3.Semester/inf3Github/info3
@@ -7,6 +8,9 @@
 =======
 # Install script for directory: C:/UserData/z00430rr/Documents/GitHub/info3
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+# Install script for directory: C:/UserData/z00430rr/Documents/GitHub/info3
+>>>>>>> parent of 899812a (asd)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,6 +46,7 @@ endif()
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
@@ -51,6 +56,8 @@ endif()
 >>>>>>> parent of 8bc1cc9 (Übung 5)
 =======
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -61,6 +68,7 @@ string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 file(WRITE "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
 =======
 file(WRITE "D:/Uni/3.Semester/inf3Github/info3/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
@@ -68,4 +76,7 @@ file(WRITE "D:/Uni/3.Semester/inf3Github/info3/cmake-build-release/${CMAKE_INSTA
 =======
 file(WRITE "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+file(WRITE "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> parent of 899812a (asd)
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

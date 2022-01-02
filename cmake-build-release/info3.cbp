@@ -6,6 +6,7 @@
 		<Option makefile_is_custom="1"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
@@ -197,6 +198,9 @@
 =======
 		<Option compiler="msvc8"/>
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+		<Option compiler="msvc8"/>
+>>>>>>> parent of 899812a (asd)
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
@@ -362,15 +366,20 @@
 		</Unit>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/library/CLoan.cpp">
 =======
 		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.cpp">
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.cpp">
+>>>>>>> parent of 899812a (asd)
 			<Option target="ueb03"/>
 		</Unit>
 		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h">
 			<Option target="ueb03"/>
 		</Unit>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 4ca5bf4 (markus abagbe)
@@ -378,6 +387,9 @@
 =======
 		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.cpp">
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.cpp">
+>>>>>>> parent of 899812a (asd)
 			<Option target="ueb03"/>
 		</Unit>
 		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h">
@@ -393,11 +405,15 @@
 			<Option target="ueb03"/>
 		</Unit>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<Unit filename="D:/Uni/3.Semester/inf3Github/info3/CMakeLists.txt">
 >>>>>>> parent of 8bc1cc9 (Übung 5)
 =======
 		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/CMakeLists.txt">
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/CMakeLists.txt">
+>>>>>>> parent of 899812a (asd)
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

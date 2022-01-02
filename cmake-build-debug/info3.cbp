@@ -6,6 +6,7 @@
 		<Option makefile_is_custom="1"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
@@ -214,6 +215,12 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
+=======
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+>>>>>>> parent of 899812a (asd)
 				<Option working_dir="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -226,7 +233,10 @@
 			<Target title="ueb03">
 				<Option output="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/ueb03.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug"/>
+<<<<<<< HEAD
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -241,6 +251,7 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 <<<<<<< HEAD
 					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-debug/Makefile&quot;  VERBOSE=1 ueb03"/>
 					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -262,6 +273,17 @@
 				<Option output="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/ueb03.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug"/>
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+					<Build command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\Makefile VERBOSE=1 ueb03"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ueb03/fast">
+				<Option output="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/ueb03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug"/>
+>>>>>>> parent of 899812a (asd)
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -276,6 +298,7 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 <<<<<<< HEAD
 					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-debug/Makefile&quot;  VERBOSE=1 ueb03/fast"/>
 					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -412,6 +435,8 @@
 		<Unit filename="C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/CMakeLists.txt">
 >>>>>>> parent of 8bc1cc9 (Übung 5)
 =======
+=======
+>>>>>>> parent of 899812a (asd)
 					<Build command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\Makefile VERBOSE=1 ueb03/fast"/>
 					<CompileFile command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f C:\UserData\z00430rr\Documents\GitHub\info3\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -545,7 +570,10 @@
 			<Option target="ueb03"/>
 		</Unit>
 		<Unit filename="C:/UserData/z00430rr/Documents/GitHub/info3/CMakeLists.txt">
+<<<<<<< HEAD
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+>>>>>>> parent of 899812a (asd)
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

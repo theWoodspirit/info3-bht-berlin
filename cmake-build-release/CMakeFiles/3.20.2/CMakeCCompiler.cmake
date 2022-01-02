@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 899812a (asd)
 set(CMAKE_C_COMPILER "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30037/bin/Hostx86/x86/cl.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "MSVC")
@@ -17,6 +20,7 @@ set(CMAKE_C_SIMULATE_ID "")
 set(CMAKE_C_COMPILER_FRONTEND_VARIANT "")
 set(CMAKE_C_SIMULATE_VERSION "")
 set(CMAKE_C_COMPILER_ARCHITECTURE_ID X86)
+<<<<<<< HEAD
 
 set(MSVC_C_ARCHITECTURE_ID X86)
 
@@ -55,6 +59,11 @@ set(CMAKE_C_COMPILER_ARCHITECTURE_ID X86)
 
 set(MSVC_C_ARCHITECTURE_ID X86)
 
+=======
+
+set(MSVC_C_ARCHITECTURE_ID X86)
+
+>>>>>>> parent of 899812a (asd)
 set(CMAKE_AR "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30037/bin/Hostx86/x86/lib.exe")
 set(CMAKE_C_COMPILER_AR "")
 set(CMAKE_RANLIB ":")
@@ -66,11 +75,15 @@ set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
 set(CMAKE_C_ABI_COMPILED TRUE)
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(CMAKE_COMPILER_IS_MINGW 1)
 >>>>>>> parent of 8bc1cc9 (Übung 5)
 =======
 set(CMAKE_COMPILER_IS_MINGW )
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+set(CMAKE_COMPILER_IS_MINGW )
+>>>>>>> parent of 899812a (asd)
 set(CMAKE_COMPILER_IS_CYGWIN )
 if(CMAKE_COMPILER_IS_CYGWIN)
   set(CYGWIN 1)
@@ -90,6 +103,7 @@ set(CMAKE_C_LINKER_PREFERENCE 10)
 # Save compiler ABI information.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(CMAKE_C_SIZEOF_DATA_PTR "4")
 =======
 set(CMAKE_C_SIZEOF_DATA_PTR "8")
@@ -97,6 +111,9 @@ set(CMAKE_C_SIZEOF_DATA_PTR "8")
 =======
 set(CMAKE_C_SIZEOF_DATA_PTR "4")
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+set(CMAKE_C_SIZEOF_DATA_PTR "4")
+>>>>>>> parent of 899812a (asd)
 set(CMAKE_C_COMPILER_ABI "")
 set(CMAKE_C_BYTE_ORDER "LITTLE_ENDIAN")
 set(CMAKE_C_LIBRARY_ARCHITECTURE "")
@@ -124,6 +141,7 @@ endif()
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
@@ -137,4 +155,9 @@ set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
+>>>>>>> parent of 899812a (asd)
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

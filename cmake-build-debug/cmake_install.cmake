@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Install script for directory: C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion
 =======
 # Install script for directory: C:/UserData/z00430rr/Documents/GitHub/info3
@@ -11,6 +12,9 @@
 =======
 # Install script for directory: C:/UserData/z00430rr/Documents/GitHub/info3
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+# Install script for directory: C:/UserData/z00430rr/Documents/GitHub/info3
+>>>>>>> parent of 899812a (asd)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,6 +59,7 @@ string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 file(WRITE "C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
 =======
 file(WRITE "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
@@ -65,4 +70,7 @@ file(WRITE "C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Seme
 =======
 file(WRITE "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+file(WRITE "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> parent of 899812a (asd)
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

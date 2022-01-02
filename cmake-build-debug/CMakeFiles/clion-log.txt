@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\Jakob\OneDrive - beuthhs\Dokumente\Beuth Hochschule\3. Semester\Informatik 3\Uebung\Uebung 5\ueb05_clion"
 -- Configuring done
 -- Generating done
@@ -35,3 +36,9 @@
 -- Generating done
 -- Build files have been written to: C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
+=======
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\UserData\z00430rr\Documents\GitHub\info3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug
+>>>>>>> parent of 899812a (asd)
