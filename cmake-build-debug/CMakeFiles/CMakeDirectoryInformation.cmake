@@ -4,6 +4,7 @@
 # Relative path conversion top directories.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion")
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cmake-build-debug")
 =======
@@ -13,6 +14,10 @@ set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/Jakob/OneDrive - beuthhs/Dokumente/
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
+=======
+set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/UserData/z00430rr/Documents/GitHub/info3")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug")
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 =======
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/UserData/z00430rr/Documents/GitHub/info3")
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug")

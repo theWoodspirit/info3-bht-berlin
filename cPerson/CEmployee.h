@@ -14,6 +14,7 @@ using std::string;
 using namespace std;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class CEmployee : virtual public CPerson, virtual public CCustomer
         {
     private:
@@ -41,26 +42,36 @@ class CEmployee : public CPerson
        CEmployee();
        void setEmployeeNr(int Nr){this->EmployeeNr = Nr;}
 =======
+=======
+class CEmployee : virtual public CPerson,virtual public CCustomer
+{
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 private:
     string EmployeeNr;
 public:
     CEmployee(string, CAddress , CDate, string, string); // Konstruktor
+<<<<<<< HEAD
 =======
 private:
     string EmployeeNr;
 public:
     CEmployee(string, CAddress , CDate, string); // Konstruktor
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
     ~CEmployee();
     void print();
     CEmployee * load(ifstream &infile);
     CEmployee();
     void setEmployeeNr(int Nr){this->EmployeeNr = Nr;};
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 93e58ea (ausleihen fast fertig)
 =======
 >>>>>>> parent of 4ca5bf4 (markus abagbe)
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 };
 
 

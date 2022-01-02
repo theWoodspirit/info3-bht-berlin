@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cmake-build-debug/CMakeFiles/ueb05_clion.dir
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
@@ -13,3 +14,8 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/ueb03.dir
+C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)

@@ -7,6 +7,9 @@
 #IncludeRegexTransform: 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
 string
 -
@@ -60,6 +63,7 @@ time.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/time.h
 
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+<<<<<<< HEAD
 =======
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/CAudiobook.cpp
 CAudiobook.h
@@ -203,6 +207,8 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/cMedium/cmedium.h
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 string
 -
 vector
@@ -212,6 +218,7 @@ iostream
 fstream
 -
 ../helperClasses/clocation.h
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
 
@@ -229,6 +236,15 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 ../helperClasses/caddress.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.cpp
+cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 string
 -
 iostream
@@ -239,6 +255,9 @@ cstring
 -
 ../helperClasses/factory.h
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 CCustomer.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
@@ -262,6 +281,7 @@ cperson.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
 ../helperClasses/caddress.h
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+<<<<<<< HEAD
 =======
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
 CCustomer.h
@@ -287,6 +307,8 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 ../helperClasses/caddress.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 string
 -
 iostream
@@ -299,6 +321,9 @@ cstdlib
 -
 ../helperClasses/factory.h
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 CEmployee.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h
@@ -312,6 +337,7 @@ C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
 CCustomer.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
+<<<<<<< HEAD
 cperson.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
 fstream
@@ -382,6 +408,20 @@ string
 -
 iostream
 -
+=======
+cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+fstream
+-
+
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+string
+-
+../helperClasses/caddress.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 fstream
 -
 cstdlib
@@ -391,6 +431,7 @@ cstring
 factory.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
 
+<<<<<<< HEAD
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
 string
 -
@@ -398,6 +439,13 @@ string
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/cdate.cpp
 cdate.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/cdate.h
+=======
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+string
+-
+
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/cdate.h
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 ctime
 -
 string
@@ -453,6 +501,7 @@ cstring
 factory.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
 
+<<<<<<< HEAD
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/clocation.h
 string
 -
@@ -475,6 +524,21 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/CLoan.h
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/clocation.h
+string
+-
+
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+string
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/string
+
+C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.cpp
+CLoan.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 string
 -
 vector
@@ -484,6 +548,7 @@ iostream
 fstream
 -
 ../helperClasses/caddress.h
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
 ../cPerson/cperson.h
@@ -537,6 +602,33 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 clibrary.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrary.h
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
+../cPerson/cperson.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+../cMedium/cmedium.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/cmedium.h
+../helperClasses/factory.h
+C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
+../cPerson/CEmployee.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CEmployee.h
+../cPerson/CCustomer.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/CCustomer.h
+../cMedium/CPrintedMedium/CBook.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
+../cMedium/CDVD.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h
+../cMedium/CCD.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.h
+../cMedium/CAudiobook.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
+../cMedium/CPrintedMedium/CMagazine.h
+C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CMagazine.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.cpp
+clibrary.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 iostream
 -
 string
@@ -549,6 +641,9 @@ cstring
 -
 ../helperClasses/factory.h
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 ../cMedium/CPrintedMedium/CBook.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CPrintedMedium/CBook.h
@@ -562,6 +657,7 @@ C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.h
 
 C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
+<<<<<<< HEAD
 =======
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/factory.h
 ../cMedium/CPrintedMedium/CBook.h
@@ -575,6 +671,8 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrary.h
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 string
 -
 vector
@@ -585,6 +683,9 @@ fstream
 -
 ../helperClasses/caddress.h
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/caddress.h
 ../cPerson/cperson.h
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
@@ -616,6 +717,7 @@ C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h
 C:/UserData/z00430rr/Documents/GitHub/info3/helperClasses/factory.h
 
 C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h
+<<<<<<< HEAD
 =======
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/helperClasses/caddress.h
 ../cPerson/cperson.h
@@ -647,6 +749,8 @@ C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informa
 
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrarypool.h
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 iostream
 -
 string
@@ -654,6 +758,7 @@ string
 vector
 -
 ../cPerson/cperson.h
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
 clibrary.h
@@ -679,4 +784,17 @@ iostream
 library/clibrarypool.h
 C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/info3/library/clibrarypool.h
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+C:/UserData/z00430rr/Documents/GitHub/info3/cPerson/cperson.h
+clibrary.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.h
+CLoan.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/CLoan.h
+
+C:/UserData/z00430rr/Documents/GitHub/info3/main.cpp
+iostream
+-
+library/clibrarypool.h
+C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.h
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 

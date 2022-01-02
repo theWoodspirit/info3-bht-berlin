@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/ueb03.dir
 C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/edit_cache.dir
 C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/rebuild_cache.dir
@@ -7,3 +8,8 @@ D:/Uni/3.Semester/inf3Github/info3/cmake-build-release/CMakeFiles/ueb03.dir
 D:/Uni/3.Semester/inf3Github/info3/cmake-build-release/CMakeFiles/edit_cache.dir
 D:/Uni/3.Semester/inf3Github/info3/cmake-build-release/CMakeFiles/rebuild_cache.dir
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/ueb03.dir
+C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/rebuild_cache.dir
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)

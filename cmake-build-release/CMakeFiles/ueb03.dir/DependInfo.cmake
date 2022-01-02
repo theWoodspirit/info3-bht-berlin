@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
   "C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CAudiobook.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/ueb03.dir/cMedium/CAudiobook.cpp.obj"
   "C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CCD.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/ueb03.dir/cMedium/CCD.cpp.obj"
   "C:/UserData/z00430rr/Documents/GitHub/info3/cMedium/CDVD.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/ueb03.dir/cMedium/CDVD.cpp.obj"
@@ -27,6 +30,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrary.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/ueb03.dir/library/clibrary.cpp.obj"
   "C:/UserData/z00430rr/Documents/GitHub/info3/library/clibrarypool.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/ueb03.dir/library/clibrarypool.cpp.obj"
   "C:/UserData/z00430rr/Documents/GitHub/info3/main.cpp" "C:/UserData/z00430rr/Documents/GitHub/info3/cmake-build-release/CMakeFiles/ueb03.dir/main.cpp.obj"
+<<<<<<< HEAD
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 =======
@@ -54,6 +58,10 @@ set(CMAKE_CXX_COMPILER_ID "MSVC")
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 >>>>>>> parent of 8bc1cc9 (Übung 5)
+=======
+  )
+set(CMAKE_CXX_COMPILER_ID "MSVC")
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
