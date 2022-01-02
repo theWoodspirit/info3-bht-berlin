@@ -16,6 +16,7 @@ using namespace std;
 
 class CEmployee : virtual public CPerson,virtual public CCustomer
 {
+<<<<<<< HEAD
    private:
        string EmployeeNr;
 
@@ -26,6 +27,17 @@ class CEmployee : virtual public CPerson,virtual public CCustomer
        CEmployee * load(ifstream &infile);
        CEmployee();
        void setEmployeeNr(int Nr){this->EmployeeNr = Nr;}
+=======
+private:
+    string EmployeeNr;
+public:
+    CEmployee(string, CAddress , CDate, string, string); // Konstruktor
+    ~CEmployee();
+    void print();
+    CEmployee * load(ifstream &infile);
+    CEmployee();
+    void setEmployeeNr(int Nr){this->EmployeeNr = Nr;};
+>>>>>>> parent of 93e58ea (ausleihen fast fertig)
 };
 
 
