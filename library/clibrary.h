@@ -17,6 +17,7 @@ using namespace std;
 #include "../cMedium/CPrintedMedium/CBook.h"
 #include "../cMedium/CDVD.h"
 #include "../cMedium/CCD.h"
+#include "../cMedium/CAudiobook.h"
 #include "../cMedium/CPrintedMedium/CMagazine.h"
 
 
@@ -25,15 +26,8 @@ class CLibrary {
     string name;
     CAddress adr;
     CEmployee *manager;
-<<<<<<< HEAD
     vector<CMedium *> pMediums;
-=======
-    vector<CBook *> pBooks;
-    vector<CDVD *> pDVDs;
-    //vector<a *> pCDs;
-    vector<CMagazine *> pMagazine;
-
->>>>>>> parent of 4ca5bf4 (markus abagbe)
+    vector<CAudiobook*> pAudioBooks;
 
 public:
     CLibrary(string, CAddress, CEmployee *);
@@ -42,22 +36,15 @@ public:
 
     ~CLibrary();
 
-<<<<<<< HEAD
     void add(CBook * book){this->pMediums.push_back(book);};
     void add(CDVD * dvd){this->pMediums.push_back(dvd);};
     void add(CMagazine * mag ){this->pMediums.push_back(mag);};
     void add(CCD * cd ){this->pMediums.push_back(cd);};
-    void add(CAudiobook * cd ){this->pMediums.push_back(static_cast<CCD*>(cd));};
-=======
-    void add(CBook * book){this->pBooks.push_back(book);};
-    void add(CDVD * dvd){this->pDVDs.push_back(dvd);};
-    void add(CMagazine * mag ){this->pMagazine.push_back(mag);};
-
->>>>>>> parent of 4ca5bf4 (markus abagbe)
+    void add(CAudiobook * cd ){this->pAudioBooks.push_back(cd);};
     void print();
 
-    CLibrary * load(ifstream &infile);
-    vector<CMedium *> getMedia(){return this->pMediums;};
+    CLibrary *load(ifstream &infile);
+
     CLibrary();
 }
 ;

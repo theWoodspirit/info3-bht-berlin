@@ -4,6 +4,7 @@
 #include <string>
 #include "../helperClasses/caddress.h"
 #include "../helperClasses/cdate.h"
+
 #include <fstream>
 
 using std::string;
@@ -11,14 +12,14 @@ using namespace std;
 
 class CPerson
 {
-private:
+protected:
     string name;               // Eigenschaften
     CAddress address;
     CDate bday;
 
 public:
     CPerson(string, CAddress , CDate); // Konstruktor
-    ~CPerson();
+    virtual ~CPerson();
     void print();
     CPerson * load(ifstream &infile);
     CPerson();
@@ -28,12 +29,12 @@ public:
     //####################################################
     // setter / getter
     //####################################################
-    string getName(){return name;};
-    CAddress getAddress(){return address;};
-    CDate getbday(){return bday;};
-    void setName(string nme){name = nme;};
-    void setAdress(CAddress adr){this->address = adr;};
-    void setBday(CDate birthday){bday = birthday;};
+    string getName(){return name;}
+    CAddress getAddress(){return address;}
+    CDate getbday(){return bday;}
+    void setName(string nme){name = nme;}
+    void setAdress(CAddress adr){this->address = adr;}
+    void setBday(CDate birthday){bday = birthday;}
 };
 
 #endif //UEB02_CPERSON_H

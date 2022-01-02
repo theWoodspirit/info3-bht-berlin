@@ -14,8 +14,7 @@ CAddress::CAddress(string street, string number, string zipcode, string town)
 
 void CAddress::print()
 {
-    cout << Street << ' ' << Number << endl;
-    cout << Zipcode << ' ' << Town;
+    cout << Street << ' ' << Number << "; " << Zipcode << ' ' << Town;
 }
 
 void CAddress::load(ifstream& infile) {

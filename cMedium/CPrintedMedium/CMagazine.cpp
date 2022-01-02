@@ -1,7 +1,3 @@
-//
-// Created by marku on 29.11.2021.
-//
-
 #include <cstdlib>
 #include "CMagazine.h"
 #include "../../helperClasses/factory.h"
@@ -33,19 +29,17 @@ CMagazine *CMagazine::load(std::ifstream & infile) {
     return this;
 }
 
-void CMagazine::print() {
+void CMagazine::print()
+{
+    cout <<"Designer:     " << Designer << endl;
     CPrintedMedium::print();
-    cout <<"\nDesigner: " << this->Designer << "\n\n";
 }
 
 CMagazine::CMagazine() {
 
 }
 
-<<<<<<< HEAD
 CMagazine::~CMagazine() {
-    cout << "Das Magazin " << getTitle() << "mit der Signatur '"<< getSig() <<"' wurde geloescht." << endl;
+    cout << "Das Magazin '" << getTitle() << "' mit der Signatur '"<< getSig() <<"' wird vernichtet!" << endl;
 }
 
-=======
->>>>>>> parent of 4ca5bf4 (markus abagbe)

@@ -2,9 +2,10 @@
 // Created by marku on 07.12.2021.
 //
 
+#include <cstdlib>
 #include "CAudiobook.h"
+#include "../helperClasses/factory.h"
 
-<<<<<<< HEAD
 CAudiobook *CAudiobook::load(std::ifstream & infile) {
     std::string line;
     while (std::getline(infile, line)) {
@@ -25,19 +26,19 @@ CAudiobook *CAudiobook::load(std::ifstream & infile) {
         }else if(factory::startTagInLine(line,"FSK")) {
             CCD::setAge(atoi(factory::getContent(line,"FSK").c_str()));
             CBook::setAge(atoi(factory::getContent(line,"FSK").c_str()));
-        }else if (factory::startTagInLine(line,"Interpret")) {
+        } else if (factory::startTagInLine(line,"Pages")) {
+            CBook::setSites(atoi(factory::getContent(line,"Pages").c_str()));
+        } else if (factory::startTagInLine(line,"countCDs")) {
+            anzahlCDs = atoi(factory::getContent(line,"countCDs").c_str());
+        } else if (factory::startTagInLine(line,"Interpret")) {
             CCD::interpret = factory::getContent(line,"Interpret");
-        }else if (factory::startTagInLine(line,"Tracks")) {
+        } else if (factory::startTagInLine(line,"Tracks")) {
             CCD::tracksSize = atoi(factory::getContent(line,"Tracks").c_str());
         }
         else if (factory::startTagInLine(line,"Author")) {
             CBook::autor = factory::getContent(line,"Author");
         }
         else if(factory::endTagInLine(line,"Audiobook")) {
-            if(CCD::getAge() < 0){
-                CCD::setAge(0);
-                CBook::setAge(0);
-            }
             break;
         }
     }
@@ -48,20 +49,13 @@ CAudiobook::CAudiobook() {
 }
 
 void CAudiobook::print() {
-    //cout << "\n";
-    CCD::print();
-    cout << "Autor: " << CBook::autor << endl;
+    cout << "Interpret:    " << interpret << endl;
+    cout << "Anz. Tracks:  " << tracksSize << endl;
+    cout << "Anz. CDs:     " << anzahlCDs << endl;
+    CBook::print();
 }
 
 CAudiobook::~CAudiobook() {
-    cout << "Das Audiobook '" << CCD::getTitle() << "' wurde geloescht";
-=======
-CAudiobook *CAudiobook::load(std::ifstream &) {
-    return NULL;
-}
-
-CAudiobook::CAudiobook() {
-
->>>>>>> parent of 4ca5bf4 (markus abagbe)
+    cout << "Das Audiobuch '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!\n";
 }
 

@@ -1,28 +1,20 @@
-//
-// Created by marku on 29.11.2021.
-//
-
 #include "CDVD.h"
 #include <iostream>
+#include <iomanip>
 #include "../cPerson/cperson.h"
 #include "../helperClasses/caddress.h"
+#include "../helperClasses/factory.h"
 #include <string>
-#include <iostream>
 #include <fstream>
 #include <cstring>
 #include <cstdlib>
 
 using namespace std;
 
-#include "CDVD.h"
-#include "../helperClasses/factory.h"
-
 CDVD::CDVD(string t, string s, CLocation l, int a, Status st, string actor, tm length)
-        : CMedium(t,s,l,a, st)
-{
-    this->actor = actor;
-    this->length = length;
-}
+: CMedium(t, s, l, a, st), actor(actor), length(length)
+{}
+
 CDVD* CDVD::load(std::ifstream& infile) {
 
     std::string line;
@@ -56,14 +48,15 @@ CDVD* CDVD::load(std::ifstream& infile) {
 
 CDVD::~CDVD()
 {
-    cout << "Das Medium '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
+    cout << "Die DVD '" << getTitle() << "' mit der Signatur '" << getSig() << "' wird vernichtet!" << endl;
 }
 
 void CDVD::print()
 {
+    cout << "Schauspieler: " << actor;
+    cout << "\nSpieldauer:   " << setw(2) << setfill('0') << length.tm_hour << ":"
+    << setw(2) << length.tm_min << ":00" << endl << setfill(' ');
     CMedium::print();
-    cout << "\nDarsteller: " << actor;
-    cout << "\nDauer: " << this->length.tm_hour << ":" << this->length.tm_min << "\n\n";
 }
 
 CDVD::CDVD() {

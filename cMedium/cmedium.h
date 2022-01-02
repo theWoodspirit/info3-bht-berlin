@@ -19,11 +19,11 @@ private:
     int agerating;
 
 public:
-    enum Status { verfuegbar, ausgeliehen, bestellt, reserviert };
+    enum Status { verfuegbar = 1, ausgeliehen, bestellt, reserviert };
 
 
     CMedium();
-    ~CMedium();
+    virtual ~CMedium();
     CMedium(string, string, CLocation, int, Status);
     CMedium * load(ifstream & infile);
 

@@ -17,7 +17,8 @@ CDate::CDate()
     month = now->tm_mon + 1;
     year = now->tm_year + 1900;
 }
-CDate* CDate::load(std::ifstream& infile){
+
+void CDate::load(std::ifstream& infile){
     std::string line;
     while (std::getline(infile, line)) {
         if (factory::startTagInLine(line,"Day")) {
@@ -27,11 +28,12 @@ CDate* CDate::load(std::ifstream& infile){
         } else if(factory::startTagInLine(line,"Year")) {
             this->year = atoi(factory::getContent(line,"Year").c_str());
         }
-        else if(factory::endTagInLine(line,"Date")){
-            return this;
+        else if(factory::endTagInLine(line,"Date")) {
+            break;
         }
     }
 }
+
 CDate::CDate(int Day, int Month, int Year)
 : day(Day), month(Month), year(Year)
 {

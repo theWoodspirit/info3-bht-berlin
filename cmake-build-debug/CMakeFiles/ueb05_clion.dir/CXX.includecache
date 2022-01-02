@@ -1,0 +1,324 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CAudiobook.h
+string
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.h
+time.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/time.h
+CPrintedMedium/CBook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CBook.h
+CCD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CCD.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CCD.h
+string
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CDVD.cpp
+CDVD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CDVD.h
+iostream
+-
+iomanip
+-
+../cPerson/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+string
+-
+fstream
+-
+cstring
+-
+cstdlib
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CDVD.h
+string
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.h
+ctime
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CBook.h
+CPrintedMedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CPrintedMedium.h
+../cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.h
+time.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/time.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CMagazine.h
+CPrintedMedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CPrintedMedium.h
+../cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.h
+time.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/time.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CPrintedMedium.h
+string
+-
+CPrintedMedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CPrintedMedium.h
+../cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.h
+time.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/time.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.cpp
+iostream
+-
+../cPerson/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+cstdlib
+-
+cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.h
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.h
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+../helperClasses/clocation.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/clocation.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/CCustomer.cpp
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+CCustomer.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/CCustomer.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/CCustomer.h
+string
+-
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/cdate.h
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+fstream
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/CEmployee.cpp
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+cstdlib
+-
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+CEmployee.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/CEmployee.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/CEmployee.h
+string
+-
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/cdate.h
+CCustomer.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/CCustomer.h
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+fstream
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.cpp
+cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+string
+-
+iostream
+-
+fstream
+-
+cstring
+-
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+string
+-
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+../helperClasses/cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/cdate.h
+fstream
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+string
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/cdate.cpp
+cdate.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/cdate.h
+ctime
+-
+string
+-
+iostream
+-
+fstream
+-
+cstdlib
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/cstdlib
+factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/cdate.h
+ctime
+-
+string
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/clocation.h
+string
+-
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+string
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/string
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/library/clibrary.cpp
+clibrary.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/library/clibrary.h
+iostream
+-
+string
+-
+vector
+-
+fstream
+-
+cstring
+-
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+../cMedium/CPrintedMedium/CBook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CBook.h
+../cMedium/CPrintedMedium/CMagazine.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CMagazine.h
+../cMedium/CCD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CCD.h
+../cMedium/CDVD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CDVD.h
+../cMedium/CAudiobook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CAudiobook.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/library/clibrary.h
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+../helperClasses/caddress.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/caddress.h
+../cPerson/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+../cMedium/cmedium.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/cmedium.h
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+../cPerson/CEmployee.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/CEmployee.h
+../cPerson/CCustomer.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/CCustomer.h
+../cMedium/CPrintedMedium/CBook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CBook.h
+../cMedium/CDVD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CDVD.h
+../cMedium/CCD.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CCD.h
+../cMedium/CAudiobook.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CAudiobook.h
+../cMedium/CPrintedMedium/CMagazine.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cMedium/CPrintedMedium/CMagazine.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/library/clibrarypool.cpp
+cstring
+-
+clibrarypool.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/library/clibrarypool.h
+../helperClasses/factory.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/helperClasses/factory.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/library/clibrarypool.h
+iostream
+-
+string
+-
+vector
+-
+../cPerson/cperson.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/cPerson/cperson.h
+clibrary.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/library/clibrary.h
+
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/main.cpp
+iostream
+-
+library/clibrarypool.h
+C:/Users/Jakob/OneDrive - beuthhs/Dokumente/Beuth Hochschule/3. Semester/Informatik 3/Uebung/Uebung 5/ueb05_clion/library/clibrarypool.h
+
